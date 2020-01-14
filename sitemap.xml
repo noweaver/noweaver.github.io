@@ -1,16 +1,139 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://noweaver.github.io/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-01-14T20:40:57+09:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://noweaver.github.io/ko/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/table-of-contents/with-toc/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/table-of-contents/without-toc/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/creating-a-new-theme/</loc>
+    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/table-of-contents/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/2nd/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/2019/</loc>
+    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/categories/</loc>
+    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/Hugo/</loc>
+    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/05-14-Hugo-Blog-Installation/</loc>
+    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/</loc>
+    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/</loc>
+    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/</loc>
+    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/categories/%EC%9D%BC/</loc>
+    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/2nd/3rd/4th/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/2nd/3rd/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/hidden/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/buttons/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/columns/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/expand/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/hints/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/katex/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/mermaid/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/tabs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/</loc>
+  </url>
+  
+</urlset>

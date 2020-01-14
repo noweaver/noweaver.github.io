@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on My New Hugo Site</title>
+    <title>Hugo on NOWEAVER</title>
     <link>https://noweaver.github.io/tags/Hugo/</link>
-    <description>Recent content in Hugo on My New Hugo Site</description>
+    <description>Recent content in Hugo on NOWEAVER</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ko</language>
     <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/Hugo/index.xml" rel="self" type="application/rss+xml" />
