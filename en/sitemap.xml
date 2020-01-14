@@ -68,6 +68,21 @@
   </url>
   
   <url>
+    <loc>https://noweaver.github.io/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://noweaver.github.io/ko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://noweaver.github.io/"
+                />
+  </url>
+  
+  <url>
     <loc>https://noweaver.github.io/posts/</loc>
     <lastmod>2020-01-14T20:21:16+09:00</lastmod>
   </url>
@@ -199,21 +214,6 @@
   
   <url>
     <loc>https://noweaver.github.io/docs/</loc>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/</loc>
-    <lastmod>2020-01-14T20:21:16+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://noweaver.github.io/ko/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://noweaver.github.io/"
-                />
   </url>
   
 </urlset>
