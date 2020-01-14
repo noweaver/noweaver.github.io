@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://noweaver.github.io/docs/example/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/table-of-contents/with-toc/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/table-of-contents/without-toc/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://noweaver.github.io/posts/creating-a-new-theme/</loc>
     <lastmod>2020-01-14T20:21:16+09:00</lastmod>
   </url>
@@ -10,6 +25,16 @@
   <url>
     <loc>https://noweaver.github.io/posts/migrate-from-jekyll/</loc>
     <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/table-of-contents/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/2nd/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
   </url>
   
   <url>
@@ -73,12 +98,12 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/tags/golang/</loc>
+    <loc>https://noweaver.github.io/categories/golang/</loc>
     <lastmod>2020-01-14T20:21:16+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/categories/golang/</loc>
+    <loc>https://noweaver.github.io/tags/golang/</loc>
     <lastmod>2020-01-14T20:21:16+09:00</lastmod>
   </url>
   
@@ -95,6 +120,65 @@
   <url>
     <loc>https://noweaver.github.io/tags/themes/</loc>
     <lastmod>2020-01-14T20:21:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/2nd/3rd/4th/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/2nd/3rd/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/example/hidden/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/</loc>
+    <lastmod>2020-01-14T20:40:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/buttons/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/columns/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/expand/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/hints/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/katex/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/mermaid/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/shortcodes/tabs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/docs/</loc>
   </url>
   
   <url>
