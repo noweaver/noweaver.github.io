@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mac, 나의 작업환경 만들기 2"><meta property="og:title" content="Mac, 나의 작업환경 만들기 2" />
+<meta property="og:description" content="집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.
+Pyenv 설치 $ brew search pyenv $ brew install pyenv $ pyevn --version pyenv 1.2.15 $ echo &#39;export PYENV_ROOT=&#34;$HOME/.pyenv&#34;&#39; &gt;&gt; ~/.zshrc $ echo &#39;export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34;&#39; &gt;&gt; ~/.zshrc // 파이썬 버전 정보를 prompt 에서 보여주기 위한 방법 $ echo &#39;eval &#34;$(pyenv init -)&#34;&#39; &gt;&gt; ~/.zshrc Anaconda 설치 $ pyenv install -l | more $ pyenv install anaconda3-5.3.1 $ pyenv versions * system (set by /Users/Ryan/." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noweaver.github.io/posts/Journal/Job/2019/12/01_Python-environmnet-in-Mac-/" />
+<meta property="article:published_time" content="2019-12-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-16T15:57:21+09:00" />
+<title>Mac, 나의 작업환경 만들기 2 | noweaver</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.2f0632dc31655f852f191d7c354e584af6f6ca239af70afdd117bbe5950815b2.css" integrity="sha256-LwYy3DFlX4UvGR18NU5YSvb2yiOa9wr90Re75ZUIFbI=">
+
+
+<script defer src="/ko.search.min.972fa312342352b485bb0f3c7cf3fa5aca7a5dcf3e84bd367cc8428dc5e85dbc.js" integrity="sha256-ly&#43;jEjQjUrSFuw88fPP6Wsp6Xc8&#43;hL02fMhCjcXoXbw="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123156470-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="toc-control" />
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav id="BookMenu">
+<h2 class="book-brand">
+  <a href="https://noweaver.github.io/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="검색" aria-label="검색" maxlength="64" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+    
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
+
+    <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label id="menu-control" for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+  <label id="toc-control" for="toc-control">
+  <strong>Mac, 나의 작업환경 만들기 2</strong>
+  </label>
+</header>
+
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Journal/Job/2019/12/01_Python-environmnet-in-Mac-/">Mac, 나의 작업환경 만들기 2</a>
+  </h1>
+  
+
+<div>
+
+  <h5>2019/12/01</h5>
+
+
+
+  
+    
+      
+        <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
+    <br />
+  
+
+  
+    
+      
+        <a href="/tags/PySpark/">PySpark</a>, 
+      
+        <a href="/tags/Jupyter/">Jupyter</a>, 
+      
+        <a href="/tags/%EC%84%A4%EC%B9%98/">설치</a>
+    <br />
+  
+
+
+</div>
+
+
+  <p><p>집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.</p>
+<h2 id="pyenv-설치">Pyenv 설치</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew search pyenv
+$ brew install pyenv
+$ pyevn --version
+pyenv 1.2.15
+
+$ echo <span style="color:#e6db74">&#39;export PYENV_ROOT=&#34;$HOME/.pyenv&#34;&#39;</span> &gt;&gt; ~/.zshrc
+$ echo <span style="color:#e6db74">&#39;export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34;&#39;</span> &gt;&gt; ~/.zshrc
+
+// 파이썬 버전 정보를 prompt 에서 보여주기 위한 방법
+$ echo <span style="color:#e6db74">&#39;eval &#34;$(pyenv init -)&#34;&#39;</span> &gt;&gt; ~/.zshrc
+</code></pre></div><h2 id="anaconda-설치">Anaconda 설치</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ pyenv install -l | more
+$ pyenv install anaconda3-5.3.1
+
+$ pyenv versions
+* system <span style="color:#f92672">(</span>set by /Users/Ryan/.pyenv/version<span style="color:#f92672">)</span>
+  anaconda3-5.3.1
+
+$ pyenv global anaconda3-5.3.1
+$ pyenv versions
+  system
+* anaconda3-5.3.1 <span style="color:#f92672">(</span>set by /Users/Ryan/.pyenv/version<span style="color:#f92672">)</span>
+
+$ python --version
+</code></pre></div><h2 id="anaconda-데이터분석가상환경-만들기">Anaconda 데이터분석(가상)환경 만들기</h2>
+<h3 id="가상환경-설정">가상환경 설정</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ conda update conda
+$ conda create -y -n myjupyter python<span style="color:#f92672">=</span>3.7
+</code></pre></div><p>pyenv 명령어를 통해서 가상환경이 만들어졌음을 확인할 수 있다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ pyenv versions
+  system
+* anaconda3-5.3.1 <span style="color:#f92672">(</span>set by /Users/Ryan/.pyenv/version<span style="color:#f92672">)</span>
+  anaconda3-5.3.1/envs/myjupyter
+</code></pre></div><h3 id="가상환경-접속">가상환경 접속</h3>
+<p>위의 <code>conda activate myjupyter</code> 명령을 통해서 가상환경으로 접속한다. 접속하게 되면 프롬프트 다음과 같이 변경된다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>base<span style="color:#f92672">)</span> $ conda activate myjupyter
+<span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $
+</code></pre></div><p>이 때, 기존의 bash 사용자가 bash를 사용하다 zsh 로 변경하여 사용하는 경우 Anaconda는 환경셋업을 <code>conda init</code> 명령을 통해서 새롭게 만든다. 이때 .zshrc 가장 아래에 다음과 같은 코드가 추가된다. 만일 추가 되지 않았다면 직접 .zshrc에 추가하면 된다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">conda_setup<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span><span style="color:#e6db74">&#39;/Users/Ryan/.pyenv/versions/anaconda3-5.3.1/bin/conda&#39;</span> <span style="color:#e6db74">&#39;shell.zsh&#39;</span> <span style="color:#e6db74">&#39;hook&#39;</span> 2&gt; /dev/null<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $? -eq <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+    eval <span style="color:#e6db74">&#34;</span>$conda_setup<span style="color:#e6db74">&#34;</span>
+<span style="color:#66d9ef">else</span>
+    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -f <span style="color:#e6db74">&#34;/Users/Ryan/.pyenv/versions/anaconda3-5.3.1/etc/profile.d/conda.sh&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+        . <span style="color:#e6db74">&#34;/Users/Ryan/.pyenv/versions/anaconda3-5.3.1/etc/profile.d/conda.sh&#34;</span>
+    <span style="color:#66d9ef">else</span>
+        export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">/Users/Ryan/.pyenv/versions/anaconda3-5.3.1/bin:</span>$PATH<span style="color:#e6db74">&#34;</span>
+    <span style="color:#66d9ef">fi</span>
+<span style="color:#66d9ef">fi</span>
+unset conda_setup
+</code></pre></div><h3 id="시스템-환경변수에-앨리어스">시스템 환경변수에 앨리어스</h3>
+<p>앨리어스를 걸어둔다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>base<span style="color:#f92672">)</span> $ vi .zshrc
+
+alias myjpyter<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;conda activate myjupyter&#34;</span>
+alias jn<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jupyter notebook&#34;</span>
+alias deact<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;conda deactivate&#34;</span>
+
+wq!
+
+<span style="color:#f92672">(</span>base<span style="color:#f92672">)</span> $ source .zshrc
+</code></pre></div><h3 id="jupyter-설정">Jupyter 설정</h3>
+<h4 id="jupyter-설정파일-생성">Jupyter 설정파일 생성</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>base<span style="color:#f92672">)</span> $ jn --generate-config
+Writing default config to: /Users/Ryan/.jupyter/jupyter_notebook_config.py
+</code></pre></div><h4 id="토큰-사용하지-않고-패스워드-사용">토큰 사용하지 않고 패스워드 사용</h4>
+<p>IPython 쉘 환경 접속한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ ipython                                                                  Python 3.7.2 <span style="color:#f92672">(</span>default, Dec <span style="color:#ae81ff">29</span> 2018, 00:00:04<span style="color:#f92672">)</span>
+Type <span style="color:#e6db74">&#39;copyright&#39;</span>, <span style="color:#e6db74">&#39;credits&#39;</span> or <span style="color:#e6db74">&#39;license&#39;</span> <span style="color:#66d9ef">for</span> more information
+IPython 6.5.0 -- An enhanced Interactive Python. Type <span style="color:#e6db74">&#39;?&#39;</span> <span style="color:#66d9ef">for</span> help.
+
+In <span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>: from IPython.lib import passwd
+In <span style="color:#f92672">[</span>2<span style="color:#f92672">]</span>: passwd<span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+Enter password:
+Verify password:
+Out<span style="color:#f92672">[</span>2<span style="color:#f92672">]</span>: <span style="color:#e6db74">&#39;sha1:eaf62b4dbd6b:2918c79bd6efca008833368a2ac8c8e3bf21df6f&#39;</span>       
+
+<span style="color:#f92672">(</span>Ctrl + d<span style="color:#f92672">)</span>
+In <span style="color:#f92672">[</span>3<span style="color:#f92672">]</span>:
+Do you really want to exit <span style="color:#f92672">(</span><span style="color:#f92672">[</span>y<span style="color:#f92672">]</span>/n<span style="color:#f92672">)</span>? y
+</code></pre></div><p>' ' 안의 내용을 복사(clipboard)해 둔다. 그리고 <code>Ctrl + d</code>를 누르고 IPython 환경에서 빠져나온다. 그리고 아래와 같이 위에서 생성한 파일을 수정한다. 가장 상단에 configuration 정보를 가져오는 코드 <code>c = get_config()</code> 를 작성한다. 그리고 대략 260라인 정도의 <code>c.NotebookApp.password</code> 변수를 찾아서 위에서 복사한 인코딩 값을 아래처럼 할당한다.</p>
+<pre><code>$ vi ~/.jupyter/jupyter_notebook_config.py
+
+# Configuration file for jupyter-notebook
+c = get_config()
+
+c.NotebookApp.password = 'sha1:eaf62b4dbd6b:2918c79bd6efca008833368a2ac8c8e3bf21df6f'
+</code></pre><h3 id="주피터-기타-환경변수-설정">주피터 기타 환경변수 설정</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">// 서버로 사용
+c.NotebookApp.ip <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;0.0.0.0&#39;</span>
+
+// Jupyter 기본 브라우저 실행 하지 않음
+c.NotebookApp.open_browser <span style="color:#f92672">=</span> False
+
+// Jupyter 실행 포트번호 변경
+c.NotebookApp.port <span style="color:#f92672">=</span> <span style="color:#ae81ff">8888</span>
+
+// Jupyter 실행 후, 시작 위치 지정
+c.NotebookApp.notebook_dir <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;/home/ryan/Workspace&#39;</span>
+</code></pre></div><h3 id="주피터-익스텐션-설치">주피터 익스텐션 설치</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>base<span style="color:#f92672">)</span> $ myjupyter
+<span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ conda install -c conda-forge jupyter_contrib_nbextensions
+</code></pre></div><ul>
+<li>변수 탐색기: Variable Inspector</li>
+<li>코드 접기: Codefolding</li>
+<li>섹션 접기: Collapsible Headings</li>
+<li>목차: Table of Contents</li>
+<li>코드 실행시간: Execution Time</li>
+</ul>
+<h3 id="jupyterlab-설치">JupyterLab 설치</h3>
+<p>JupyterLab은 Jupyter에서 부족한 기능을 제공한다. 하지만 Jupyter 만으로도 충분하다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ conda install -y jupyterlab
+<span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter lab
+<span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ vi .zshrc
+alias jl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jupyter lab&#34;</span>
+
+wq!
+
+<span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ source .zshrc
+</code></pre></div><p>JupyterLab을 실행하고 다시 Jupyter 를 실행하고자 할 때는 기존의 URL을 변경해주기만 하면 된다. <code>http://localhost:8888/lab</code> 에서 <code>http://localhost:8888/tree</code> 이렇게 하면 분석할 때는 Jupyter Lab을 사용하다. 프리젠테이션 모드의 경우는 Jupyter Notebook의 익스텐션 기능을 사용할 수 있다.</p>
+<h2 id="anaconda-개발가상환경-만들기">Anaconda 개발(가상)환경 만들기</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ conda update conda
+$ conda create -y -n mydev python<span style="color:#f92672">=</span>3.7
+$ conda activate mydev
+<span style="color:#f92672">(</span>mydev<span style="color:#f92672">)</span> $
+
+<span style="color:#f92672">(</span>mydev<span style="color:#f92672">)</span> $ vi .zshrc
+alias mydev<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;conda activate mydev&#34;</span>
+</code></pre></div><h2 id="pycharm-설치">PyCharm 설치</h2>
+<p>JetBrains 사이트의 <a href="https://www.jetbrains.com/pycharm/">다운로드</a>에서 다운받아서 설치한다.</p>
+<ol>
+<li>PyCharm을 실행한다.
+<img src="/post_img/2019/12-01/1.pycharm.png" alt="1.pycharm"></li>
+<li>오른쪽 하단에 <code>Configure</code> &gt; <code>Preferences</code> 선택하고 왼쪽 <code>Editor</code> 선택한다.
+<img src="/post_img/2019/12-01/2-1.pycharm.png" alt="2-1.pycharm"></li>
+<li>왼쪽메뉴에서 <code>Font</code> 선택한다.
+<img src="/post_img/2019/12-01/2-2.pycharm.png" alt="2-2.pycharm"></li>
+<li>왼쪽메뉴에서 <code>Project Interpreter</code> 선택하고, 오른쪽 상단의 &lsquo;톱니바퀴&rsquo; 선택하고 <code>Add</code> 선택한다.
+<img src="/post_img/2019/12-01/3.pycharm.png" alt="3.pycharm"></li>
+<li>왼쪽에서 <code>Conda Environment</code> 선택하고 아래 <code>Exsisting environment</code>를 선택한다. Interprester: 의 콤보박스를 선택해서 위에서 <code>Conda</code>로 생성했던 파이썬 가상환경 <code>mydev</code>를 선택한다. 그리고 아래 <code>Make available to all projects</code> 체크박스에 체크를 하고 <code>OK</code>를 누른다.
+<img src="/post_img/2019/12-01/5.pycharm.png" alt="5.pycharm"></li>
+<li>그러면, 설치되어 있는 패키지를 확인할 수 있다. <code>OK</code>버튼을 누른다.
+<img src="/post_img/2019/12-01/6.pycharm.png" alt="6.pycharm"></li>
+</ol>
+</p>
+</article>
+
+      <div class="book-footer justify-between">
+  
+
+  
+  
+  <div>
+    
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/commit/dd090b58412381922c7adb56def5be386a5677cf" title='마지막 수정일자 Ryan Guhnguk Ahn | 2020/01/16' target="_blank">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2020/01/16</span>
+    </a>
+  </div>
+  
+  
+
+  
+  <div>
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Journal/Job/2019/12/01_Python-environmnet-in-Mac-.md" target="_blank">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>편집</span>
+    </a>
+  </div>
+  
+</div>
+
+
+
+  
+<br>
+<hr color="#D6D6D6" size=0>
+<script src="https://utteranc.es/client.js" 
+        repo="noweaver/noweaver-comment" 
+        issue-term="[##_article_rep_link" 
+        theme="github-light" 
+        crossorigin="anonymous" 
+        async> 
+</script>
+
+ 
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc levels-3 fixed">
+    
+    <label id="toc-control" for="toc-control">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#pyenv-설치">Pyenv 설치</a></li>
+        <li><a href="#anaconda-설치">Anaconda 설치</a></li>
+        <li><a href="#anaconda-데이터분석가상환경-만들기">Anaconda 데이터분석(가상)환경 만들기</a>
+          <ul>
+            <li><a href="#가상환경-설정">가상환경 설정</a></li>
+            <li><a href="#가상환경-접속">가상환경 접속</a></li>
+            <li><a href="#시스템-환경변수에-앨리어스">시스템 환경변수에 앨리어스</a></li>
+            <li><a href="#jupyter-설정">Jupyter 설정</a></li>
+            <li><a href="#주피터-기타-환경변수-설정">주피터 기타 환경변수 설정</a></li>
+            <li><a href="#주피터-익스텐션-설치">주피터 익스텐션 설치</a></li>
+            <li><a href="#jupyterlab-설치">JupyterLab 설치</a></li>
+          </ul>
+        </li>
+        <li><a href="#anaconda-개발가상환경-만들기">Anaconda 개발(가상)환경 만들기</a></li>
+        <li><a href="#pycharm-설치">PyCharm 설치</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </label>
+    
+  </aside>
+
+
+
+  </main>
+
+  
+</body>
+
+</html>

@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on NOWEAVER</title>
+    <title>Hugo on noweaver</title>
     <link>https://noweaver.github.io/tags/Hugo/</link>
-    <description>Recent content in Hugo on NOWEAVER</description>
+    <description>Recent content in Hugo on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko</language>
-    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/Hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Hugo 블로그 테마 - Book</title>
+      <link>https://noweaver.github.io/posts/Misc/2020-01-15_Hugo-Theme-History/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Misc/2020-01-15_Hugo-Theme-History/</guid>
+      <description>휴고의 테마는 지킬이나 헥소와 비교하여 역사만큼 훌륭한 것을 찾기가 어렵다. 대부분의 테마가 지킬이나 헥소에서 가져와서 수정하는 것이 많다. 딱히 거기에는 불만은 없다. 그럼에도 나는 가장 흰색바탕의 깔끔하면서 심플한 것을 좋아한다. 그런데 꼭 그런 테마를 고르게 되면 다소 기능적으로 부족하거나 수정을 해도 뭔가 밉상이다. 아마도 저작자의 디자인과 어울리지 않기 때문일 것이다.
+이번에 만난 북테마는 정말 디자인이 너무나 마음에 든다. 하지만 디자인으로 충분히 보상을 받았음에도 더 마음에 드는 기능은 바로 검색기능과 편집기능, 목차 기능이다.</description>
+    </item>
+    
+    <item>
       <title>Hugo 블로그 생성</title>
-      <link>https://noweaver.github.io/posts/05-14-Hugo-Blog-Installation/</link>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/05/14_Hugo-Blog-Installation/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/05-14-Hugo-Blog-Installation/</guid>
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/05/14_Hugo-Blog-Installation/</guid>
+      <description>이 블로그는 Golang 기반의 정적 블로그 엔진 Hugo를 기반으로 만들었다. 매뉴얼을 보고 했지만 github 으로 디플로이 하는 부분이 가장 이해가 되지 않아 이 블로그를 참조했다. 그러나 이 블로그의 댓글에도 남겼지만, git submodule 등의 명령어가 제대로 먹히지 않아서 그냥 여러 블로그를 참조해서 만들었다. Hugo기반의 블로그를 생성하려면 golang이 설치되어야 한다. Golang 설치 방법을 참고한다.
+Hugo 설치 $ brew install hugo $ which hugo /usr/local/bin/hugo $ hugo version Hugo Static Site Generator v0.55.5/extended darwin/amd64 BuildDate: unknown 미리 할 일 Hugo 기반의 블로그를 만들고 GitHub 에 디플로이를 하기 위해서는 두 개의 Repository가 필요하다.</description>
+    </item>
+    
+    <item>
+      <title>Hugo 블로그 생성</title>
+      <link>https://noweaver.github.io/posts/Misc/2019-05-14_Hugo-Blog-Installation/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Misc/2019-05-14_Hugo-Blog-Installation/</guid>
       <description>이 블로그는 Golang 기반의 정적 블로그 엔진 Hugo를 기반으로 만들었다. 매뉴얼을 보고 했지만 github 으로 디플로이 하는 부분이 가장 이해가 되지 않아 이 블로그를 참조했다. 그러나 이 블로그의 댓글에도 남겼지만, git submodule 등의 명령어가 제대로 먹히지 않아서 그냥 여러 블로그를 참조해서 만들었다. Hugo기반의 블로그를 생성하려면 golang이 설치되어야 한다. Golang 설치 방법을 참고한다.
 Hugo 설치 $ brew install hugo $ which hugo /usr/local/bin/hugo $ hugo version Hugo Static Site Generator v0.55.5/extended darwin/amd64 BuildDate: unknown 미리 할 일 Hugo 기반의 블로그를 만들고 GitHub 에 디플로이를 하기 위해서는 두 개의 Repository가 필요하다.</description>
     </item>

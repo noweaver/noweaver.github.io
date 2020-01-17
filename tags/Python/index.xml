@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on noweaver</title>
+    <link>https://noweaver.github.io/tags/Python/</link>
+    <description>Recent content in Python on noweaver</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://noweaver.github.io/tags/Python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>주피터 테마 적용</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2018/10-15_Jupyter-theme-apply/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2018/10-15_Jupyter-theme-apply/</guid>
+      <description>오랫동안 개발 툴을 사용하면 생산성을 위해서 손에 익히는 데 상당히 시간을 썼다. 그런데, UI/UX 훌륭하지 않으면 조금 거리를 두게 되는 경향이 있다. 사실 노트북 스타일 보다는 PyCharm 을 쓰고 싶은데 많은 분석가들이 Jupyter Notebook 을 사용하는 것 같더라. 나도 좀 쓰다가 말다가 했는데, 이번에 본격적으로 쓰기 시작하면서 여러 가지 문제를 발견했다. 그 중 하나 테마 적용 시, 출력 값이 짤리더라. 이유인즉 CSS 적용 상 버그 같다. 왜 안 고치는지 모르겠으나 이슈 리포트를 보고 적용해보니 쓸만할 정도가 되어 기록으로 남긴다.</description>
+    </item>
+    
+    <item>
+      <title>파이썬 데이터 분석 환경에 대해서</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2018/03-31_Pyenv-anaconda-virtual-env/</link>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2018/03-31_Pyenv-anaconda-virtual-env/</guid>
+      <description>파이썬 분석 환경 이해가 너무 어려워서 기록한다. 우선 내가 파이썬 전문가가 아닌 것도 있지만 Python은 2개의 버전을 가지고 각 가상환경의 이력의 변화도 무척이나 다양하다. 여기서 가상환경은 OS 가상화가 아니다.
+주로 쓰는 환경은 맥과 리눅스다. 물론 회사에서는 윈도우 환경에서 사용도 한다. 모든 환경에서 100% 적용되는 것인지 확인할 수 없다. 그러나 아직까지는 이렇게 구성해서 사용하는데 크게 문제는 없는 것 같다. 파이썬은 공식적인 버전 외에 다양한 버전이 존재한다. 이런 버전 관리를 해주는 것이 pyenv 이다.</description>
+    </item>
+    
+  </channel>
+</rss>

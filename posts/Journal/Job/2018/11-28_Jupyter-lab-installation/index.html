@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jupyter Lab &amp; Git Extension 설치"><meta property="og:title" content="Jupyter Lab &amp; Git Extension 설치" />
+<meta property="og:description" content="주피터를 사용하다 사내 분석 환경 중에 Jupyter Lab이 설치 되어 있는 것을 발견했다. 플랫폼 엔지니어가 PySpark 등 아주 유용한 커널을 설치해 두었다. 그러나 가장 아쉬운 부분이 Git 연동이 되지 않는 것이다. 그래서 플랫폼 엔지니어에게 요청하니 다른 업무로 시간이 부족해 보였다. 그 다른 업무도 내가 간접적으로 Involve 되어 있는 것이라 강력하게 요청하는 것도 무리였다. 목마른 사람이 우물을 팔 수 밖에 없어서 결국 내가 설치 테스트 해봤다.
+그러나 아직 한글 폰트, 그래프 테스트는 끝나지 않아 더 테스트를 해 봐야겠다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-lab-installation/" />
+<meta property="article:published_time" content="2018-11-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-16T15:57:21+09:00" />
+<title>Jupyter Lab &amp; Git Extension 설치 | noweaver</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.2f0632dc31655f852f191d7c354e584af6f6ca239af70afdd117bbe5950815b2.css" integrity="sha256-LwYy3DFlX4UvGR18NU5YSvb2yiOa9wr90Re75ZUIFbI=">
+
+
+<script defer src="/ko.search.min.972fa312342352b485bb0f3c7cf3fa5aca7a5dcf3e84bd367cc8428dc5e85dbc.js" integrity="sha256-ly&#43;jEjQjUrSFuw88fPP6Wsp6Xc8&#43;hL02fMhCjcXoXbw="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123156470-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="toc-control" />
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav id="BookMenu">
+<h2 class="book-brand">
+  <a href="https://noweaver.github.io/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="검색" aria-label="검색" maxlength="64" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+    
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
+
+    <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label id="menu-control" for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+  <label id="toc-control" for="toc-control">
+  <strong>Jupyter Lab &amp; Git Extension 설치</strong>
+  </label>
+</header>
+
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Journal/Job/2018/11-28_Jupyter-lab-installation/">Jupyter Lab &amp; Git Extension 설치</a>
+  </h1>
+  
+
+<div>
+
+  <h5>2018/11/28</h5>
+
+
+
+  
+    
+      
+        <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
+    <br />
+  
+
+  
+    
+      , 
+      
+        <a href="/tags/Jupyter/">Jupyter</a>, 
+      
+        <a href="/tags/%EC%84%A4%EC%B9%98/">설치</a>
+    <br />
+  
+
+
+</div>
+
+
+  <p><p>주피터를 사용하다 사내 분석 환경 중에 Jupyter Lab이 설치 되어 있는 것을 발견했다. 플랫폼 엔지니어가 PySpark 등 아주 유용한 커널을 설치해 두었다. 그러나 가장 아쉬운 부분이 Git 연동이 되지 않는 것이다. 그래서 플랫폼 엔지니어에게 요청하니 다른 업무로 시간이 부족해 보였다. 그 다른 업무도 내가 간접적으로 Involve 되어 있는 것이라 강력하게 요청하는 것도 무리였다. 목마른 사람이 우물을 팔 수 밖에 없어서 결국 내가 설치 테스트 해봤다.</p>
+<p>그러나 아직 한글 폰트, 그래프 테스트는 끝나지 않아 더 테스트를 해 봐야겠다.</p>
+<h1 id="파이썬-가상머신-설치">파이썬 가상머신 설치</h1>
+<p>Anaconda 사용자로 무작정 패키지 설치하는 것을 지양하여 Anaconda 제공한 conda 로 가상환경을 생성했다.</p>
+<pre><code>$ conda create -y -n jupyterlab-env python=3.6
+$ source activate jupyterlab-env
+(jupyterlab-env) $
+
+(jupyterlab-env) $ conda install -y -c conda-forge jupyterlab
+
+</code></pre><h1 id="jupyter-lab-git-extension">Jupyter Lab, Git extension</h1>
+<h2 id="git-installation">Git Installation</h2>
+<pre><code>(jupyterlab-env) $ conda install -y -c conda-forge nodejs
+
+(jupyterlab-env) $ jupyter labextension install @jupyterlab/git
+(jupyterlab-env) $ pip install jupyterlab-git
+(jupyterlab-env) $ jupyter serverextension enable --py jupyterlab_git
+</code></pre><h2 id="jupyter-lab-git-usage">Jupyter Lab Git Usage</h2>
+<p>참고로 Jupyter Lab에서 Copy &amp; Paste 명령인 Ctrl + c / Ctrl + v 명령은 두 가지 방법이 존재</p>
+<ul>
+<li>Ctrl + c =&gt; Ctrl + Shift + c</li>
+<li>Ctrl + v =&gt; Ctrl + Shift + v</li>
+<li>Shift + [Mouse right button]</li>
+</ul>
+</p>
+</article>
+
+      <div class="book-footer justify-between">
+  
+
+  
+  
+  <div>
+    
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/commit/dd090b58412381922c7adb56def5be386a5677cf" title='마지막 수정일자 Ryan Guhnguk Ahn | 2020/01/16' target="_blank">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2020/01/16</span>
+    </a>
+  </div>
+  
+  
+
+  
+  <div>
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Journal/Job/2018/11-28_Jupyter-lab-installation.md" target="_blank">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>편집</span>
+    </a>
+  </div>
+  
+</div>
+
+
+
+  
+<br>
+<hr color="#D6D6D6" size=0>
+<script src="https://utteranc.es/client.js" 
+        repo="noweaver/noweaver-comment" 
+        issue-term="[##_article_rep_link" 
+        theme="github-light" 
+        crossorigin="anonymous" 
+        async> 
+</script>
+
+ 
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc levels-3 fixed">
+    
+    <label id="toc-control" for="toc-control">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#파이썬-가상머신-설치">파이썬 가상머신 설치</a></li>
+    <li><a href="#jupyter-lab-git-extension">Jupyter Lab, Git extension</a>
+      <ul>
+        <li><a href="#git-installation">Git Installation</a></li>
+        <li><a href="#jupyter-lab-git-usage">Jupyter Lab Git Usage</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </label>
+    
+  </aside>
+
+
+
+  </main>
+
+  
+</body>
+
+</html>

@@ -1,24 +1,145 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>설치 on NOWEAVER</title>
+    <title>설치 on noweaver</title>
     <link>https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/</link>
-    <description>Recent content in 설치 on NOWEAVER</description>
+    <description>Recent content in 설치 on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko</language>
-    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Hugo 블로그 테마 - Book</title>
+      <link>https://noweaver.github.io/posts/Misc/2020-01-15_Hugo-Theme-History/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Misc/2020-01-15_Hugo-Theme-History/</guid>
+      <description>휴고의 테마는 지킬이나 헥소와 비교하여 역사만큼 훌륭한 것을 찾기가 어렵다. 대부분의 테마가 지킬이나 헥소에서 가져와서 수정하는 것이 많다. 딱히 거기에는 불만은 없다. 그럼에도 나는 가장 흰색바탕의 깔끔하면서 심플한 것을 좋아한다. 그런데 꼭 그런 테마를 고르게 되면 다소 기능적으로 부족하거나 수정을 해도 뭔가 밉상이다. 아마도 저작자의 디자인과 어울리지 않기 때문일 것이다.
+이번에 만난 북테마는 정말 디자인이 너무나 마음에 든다. 하지만 디자인으로 충분히 보상을 받았음에도 더 마음에 드는 기능은 바로 검색기능과 편집기능, 목차 기능이다.</description>
+    </item>
+    
+    <item>
+      <title>Mac, 나의 작업환경 만들기 1</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/12/01_My-mac-environment/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/12/01_My-mac-environment/</guid>
+      <description>집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.
+키보드 백스페이스 속도 올리기  System Preference 실행 Keyboard 실행   Show All 클릭 Accessibility 실행 왼쪽 메뉴에서 Keyboard 선택 중간의 Enable Show Keys 체크박스 클릭하지 말고, 옆에 Options... 버튼클릭  D2Coding 폰트 설치  D2Coding 다운로드 다운받은 D2Coding-*.zip 파일의 압축을 푼다. D2CodingAll 디렉터리에서 *.ttc 파일을 더블 클릭한다. 팝업 창이 2개 오픈 되는데, 하단에 있는 Install Font를 클릭하여 설치한다.</description>
+    </item>
+    
+    <item>
+      <title>Mac, 나의 작업환경 만들기 2</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/12/01_Python-environmnet-in-Mac-/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/12/01_Python-environmnet-in-Mac-/</guid>
+      <description>집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.
+Pyenv 설치 $ brew search pyenv $ brew install pyenv $ pyevn --version pyenv 1.2.15 $ echo &amp;#39;export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc $ echo &amp;#39;export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc // 파이썬 버전 정보를 prompt 에서 보여주기 위한 방법 $ echo &amp;#39;eval &amp;#34;$(pyenv init -)&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc Anaconda 설치 $ pyenv install -l | more $ pyenv install anaconda3-5.3.1 $ pyenv versions * system (set by /Users/Ryan/.</description>
+    </item>
+    
+    <item>
+      <title>Mac 환경의 zsh 쉘 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/11/13_Mac-zsh-installation/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/11/13_Mac-zsh-installation/</guid>
+      <description>macOS Catalina(이하 카탈리나) 업그레이를 하면 zsh 쉘이 기본 쉘이다. 기존에는 사용자가 zsh 설치하고 커스마이징을 할 수 있다. 나는 bash 를 사용하기 때문에 굳이 사용할 필요가 없었고, 몇 번 시도를 했지만 익숙함과 편리함이 또 다른 많은 것을 잃게 하기에 다시 bash로 돌아왔다.
+그런데, 카탈리나부터 zsh 디폴이기 때문에 나도 바꾸기로 했다. 그 설치 이력을 남긴다.
+준비 단계 brew, iTerm2은 원래 사용하고 있었고 카탈리나 업그레이드 이후 zsh 가 이미 설치되어 있다.
+oh-my-zsh 설치 oh-my-zsh의 매뉴얼 설치를 따라 했다.</description>
+    </item>
+    
+    <item>
+      <title>Mac에 Java 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/10/30_Mac-OpenJDK-Installation/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/10/30_Mac-OpenJDK-Installation/</guid>
+      <description>AES 관련 코드를 자바로 작성하기 위해서 맥에 OpenJDK(자바) 설치 기록을 남긴다.
+다운로드 OpenJDK에서 다운로드 했다. 2019년 10월 30일 기준으로 JDK13 버전을 다운로드 했다.
+설치 $ tar xvfz openjdk-13.0.1_osx-x64_bin.tar.gz $ mv jdk-13.0.1.jdk/ /Library/Java/JavaVirtualMachines/ 설치 확인 $ /usr/libexec/java_home -V Matching Java Virtual Machines (1): 13.0.1, x86_64:	&amp;#34;OpenJDK 13.0.1&amp;#34;	/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home /Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home $ java -version openjdk version &amp;#34;13.0.1&amp;#34; 2019-10-15 OpenJDK Runtime Environment (build 13.0.1+9) OpenJDK 64-Bit Server VM (build 13.0.1+9, mixed mode, sharing)  $ brew tap AdoptOpenJDK/openjdk $ brew cask install adoptopenjdk8</description>
+    </item>
+    
+    <item>
+      <title>Mac에 VirtualBox 설치하고 Windows10 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/08/19_Mac-VirtualBox-Windows10/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/08/19_Mac-VirtualBox-Windows10/</guid>
+      <description>맥에서 VirtualBox를 설치하는 것을 알아본다. 맥 환경은 다음과 같다.
+VirtualBox 설치하기  https://www.virtualbox.org/ 접속, 왼쪽 메뉴 Downloads 클릭  아래그림과 같이 빨간색 박스를 클릭해서 다운로드  다운로드 받은 파일 중, dmg 파일 클릭  아래 그림과 같이 1번 VirtualBox.pkg 클릭하고, Continue 클릭  설치 권한의 암호를 묻는다. 지문으로 풀던, 암호입력으로 풀던해서 입력하면 설치가 진행된다.  설치가 완료되면, 설치파일을 삭제할 것인가 묻는다. 그냥 지우지 않았다. 쓸 수 있는데, 다시 다운받기 귀찮아서. Keep 버튼을 누르고 종료한다.</description>
+    </item>
+    
+    <item>
       <title>Hugo 블로그 생성</title>
-      <link>https://noweaver.github.io/posts/05-14-Hugo-Blog-Installation/</link>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/05/14_Hugo-Blog-Installation/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/05-14-Hugo-Blog-Installation/</guid>
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/05/14_Hugo-Blog-Installation/</guid>
       <description>이 블로그는 Golang 기반의 정적 블로그 엔진 Hugo를 기반으로 만들었다. 매뉴얼을 보고 했지만 github 으로 디플로이 하는 부분이 가장 이해가 되지 않아 이 블로그를 참조했다. 그러나 이 블로그의 댓글에도 남겼지만, git submodule 등의 명령어가 제대로 먹히지 않아서 그냥 여러 블로그를 참조해서 만들었다. Hugo기반의 블로그를 생성하려면 golang이 설치되어야 한다. Golang 설치 방법을 참고한다.
 Hugo 설치 $ brew install hugo $ which hugo /usr/local/bin/hugo $ hugo version Hugo Static Site Generator v0.55.5/extended darwin/amd64 BuildDate: unknown 미리 할 일 Hugo 기반의 블로그를 만들고 GitHub 에 디플로이를 하기 위해서는 두 개의 Repository가 필요하다.</description>
+    </item>
+    
+    <item>
+      <title>Hugo 블로그 생성</title>
+      <link>https://noweaver.github.io/posts/Misc/2019-05-14_Hugo-Blog-Installation/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Misc/2019-05-14_Hugo-Blog-Installation/</guid>
+      <description>이 블로그는 Golang 기반의 정적 블로그 엔진 Hugo를 기반으로 만들었다. 매뉴얼을 보고 했지만 github 으로 디플로이 하는 부분이 가장 이해가 되지 않아 이 블로그를 참조했다. 그러나 이 블로그의 댓글에도 남겼지만, git submodule 등의 명령어가 제대로 먹히지 않아서 그냥 여러 블로그를 참조해서 만들었다. Hugo기반의 블로그를 생성하려면 golang이 설치되어야 한다. Golang 설치 방법을 참고한다.
+Hugo 설치 $ brew install hugo $ which hugo /usr/local/bin/hugo $ hugo version Hugo Static Site Generator v0.55.5/extended darwin/amd64 BuildDate: unknown 미리 할 일 Hugo 기반의 블로그를 만들고 GitHub 에 디플로이를 하기 위해서는 두 개의 Repository가 필요하다.</description>
+    </item>
+    
+    <item>
+      <title>Mac에 Golang 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/05/13_Golang-installation-on-the-mac/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/05/13_Golang-installation-on-the-mac/</guid>
+      <description>Golang을 설치하는 방법은 Go 언어를 배포하는 공식사이트에서 해당 운영체제에 맞는 패키지를 받아서 설치하면 된다. Golang은 기본적으로 GitHub 기반에서 개발되어지고 배포된다(따라서 환경설정 부분이 조금 혼동 될 수 있다. 물론 이 부분은 개발자에 관련된 내용이라 이 포스트에서 다루지 않는다). 맥에서는 Brew라는 아주 훌륭한 패키지 설치 관리자가 있고 이것을 이용하면 Golang을 조금 더 쉽게 설치할 수 있다. 이 포스트는 brew를 통해서 Golang을 설치하는 방법을 다룬다.
+Mac 환경 sw_vers ProductName:	Mac OS X ProductVersion:	10.</description>
+    </item>
+    
+    <item>
+      <title>아나콘다, Mac에서 삭제 방법</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/04/11_Anaconda-uninstall-on-the-mac/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/04/11_Anaconda-uninstall-on-the-mac/</guid>
+      <description>앱으로 삭제 App Cleaner 이용
+직접 삭제 $ rm -rf ~/anaconda3 ~/.conda ~/.anaconda ~/.condarc $ rm ~/Library/Application Support/binstar/*anaconda* $ rm ~/Library/Receipts/io.continuum.pkg.anaconda* </description>
+    </item>
+    
+    <item>
+      <title>Jupyter Lab &amp; Git Extension 설치</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-lab-installation/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-lab-installation/</guid>
+      <description>주피터를 사용하다 사내 분석 환경 중에 Jupyter Lab이 설치 되어 있는 것을 발견했다. 플랫폼 엔지니어가 PySpark 등 아주 유용한 커널을 설치해 두었다. 그러나 가장 아쉬운 부분이 Git 연동이 되지 않는 것이다. 그래서 플랫폼 엔지니어에게 요청하니 다른 업무로 시간이 부족해 보였다. 그 다른 업무도 내가 간접적으로 Involve 되어 있는 것이라 강력하게 요청하는 것도 무리였다. 목마른 사람이 우물을 팔 수 밖에 없어서 결국 내가 설치 테스트 해봤다.
+그러나 아직 한글 폰트, 그래프 테스트는 끝나지 않아 더 테스트를 해 봐야겠다.</description>
+    </item>
+    
+    <item>
+      <title>주피터 테마 적용</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2018/10-15_Jupyter-theme-apply/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2018/10-15_Jupyter-theme-apply/</guid>
+      <description>오랫동안 개발 툴을 사용하면 생산성을 위해서 손에 익히는 데 상당히 시간을 썼다. 그런데, UI/UX 훌륭하지 않으면 조금 거리를 두게 되는 경향이 있다. 사실 노트북 스타일 보다는 PyCharm 을 쓰고 싶은데 많은 분석가들이 Jupyter Notebook 을 사용하는 것 같더라. 나도 좀 쓰다가 말다가 했는데, 이번에 본격적으로 쓰기 시작하면서 여러 가지 문제를 발견했다. 그 중 하나 테마 적용 시, 출력 값이 짤리더라. 이유인즉 CSS 적용 상 버그 같다. 왜 안 고치는지 모르겠으나 이슈 리포트를 보고 적용해보니 쓸만할 정도가 되어 기록으로 남긴다.</description>
+    </item>
+    
+    <item>
+      <title>파이썬 데이터 분석 환경에 대해서</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2018/03-31_Pyenv-anaconda-virtual-env/</link>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2018/03-31_Pyenv-anaconda-virtual-env/</guid>
+      <description>파이썬 분석 환경 이해가 너무 어려워서 기록한다. 우선 내가 파이썬 전문가가 아닌 것도 있지만 Python은 2개의 버전을 가지고 각 가상환경의 이력의 변화도 무척이나 다양하다. 여기서 가상환경은 OS 가상화가 아니다.
+주로 쓰는 환경은 맥과 리눅스다. 물론 회사에서는 윈도우 환경에서 사용도 한다. 모든 환경에서 100% 적용되는 것인지 확인할 수 없다. 그러나 아직까지는 이렇게 구성해서 사용하는데 크게 문제는 없는 것 같다. 파이썬은 공식적인 버전 외에 다양한 버전이 존재한다. 이런 버전 관리를 해주는 것이 pyenv 이다.</description>
     </item>
     
   </channel>

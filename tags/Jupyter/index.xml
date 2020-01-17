@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jupyter on noweaver</title>
+    <link>https://noweaver.github.io/tags/Jupyter/</link>
+    <description>Recent content in Jupyter on noweaver</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://noweaver.github.io/tags/Jupyter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac, 나의 작업환경 만들기 2</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/12/01_Python-environmnet-in-Mac-/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/12/01_Python-environmnet-in-Mac-/</guid>
+      <description>집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.
+Pyenv 설치 $ brew search pyenv $ brew install pyenv $ pyevn --version pyenv 1.2.15 $ echo &amp;#39;export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc $ echo &amp;#39;export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc // 파이썬 버전 정보를 prompt 에서 보여주기 위한 방법 $ echo &amp;#39;eval &amp;#34;$(pyenv init -)&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc Anaconda 설치 $ pyenv install -l | more $ pyenv install anaconda3-5.3.1 $ pyenv versions * system (set by /Users/Ryan/.</description>
+    </item>
+    
+    <item>
+      <title>Mac (로컬)환경에서 PySpark와 Jupyter 연동 설치</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/10/31_Mac-Jupyter-PySpark-Installation/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/10/31_Mac-Jupyter-PySpark-Installation/</guid>
+      <description>준비단계 XCode Developer Tools 설치 터미널에서 아래와 같이 실행
+$ xcode-select --install 홈블루(homebrew) 설치 터미널에서 아래와 같이 실행
+$ /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 파이썬 환경 아나콘다는 미리 설치되어 있어야 한다. 아나콘다 파이썬 가상환경에서 진행하므로 아나콘다 가상환경을 생성한다.
+$ conda create --name myspark python=3.7 자바 설치 오라클 자바를 설치하지 않고, OpenJDK를 사용했다. 나는 맥에 이미 자바를 섩치하는 과정을 작성했었다.
+$ java -version openjdk version &amp;#34;13.0.1&amp;#34; 2019-10-15 OpenJDK Runtime Environment (build 13.</description>
+    </item>
+    
+    <item>
+      <title>Jupyter Lab &amp; Git Extension 설치</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-lab-installation/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-lab-installation/</guid>
+      <description>주피터를 사용하다 사내 분석 환경 중에 Jupyter Lab이 설치 되어 있는 것을 발견했다. 플랫폼 엔지니어가 PySpark 등 아주 유용한 커널을 설치해 두었다. 그러나 가장 아쉬운 부분이 Git 연동이 되지 않는 것이다. 그래서 플랫폼 엔지니어에게 요청하니 다른 업무로 시간이 부족해 보였다. 그 다른 업무도 내가 간접적으로 Involve 되어 있는 것이라 강력하게 요청하는 것도 무리였다. 목마른 사람이 우물을 팔 수 밖에 없어서 결국 내가 설치 테스트 해봤다.
+그러나 아직 한글 폰트, 그래프 테스트는 끝나지 않아 더 테스트를 해 봐야겠다.</description>
+    </item>
+    
+    <item>
+      <title>Jupyter Tips</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-tips/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-tips/</guid>
+      <description>Jupyter 설치 후, 몇 가지 Customizing Jupyter 설정파일 생성 // ~/.jupyter 디렉토리가 생기고, 하위에 jupyter_notebook_config.py 파일이 생성된다. $ jupyter notebook --generate-config 토큰 사용하지 않고 패스워드 사용 $ ipython In [1]: from IPython.lib import passwd In [2]: passwd() Enter password: Verify password: Out[2]: &amp;#39;sha1:e54713337d5c:c9bfccddf9c07560f8590e4fc97a81ef1a1ab714&amp;#39; // 컴마 안의 내용 복사 `ctrl + D` $ vi ~/.jupyter/jupyter_notebook_config.py c = get_config() // 위에서 복사한 패스워드 복불 c.NotebookApp.password = &amp;#39;sha1:e54713337d5c:c9bfccddf9c07560f8590e4fc97a81ef1a1ab714&amp;#39; 기타 설정 // 서버로 사용 c.</description>
+    </item>
+    
+    <item>
+      <title>주피터 테마 적용</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2018/10-15_Jupyter-theme-apply/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2018/10-15_Jupyter-theme-apply/</guid>
+      <description>오랫동안 개발 툴을 사용하면 생산성을 위해서 손에 익히는 데 상당히 시간을 썼다. 그런데, UI/UX 훌륭하지 않으면 조금 거리를 두게 되는 경향이 있다. 사실 노트북 스타일 보다는 PyCharm 을 쓰고 싶은데 많은 분석가들이 Jupyter Notebook 을 사용하는 것 같더라. 나도 좀 쓰다가 말다가 했는데, 이번에 본격적으로 쓰기 시작하면서 여러 가지 문제를 발견했다. 그 중 하나 테마 적용 시, 출력 값이 짤리더라. 이유인즉 CSS 적용 상 버그 같다. 왜 안 고치는지 모르겠으나 이슈 리포트를 보고 적용해보니 쓸만할 정도가 되어 기록으로 남긴다.</description>
+    </item>
+    
+  </channel>
+</rss>

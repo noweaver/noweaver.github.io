@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on noweaver</title>
+    <link>https://noweaver.github.io/tags/Java/</link>
+    <description>Recent content in Java on noweaver</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://noweaver.github.io/tags/Java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac에 Java 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/Job/2019/10/30_Mac-OpenJDK-Installation/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/Job/2019/10/30_Mac-OpenJDK-Installation/</guid>
+      <description>AES 관련 코드를 자바로 작성하기 위해서 맥에 OpenJDK(자바) 설치 기록을 남긴다.
+다운로드 OpenJDK에서 다운로드 했다. 2019년 10월 30일 기준으로 JDK13 버전을 다운로드 했다.
+설치 $ tar xvfz openjdk-13.0.1_osx-x64_bin.tar.gz $ mv jdk-13.0.1.jdk/ /Library/Java/JavaVirtualMachines/ 설치 확인 $ /usr/libexec/java_home -V Matching Java Virtual Machines (1): 13.0.1, x86_64:	&amp;#34;OpenJDK 13.0.1&amp;#34;	/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home /Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home $ java -version openjdk version &amp;#34;13.0.1&amp;#34; 2019-10-15 OpenJDK Runtime Environment (build 13.0.1+9) OpenJDK 64-Bit Server VM (build 13.0.1+9, mixed mode, sharing)  $ brew tap AdoptOpenJDK/openjdk $ brew cask install adoptopenjdk8</description>
+    </item>
+    
+  </channel>
+</rss>
