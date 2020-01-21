@@ -14,10 +14,10 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.2f0632dc31655f852f191d7c354e584af6f6ca239af70afdd117bbe5950815b2.css" integrity="sha256-LwYy3DFlX4UvGR18NU5YSvb2yiOa9wr90Re75ZUIFbI=">
+<link rel="stylesheet" href="/book.min.327a7346ed65bd45e7889adff447f01f212a1b54dbf3c12139d26b63b077108f.css" integrity="sha256-MnpzRu1lvUXniJrf9EfwHyEqG1Tb88EhOdJrY7B3EI8=">
 
 
-<script defer src="/ko.search.min.16bf5494acf8c14f08d63996085bdd2c06d6c51c6b892222937bf9ba679b7467.js" integrity="sha256-Fr9UlKz4wU8I1jmWCFvdLAbWxRxriSIik3v5umebdGc="></script>
+<script defer src="/ko.search.min.61a31a585d201789fea1f0eab184c7c7af610b84e2dfa8539ccc99c9dc38c812.js" integrity="sha256-YaMaWF0gF4n&#43;ofDqsYTHx69hC4Ti36hTnMyZydw4yBI="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -41,45 +41,36 @@ https://github.com/alex-shpak/hugo-book
 <body>
   <input type="checkbox" class="hidden" id="toc-control" />
   <input type="checkbox" class="hidden" id="menu-control" />
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav id="BookMenu">
-<h2 class="book-brand">
-  <a href="https://noweaver.github.io/"><span>noweaver</span>
-  </a>
-</h2>
-
-
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="검색" aria-label="검색" maxlength="64" />
-  <div class="book-search-spinner spinner hidden"></div>
-  <ul id="book-search-results"></ul>
-</div>
-
-
-
-
-
+  <main class="container">
     
+  
 
-
-
-
+  <aside class="book-toc levels-3 fixed">
+    
+    <label id="toc-control" for="toc-control">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#과정">과정</a></li>
+        <li><a href="#주간-질문">주간 질문</a>
+          <ul>
+            <li><a href="#1-멀티호밍을-방지하고-있는-플랫폼의-예시와-그들이-어떻게-멀티호밍을-방지하고있는지-설명해주세요-책의-내용도-좋고-그-외의-내용도-좋습니다">1. 멀티호밍을 방지하고 있는 플랫폼의 예시와 그들이 어떻게 멀티호밍을 방지하고있는지 설명해주세요 (책의 내용도 좋고, 그 외의 내용도 좋습니다)</a></li>
+            <li><a href="#2-국내에-규제-때문에-성장하지-못하고-있거나-실패한-플랫폼-예시와-본인이-만약-해당-예시-플랫폼-관련-규제-정책결정자라면-어떤-규제를-제거추가할지-의견을-적어주세요">2. 국내에 규제 때문에 성장하지 못하고 있거나 실패한 플랫폼 예시와 본인이 만약 해당 예시 플랫폼 관련 규제 정책결정자라면 어떤 규제를 제거/추가할지 의견을 적어주세요</a></li>
+            <li><a href="#3-본인이-혹한-산업-혹은-관심있는-산업-중에-하나를-골라서-앞으로-해당-산업에서-어떤-조건을-갖춘-플랫폼-기업이-성장할-것-같은지혹은-이미-성장하고있는지-적어주세요">3. 본인이 혹한 산업 혹은 관심있는 산업 중에 하나를 골라서, 앞으로 해당 산업에서 어떤 조건을 갖춘 플랫폼 기업이 성장할 것 같은지(혹은 이미 성장하고있는지) 적어주세요.</a></li>
+            <li><a href="#4-홈조이는-실패하고-미소는-왜-성공하고-있을까요-미소의-리스크는-어떤게-있을까요">4. 홈조이는 실패하고, 미소는 왜 성공하고 있을까요? 미소의 리스크는 어떤게 있을까요?</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </nav>
+    </label>
+    
+  </aside>
 
 
-<script>
-(function() {
-  var menu = document.querySelector("aside.book-menu nav");
-  addEventListener("beforeunload", function(event) {
-    localStorage.setItem("menu.scrollTop", menu.scrollTop);
-  });
-  menu.scrollTop = localStorage.getItem("menu.scrollTop");
-})();
-</script>
 
-    </aside>
 
     <div class="book-page">
       <header class="flex align-center justify-between book-header">
@@ -105,16 +96,17 @@ https://github.com/alex-shpak/hugo-book
 
 
   
+  <div>
     
       
-        <a href="/categories/%EA%B3%B5%EB%B6%80/">공부</a>
-    <br />
+  </div>
   
 
   
+  <div>
     
       
-    <br />
+  </div>
   
 
 
@@ -189,59 +181,80 @@ https://github.com/alex-shpak/hugo-book
   <div>
     <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Learning/Business/2019/12/30_%ed%94%8c%eb%9e%ab%ed%8f%bc-%eb%b9%84%ec%a6%88%eb%8b%88%ec%8a%a4%ec%9d%98-%ec%9d%b4%ed%95%b4-w4.md" target="_blank">
       <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
-      <span>편집</span>
+      <span>Edit this page</span>
     </a>
   </div>
   
+
 </div>
 
 
-
+<div class="book-comments">
   
-<br>
-<hr color="#D6D6D6" size=0>
-<script src="https://utteranc.es/client.js" 
-        repo="noweaver/noweaver-comment" 
-        issue-term="[##_article_rep_link" 
-        theme="github-light" 
-        crossorigin="anonymous" 
-        async> 
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
- 
+</div>
+
 
       
     </div>
 
-    
-  
+    <aside class="book-menu fixed">
+      <nav id="BookMenu">
+<h2 class="book-brand">
+  <a href="https://noweaver.github.io/"><span>noweaver</span>
+  </a>
+</h2>
 
-  <aside class="book-toc levels-3 fixed">
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s /" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
     
-    <label id="toc-control" for="toc-control">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#과정">과정</a></li>
-        <li><a href="#주간-질문">주간 질문</a>
-          <ul>
-            <li><a href="#1-멀티호밍을-방지하고-있는-플랫폼의-예시와-그들이-어떻게-멀티호밍을-방지하고있는지-설명해주세요-책의-내용도-좋고-그-외의-내용도-좋습니다">1. 멀티호밍을 방지하고 있는 플랫폼의 예시와 그들이 어떻게 멀티호밍을 방지하고있는지 설명해주세요 (책의 내용도 좋고, 그 외의 내용도 좋습니다)</a></li>
-            <li><a href="#2-국내에-규제-때문에-성장하지-못하고-있거나-실패한-플랫폼-예시와-본인이-만약-해당-예시-플랫폼-관련-규제-정책결정자라면-어떤-규제를-제거추가할지-의견을-적어주세요">2. 국내에 규제 때문에 성장하지 못하고 있거나 실패한 플랫폼 예시와 본인이 만약 해당 예시 플랫폼 관련 규제 정책결정자라면 어떤 규제를 제거/추가할지 의견을 적어주세요</a></li>
-            <li><a href="#3-본인이-혹한-산업-혹은-관심있는-산업-중에-하나를-골라서-앞으로-해당-산업에서-어떤-조건을-갖춘-플랫폼-기업이-성장할-것-같은지혹은-이미-성장하고있는지-적어주세요">3. 본인이 혹한 산업 혹은 관심있는 산업 중에 하나를 골라서, 앞으로 해당 산업에서 어떤 조건을 갖춘 플랫폼 기업이 성장할 것 같은지(혹은 이미 성장하고있는지) 적어주세요.</a></li>
-            <li><a href="#4-홈조이는-실패하고-미소는-왜-성공하고-있을까요-미소의-리스크는-어떤게-있을까요">4. 홈조이는 실패하고, 미소는 왜 성공하고 있을까요? 미소의 리스크는 어떤게 있을까요?</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
+
+
+
+
 </nav>
-    </label>
-    
-  </aside>
 
 
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
 
+    </aside>
   </main>
 
   

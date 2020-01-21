@@ -13,10 +13,10 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.2f0632dc31655f852f191d7c354e584af6f6ca239af70afdd117bbe5950815b2.css" integrity="sha256-LwYy3DFlX4UvGR18NU5YSvb2yiOa9wr90Re75ZUIFbI=">
+<link rel="stylesheet" href="/book.min.327a7346ed65bd45e7889adff447f01f212a1b54dbf3c12139d26b63b077108f.css" integrity="sha256-MnpzRu1lvUXniJrf9EfwHyEqG1Tb88EhOdJrY7B3EI8=">
 
 
-<script defer src="/ko.search.min.16bf5494acf8c14f08d63996085bdd2c06d6c51c6b892222937bf9ba679b7467.js" integrity="sha256-Fr9UlKz4wU8I1jmWCFvdLAbWxRxriSIik3v5umebdGc="></script>
+<script defer src="/ko.search.min.61a31a585d201789fea1f0eab184c7c7af610b84e2dfa8539ccc99c9dc38c812.js" integrity="sha256-YaMaWF0gF4n&#43;ofDqsYTHx69hC4Ti36hTnMyZydw4yBI="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -41,132 +41,13 @@ https://github.com/alex-shpak/hugo-book
 <body>
   <input type="checkbox" class="hidden" id="toc-control" />
   <input type="checkbox" class="hidden" id="menu-control" />
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav id="BookMenu">
-<h2 class="book-brand">
-  <a href="https://noweaver.github.io/"><span>noweaver</span>
-  </a>
-</h2>
-
-
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="검색" aria-label="검색" maxlength="64" />
-  <div class="book-search-spinner spinner hidden"></div>
-  <ul id="book-search-results"></ul>
-</div>
-
-
-
-
-
-    
-
-
-
-
-</nav>
-
-
-<script>
-(function() {
-  var menu = document.querySelector("aside.book-menu nav");
-  addEventListener("beforeunload", function(event) {
-    localStorage.setItem("menu.scrollTop", menu.scrollTop);
-  });
-  menu.scrollTop = localStorage.getItem("menu.scrollTop");
-})();
-</script>
-
-    </aside>
-
-    <div class="book-page">
-      <header class="flex align-center justify-between book-header">
-  <label id="menu-control" for="menu-control">
-    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
-  </label>
-  <label id="toc-control" for="toc-control">
-  <strong>CMA</strong>
-  </label>
-</header>
-
-      
-  
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/Learning/FIRE/2019-09-16_%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/">삼성증권 CMA</a>
-    </h2>
-    
-
-<div>
-
-  <h5>2019/09/16</h5>
-
-
-
-  
-    
-      
-        <a href="/categories/FIRE/">FIRE</a>
-    <br />
-  
-
-  
-    
-      
-        <a href="/tags/CMA/">CMA</a>
-    <br />
-  
-
-
-</div>
-
-
-    <p>삼성증권의 계좌를 만든지 꽤 시간이 흘렀다. 한국투자증권과 같은 대형(?) 증권사 활용을 못 했다. 뭔가 수수료가 쎄기 때문이다라고 생각했고 확신이 들어서다. 무엇보다 MTS 사용을 주로하는 입장에서 MTS 인터페이스와 속도가 그렇게 좋지 않았다. 하지만, 통장과 계좌 정리를 하고자 하여 몇 가지 알아봤다. 내 경우 삼성증권의 CMA 계좌는 생활통장의 개념으로 활용될 것으로 보인다. 다만 6개월간은 가장 높은 우대금리로 활용하고자 한다.
-CMA 이체수수료 무료 방법  PC의 홈페이지가 아니라 모바일에서는 모든 수수료가 무료다. 그래서 나는 따로 신청할 필요는 없다.
-      <a href="/posts/Learning/FIRE/2019-09-16_%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/">...</a>
-      
-    </p>
-  </article>
-  
-  
-
-
-
-      <div class="book-footer justify-between">
-  
-
-  
-
-  
-</div>
-
-
-
-  
-<br>
-<hr color="#D6D6D6" size=0>
-<script src="https://utteranc.es/client.js" 
-        repo="noweaver/noweaver-comment" 
-        issue-term="[##_article_rep_link" 
-        theme="github-light" 
-        crossorigin="anonymous" 
-        async> 
-</script>
-
- 
-
-      
-    </div>
-
+  <main class="container">
     
   <aside class="book-toc fixed">
 <nav>
   <ul>
   
-  
+    
     <li class="book-section-flat">
       <strong>Categories</strong>
       <ul>
@@ -191,17 +72,25 @@ CMA 이체수수료 무료 방법  PC의 홈페이지가 아니라 모바일에�
           <a href="/categories/%EB%8F%85%EC%84%9C/">독서</a>
         </li>
       
+        <li>
+          <a href="/categories/Development/">Development</a>
+        </li>
+      
+        <li>
+          <a href="/categories/golang/">golang</a>
+        </li>
+      
       </ul>
     </li>
+    
   
-  
-  
+    
     <li class="book-section-flat">
       <strong>Tags</strong>
       <ul>
       
         <li>
-          <a href="/tags/Hugo/">Hugo</a>
+          <a href="">Hugo</a>
         </li>
       
         <li>
@@ -273,7 +162,7 @@ CMA 이체수수료 무료 방법  PC의 홈페이지가 아니라 모바일에�
         </li>
       
         <li>
-          <a href="/tags/Golang/">Golang</a>
+          <a href="">Golang</a>
         </li>
       
         <li>
@@ -316,15 +205,172 @@ CMA 이체수수료 무료 방법  PC의 홈페이지가 아니라 모바일에�
           <a href="/tags/Book-Theme/">Book Theme</a>
         </li>
       
+        <li>
+          <a href="/tags/development/">development</a>
+        </li>
+      
+        <li>
+          <a href="/tags/go/">go</a>
+        </li>
+      
+        <li>
+          <a href="/tags/golang/">golang</a>
+        </li>
+      
+        <li>
+          <a href="/tags/hugo/">hugo</a>
+        </li>
+      
+        <li>
+          <a href="/tags/templates/">templates</a>
+        </li>
+      
+        <li>
+          <a href="/tags/themes/">themes</a>
+        </li>
+      
       </ul>
     </li>
-  
+    
   
   </ul>
 </nav>
 </aside>
 
 
+
+    <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label id="menu-control" for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+  <label id="toc-control" for="toc-control">
+  <strong>CMA</strong>
+  </label>
+</header>
+
+      
+  
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/Learning/FIRE/2019-09-16_%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/">삼성증권 CMA</a>
+    </h2>
+    
+
+<div>
+
+  <h5>2019/09/16</h5>
+
+
+
+  
+  <div>
+    
+      
+        <a href="/categories/FIRE/">FIRE</a>
+  </div>
+  
+
+  
+  <div>
+    
+      
+        <a href="/tags/CMA/">CMA</a>
+  </div>
+  
+
+
+</div>
+
+
+    <p>삼성증권의 계좌를 만든지 꽤 시간이 흘렀다. 한국투자증권과 같은 대형(?) 증권사 활용을 못 했다. 뭔가 수수료가 쎄기 때문이다라고 생각했고 확신이 들어서다. 무엇보다 MTS 사용을 주로하는 입장에서 MTS 인터페이스와 속도가 그렇게 좋지 않았다. 하지만, 통장과 계좌 정리를 하고자 하여 몇 가지 알아봤다. 내 경우 삼성증권의 CMA 계좌는 생활통장의 개념으로 활용될 것으로 보인다. 다만 6개월간은 가장 높은 우대금리로 활용하고자 한다.
+CMA 이체수수료 무료 방법  PC의 홈페이지가 아니라 모바일에서는 모든 수수료가 무료다. 그래서 나는 따로 신청할 필요는 없다.
+      <a href="/posts/Learning/FIRE/2019-09-16_%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/">...</a>
+      
+    </p>
+  </article>
+  
+  
+
+
+
+      <div class="book-footer justify-between">
+  
+
+  
+
+  
+
+</div>
+
+
+<div class="book-comments">
+  
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+
+      
+    </div>
+
+    <aside class="book-menu fixed">
+      <nav id="BookMenu">
+<h2 class="book-brand">
+  <a href="https://noweaver.github.io/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s /" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+    
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
   </main>
 
   
