@@ -4,82 +4,72 @@
   
   <url>
     <loc>https://noweaver.github.io/docs/example/</loc>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/docs/example/table-of-contents/with-toc/</loc>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/docs/example/table-of-contents/without-toc/</loc>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Misc/2020-01-15_Hugo-Theme-History/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/Misc/2014-09-28_creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/Misc/2014-03-10_migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/docs/example/table-of-contents/</loc>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/docs/example/2nd/</loc>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/categories/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/Hugo/</loc>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/categories/%EA%B3%B5%EB%B6%80/</loc>
-    <lastmod>2020-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
@@ -99,16 +89,16 @@
   
   <url>
     <loc>https://noweaver.github.io/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/</loc>
-    <lastmod>2019-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/Learning/Business/2019/12/22_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w3/</loc>
-    <lastmod>2019-12-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Business/2019/12/30_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w4/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/Learning/Business/2019/12/22_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w3/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,48 +108,43 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/tags/Platform-Business/</loc>
-    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://noweaver.github.io/posts/Learning/Business/2019/12/03_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w1/</loc>
     <lastmod>2019-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Jupyter/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Mac/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/12/01_My-mac-environment/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/12/01_Python-environmnet-in-Mac-/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/PySpark/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/categories/FIRE/</loc>
-    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
@@ -174,37 +159,37 @@
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/11/13_Mac-zsh-installation/</loc>
-    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Zsh/</loc>
-    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/10/31_Mac-Jupyter-PySpark-Installation/</loc>
-    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Java/</loc>
-    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/10/30_Mac-OpenJDK-Installation/</loc>
-    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/FIRE/2019-10-04-Wealth/</loc>
-    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/%EC%A3%BC%EC%8B%9D/</loc>
-    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
@@ -219,7 +204,7 @@
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/10/01_Journal/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
@@ -264,487 +249,427 @@
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/08/21_Journal/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/08/19_Mac-VirtualBox-Windows10/</loc>
-    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Virtual-Box/</loc>
-    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/08/12_Journla/</loc>
-    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/08/11_Journal/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/08/11_After-ISLR/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/ISLR/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/08/10_ISLR-Week-08/</loc>
-    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/08/04_ISLR-Week-07/</loc>
-    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/08/03_Journal/</loc>
-    <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/07/28_ISLR-Week-06/</loc>
-    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/07/24-Wealthy/</loc>
-    <lastmod>2019-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/07/21_ISLR-Week-05/</loc>
-    <lastmod>2019-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/07/14_ISLR-Week-04/</loc>
-    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/07/01_ISLR-Week-03/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/06/24_ISLR-Week-02/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/06/22_Journal/</loc>
-    <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/06/17_ISLR-Week-01/</loc>
-    <lastmod>2019-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/05/29-Wealthy/</loc>
-    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/05/21_Journal/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/05/20_Journal/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/05/15_Journal/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/%EC%98%81%EC%96%91%EC%A0%9C/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/05/14_Hugo-Blog-Installation/</loc>
-    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Misc/2019-05-14_Hugo-Blog-Installation/</loc>
-    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/Golang/</loc>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/05/13_Golang-installation-on-the-mac/</loc>
-    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Pandas/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/04/24_Pandas-tips/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Anaconda/</loc>
-    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2019/04/11_Anaconda-uninstall-on-the-mac/</loc>
-    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2019/01/26_Journal/</loc>
-    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-lab-installation/</loc>
-    <lastmod>2018-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-tips/</loc>
-    <lastmod>2018-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Python/</loc>
-    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2018/10-15_Jupyter-theme-apply/</loc>
-    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/08/27_Journal/</loc>
-    <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/08/24_Journal/</loc>
-    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/08/14_Journal/</loc>
-    <lastmod>2018-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/08/09_Journal/</loc>
-    <lastmod>2018-08-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/08/02_Journal/</loc>
-    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/07/28_Journal/</loc>
-    <lastmod>2018-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/07/04_Journal/</loc>
-    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Career/</loc>
-    <lastmod>2018-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/06/27_Journal/</loc>
-    <lastmod>2018-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/06/18_Journal/</loc>
-    <lastmod>2018-06-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/06/14_Journal/</loc>
-    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/06/06_Journal/</loc>
-    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/31_Journal-1/</loc>
-    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/31_Journal-2/</loc>
-    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/27_Journal/</loc>
-    <lastmod>2018-05-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/23_Journal/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/18_Journal/</loc>
-    <lastmod>2018-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Coursera/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Learning/Data/2019/05/14_Coursera-deeplearning-specialization/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Deep-Learning/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/14_Journal-1/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/14_Journal-2/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/14_Journal-3/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/09_Journal-1/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/09_Journal-2/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/08_Journal/</loc>
-    <lastmod>2018-05-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/04_Journal/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/05/03_Journal/</loc>
-    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/30_Journal/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/29_Journal/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/27_Journal/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/20_Journal/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/16_Journal/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/14_Journal/</loc>
-    <lastmod>2018-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/11_Journal/</loc>
-    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/10_Journal/</loc>
-    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/05_Journal/</loc>
-    <lastmod>2018-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/04/04_Journal/</loc>
-    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Job/2018/03-31_Pyenv-anaconda-virtual-env/</loc>
-    <lastmod>2018-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/03/26_Journal/</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/03/25_Journal/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/03/21_Journal/</loc>
-    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/03/20_Journal/</loc>
-    <lastmod>2018-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/03/16_Journal/</loc>
-    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/03/11_Journal/</loc>
-    <lastmod>2018-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/Life/2018/03/09_Journal/</loc>
-    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/Book-Theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/Misc/2014-04-02_goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/categories/Development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/Misc/2014-04-02_hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
@@ -759,10 +684,12 @@
   
   <url>
     <loc>https://noweaver.github.io/docs/example/hidden/</loc>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/docs/shortcodes/</loc>
+    <lastmod>2020-01-21T12:10:41+09:00</lastmod>
   </url>
   
   <url>

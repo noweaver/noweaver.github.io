@@ -41,49 +41,6 @@ Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt d
     </item>
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://noweaver.github.io/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&#39;t cover using CSS to style your theme.
-We&#39;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://noweaver.github.io/posts/Misc/2014-09-28_creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/Misc/2014-09-28_creating-a-new-theme/</guid>
-      <description>Introduction 동해물과 백두산이
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&#39;t cover using CSS to style your theme.
-We&#39;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://noweaver.github.io/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&#39;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://noweaver.github.io/posts/Misc/2014-03-10_migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/Misc/2014-03-10_migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&#39;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
       <title>린 스타트업과 최소 기능 제품(MVP)에 대한 이해 - 1주차</title>
       <link>https://noweaver.github.io/posts/Learning/Business/2020/01-07_%E1%84%85%E1%85%B5%E1%86%AB-%E1%84%89%E1%85%B3%E1%84%90%E1%85%A1%E1%84%90%E1%85%B3%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%80%E1%85%AA-%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A9-%E1%84%80%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC-%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7MVP%E1%84%8B%E1%85%A6-%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%86%AB-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-W1/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
@@ -103,21 +60,21 @@ We&#39;ll start with creating a new site with a very basic template.</descriptio
     </item>
     
     <item>
+      <title>플랫폼 비즈니스의 이해 - 4주차</title>
+      <link>https://noweaver.github.io/posts/Learning/Business/2019/12/30_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w4/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Learning/Business/2019/12/30_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w4/</guid>
+      <description>과정  Day 1: &amp;lt;10장 경영 전략 - 플랫폼은 경쟁 구도를 어떻게 바꿔 놓았는가&amp;gt; 읽기 Day 2: &amp;lt;11장 규제 정책 - 플랫폼에 적합한 규제 정책은 따로 있다&amp;gt; 읽기 Day 3:  &amp;lt;12장 미래 - 플랫폼 혁명의 내일&amp;gt; 읽기 &amp;lt;향후 10년 “마켓 네트워크(Market Network)”가 중요할 것&amp;gt; 읽기   Day 4:  &amp;lt;홈조이(Homejoy)가 문을 닫은 진짜 이유&amp;gt; 읽기 &amp;lt;[강소CEO와 차한잔] 빅터 칭 미소 대표 &amp;ldquo;청소회사 아닌 IT기업&amp;quot;&amp;gt; 읽기   Day 5:  &amp;lt;태스크래빗의 성공과 실패에서 배우는 6가지 교훈&amp;gt; 읽기 &amp;lt;우버의 폭발적 성장의 비밀 &amp;ldquo;선순환 구조&amp;gt; 읽기    주간 질문 1.</description>
+    </item>
+    
+    <item>
       <title>플랫폼 비즈니스의 이해 - 3주차</title>
       <link>https://noweaver.github.io/posts/Learning/Business/2019/12/22_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w3/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://noweaver.github.io/posts/Learning/Business/2019/12/22_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w3/</guid>
       <description>과정  Day 1: &amp;lt;7장 개방성 - 개방형과 폐쇄형, 어떤 플랫폼이 정답인가&amp;gt; 읽기 Day 2: &amp;lt;8장 거버너스 - 통제와 자율, 무엇이 플랫폼에 적합한가&amp;gt; 읽기 Day 3: &amp;lt;9장 경영 지표 - 플랫폼 관리자의 핵심 점검 사항은 무엇인가&amp;gt; 읽기 Day 4: &amp;lt;마켓플레이스에서 측정해야 하는 10가지 지표&amp;gt; 읽기 Day 5: &amp;lt;마켓플레이스 KPI 대시보드&amp;gt; 읽기  주간 질문 1. 개방적으로 시작해서 폐쇄적으로 가고있거나, 폐쇄적으로 시작해서 개방적으로 가고 있는 플랫폼은 어떤게 있을까요?  책의 설명과는 다르게 애플이 폐쇄적 정책에서 개방적 정책으로 가는 것 같다.</description>
-    </item>
-    
-    <item>
-      <title>플랫폼 비즈니스의 이해 - 4주차</title>
-      <link>https://noweaver.github.io/posts/Learning/Business/2019/12/30_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w4/</link>
-      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/Learning/Business/2019/12/30_%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w4/</guid>
-      <description>과정  Day 1: &amp;lt;10장 경영 전략 - 플랫폼은 경쟁 구도를 어떻게 바꿔 놓았는가&amp;gt; 읽기 Day 2: &amp;lt;11장 규제 정책 - 플랫폼에 적합한 규제 정책은 따로 있다&amp;gt; 읽기 Day 3:  &amp;lt;12장 미래 - 플랫폼 혁명의 내일&amp;gt; 읽기 &amp;lt;향후 10년 “마켓 네트워크(Market Network)”가 중요할 것&amp;gt; 읽기   Day 4:  &amp;lt;홈조이(Homejoy)가 문을 닫은 진짜 이유&amp;gt; 읽기 &amp;lt;[강소CEO와 차한잔] 빅터 칭 미소 대표 &amp;ldquo;청소회사 아닌 IT기업&amp;quot;&amp;gt; 읽기   Day 5:  &amp;lt;태스크래빗의 성공과 실패에서 배우는 6가지 교훈&amp;gt; 읽기 &amp;lt;우버의 폭발적 성장의 비밀 &amp;ldquo;선순환 구조&amp;gt; 읽기    주간 질문 1.</description>
     </item>
     
     <item>
@@ -997,54 +954,6 @@ Mac 환경 sw_vers ProductName:	Mac OS X ProductVersion:	10.</description>
       
       <guid>https://noweaver.github.io/posts/Journal/Life/2018/03/09_Journal/</guid>
       <description>가르쳐 들려 하지 말자. 내 경험이 틀릴 수 있다. 낮게 보지 말자. 그저 울타리가 높고 좋다한들 벗어나면 똑같다. 직위의 문제가 아니라 역할의 문제다. 마찬가지로 벗겨내면 똑같다. 인생은 어딘들 실전이다. 연습은 없다.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://noweaver.github.io/posts/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://noweaver.github.io/posts/Misc/2014-04-02_goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/Misc/2014-04-02_goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://noweaver.github.io/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://noweaver.github.io/posts/Misc/2014-04-02_hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/Misc/2014-04-02_hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
     <item>
