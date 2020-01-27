@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>기록</title>
+      <link>http://example.org/categories/%EA%B8%B0%EB%A1%9D/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/%EA%B8%B0%EB%A1%9D/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>잡동사니</title>
       <link>http://example.org/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</link>
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
@@ -26,15 +35,6 @@
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/categories/%EA%B3%B5%EB%B6%80/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>기록</title>
-      <link>http://example.org/categories/%EA%B8%B0%EB%A1%9D/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/categories/%EA%B8%B0%EB%A1%9D/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LifeHack on noweaver</title>
+    <link>http://example.org/tags/LifeHack/</link>
+    <description>Recent content in LifeHack on noweaver</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/LifeHack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One Thing, 하나에만 집중해야 한다.</title>
+      <link>http://example.org/posts/Journal/2020/01/27_Journal/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/Journal/2020/01/27_Journal/</guid>
+      <description>뭔가 욕심에 의해서 또 하루가 복잡해지거나 벅차하고 있다. 마흔 살에도 이렇게 사는 것은 내 몫이지만 이제는 솔직히 욕심으로만 할 수 있는 나의 시간은 끝났다. 이제부터 집중할 수 있는 것에 더욱 집중해야 한다. 하루에 하나만 하자. 하지만 매일 반복해야 하는 것이 있다. 결국, 삶의 목표를 매일 할 수 있는 것 과 성과를 낼 수 있는 것 을 구분해서 해야 하는데, 그것이 너무나 어려운 것 같다. 무엇을 하고, 어떤 사람이 되고 싶은 것인가?</description>
+    </item>
+    
+  </channel>
+</rss>

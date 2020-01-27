@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>LifeHack</title>
+      <link>http://example.org/tags/LifeHack/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/LifeHack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Windows 10</title>
       <link>http://example.org/tags/Windows-10/</link>
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>

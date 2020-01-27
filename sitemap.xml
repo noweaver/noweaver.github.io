@@ -9,37 +9,52 @@
   
   <url>
     <loc>http://example.org/categories/</loc>
-    <lastmod>2020-01-27T15:13:40+09:00</lastmod>
+    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/LifeHack/</loc>
+    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/</loc>
-    <lastmod>2020-01-27T15:13:40+09:00</lastmod>
+    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/Journal/2020/01/27_Journal/</loc>
+    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/posts/</loc>
-    <lastmod>2020-01-27T15:13:40+09:00</lastmod>
+    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/tags/</loc>
-    <lastmod>2020-01-27T15:13:40+09:00</lastmod>
+    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/tags/Windows-10/</loc>
-    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/%EA%B8%B0%EB%A1%9D/</loc>
+    <lastmod>2020-01-27T15:13:40+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/posts/Journal/2020/01/27_Windows-10-Activation/</loc>
-    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</loc>
-    <lastmod>2020-01-27T15:13:40+09:00</lastmod>
+    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
   </url>
   
   <url>
@@ -134,11 +149,6 @@
   
   <url>
     <loc>http://example.org/tags/PySpark/</loc>
-    <lastmod>2020-01-27T15:13:40+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/categories/%EA%B8%B0%EB%A1%9D/</loc>
     <lastmod>2020-01-27T15:13:40+09:00</lastmod>
   </url>
   
