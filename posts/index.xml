@@ -6,7 +6,7 @@
     <description>Recent content in Posts on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,17 @@
       <guid>http://example.org/posts/Journal/2020/01/15_Hugo-Theme-History/</guid>
       <description>휴고의 테마는 지킬이나 헥소와 비교하여 역사만큼 훌륭한 것을 찾기가 어렵다. 대부분의 테마가 지킬이나 헥소에서 가져와서 수정하는 것이 많다. 딱히 거기에는 불만은 없다. 그럼에도 나는 가장 흰색바탕의 깔끔하면서 심플한 것을 좋아한다. 그런데 꼭 그런 테마를 고르게 되면 다소 기능적으로 부족하거나 수정을 해도 뭔가 밉상이다. 아마도 저작자의 디자인과 어울리지 않기 때문일 것이다.
 이번에 만난 북테마는 정말 디자인이 너무나 마음에 든다. 하지만 디자인으로 충분히 보상을 받았음에도 더 마음에 드는 기능은 바로 검색기능과 편집기능, 목차 기능이다.</description>
+    </item>
+    
+    <item>
+      <title>윈도우 10 정품인증</title>
+      <link>http://example.org/posts/Journal/2020/01/27_Windows-10-Activation/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/Journal/2020/01/27_Windows-10-Activation/</guid>
+      <description>윈도우 7 사용하다 서비스 종료됨에 따라서 윈도우 10 사용하게 되었는데, 나는 맥에서 Parallels 를 사용하여 윈도우를 사용하다 보니 Parallels가 자동으로 Windows10 Home을 설치해 주었다. 하지만 정품인증이 되지 않아 몇 가지 제약이 있어, 구글 검색을 통해 해결하고 기록을 해둔다. (정확하게 어떤 원리인지 모르겠다.)
+정품 인증이 되었는지 확인하기 위해서 검색창에서 영문판은 Windows is activated으로 한글판은 Windows 정품 검색하고 실행한다.
+아래 그림처럼 정품인증이 되었다면 더 이상 진행하지 않아도 된다. 그리고 나는 Windows 10 Home의 라이선스 정보다.</description>
     </item>
     
     <item>
