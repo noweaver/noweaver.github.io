@@ -2,20 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zsh on noweaver</title>
-    <link>https://noweaver.github.io/tags/Zsh/</link>
+    <link>http://example.org/tags/Zsh/</link>
     <description>Recent content in Zsh on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Wed, 13 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://noweaver.github.io/tags/Zsh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/Zsh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac 환경의 zsh 쉘 설치하기</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2019/11/13_Mac-zsh-installation/</link>
+      <link>http://example.org/posts/Journal/2019/11/13_Mac-zsh-installation/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2019/11/13_Mac-zsh-installation/</guid>
+      <guid>http://example.org/posts/Journal/2019/11/13_Mac-zsh-installation/</guid>
       <description>macOS Catalina(이하 카탈리나) 업그레이를 하면 zsh 쉘이 기본 쉘이다. 기존에는 사용자가 zsh 설치하고 커스마이징을 할 수 있다. 나는 bash 를 사용하기 때문에 굳이 사용할 필요가 없었고, 몇 번 시도를 했지만 익숙함과 편리함이 또 다른 많은 것을 잃게 하기에 다시 bash로 돌아왔다.
 그런데, 카탈리나부터 zsh 디폴이기 때문에 나도 바꾸기로 했다. 그 설치 이력을 남긴다.
 준비 단계 brew, iTerm2은 원래 사용하고 있었고 카탈리나 업그레이드 이후 zsh 가 이미 설치되어 있다.

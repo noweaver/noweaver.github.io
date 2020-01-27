@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mac, 나의 작업환경 만들기 1"><meta property="og:title" content="Mac, 나의 작업환경 만들기 1" />
+<meta property="og:description" content="집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.
+키보드 백스페이스 속도 올리기  System Preference 실행 Keyboard 실행   Show All 클릭 Accessibility 실행 왼쪽 메뉴에서 Keyboard 선택 중간의 Enable Show Keys 체크박스 클릭하지 말고, 옆에 Options... 버튼클릭  D2Coding 폰트 설치  D2Coding 다운로드 다운받은 D2Coding-*.zip 파일의 압축을 푼다. D2CodingAll 디렉터리에서 *.ttc 파일을 더블 클릭한다. 팝업 창이 2개 오픈 되는데, 하단에 있는 Install Font를 클릭하여 설치한다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/Journal/2019/12/01_My-mac-environment/" />
+<meta property="article:published_time" content="2019-12-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-27T14:17:03+09:00" />
+<title>Mac, 나의 작업환경 만들기 1 | noweaver</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.b7fe34b8a4c4da05b2690b4aacfa71ddce0668cc6da3abb67dd3946844125444.css" integrity="sha256-t/40uKTE2gWyaQtKrPpx3c4GaMxto6u2fdOUaEQSVEQ=">
+
+
+<script defer src="/ko.search.min.1c6457f3ef078a03897cea370c23f2063028f1be83650f6ed39a3922fd5f2ea1.js" integrity="sha256-HGRX8&#43;8HigOJfOo3DCPyBjAo8b6DZQ9u05o5Iv1fLqE="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123156470-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+  
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Mac, 나의 작업환경 만들기 1</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#키보드-백스페이스-속도-올리기">키보드 백스페이스 속도 올리기</a></li>
+        <li><a href="#d2coding-폰트-설치">D2Coding 폰트 설치</a></li>
+        <li><a href="#homebrew-설치">Homebrew 설치</a></li>
+        <li><a href="#vs-code-설치">VS Code 설치</a></li>
+        <li><a href="#chrome-설치">Chrome 설치</a></li>
+        <li><a href="#iterm2-설치">iTerm2 설치</a>
+          <ul>
+            <li><a href="#설치">설치</a></li>
+            <li><a href="#테마-설치">테마 설치</a></li>
+            <li><a href="#폰트-설정">폰트 설정</a></li>
+          </ul>
+        </li>
+        <li><a href="#zsh-환경-구성하기">zsh 환경 구성하기</a>
+          <ul>
+            <li><a href="#oh-my-zsh-설치">oh-my-zsh 설치</a></li>
+            <li><a href="#테마설치">테마설치</a></li>
+            <li><a href="#syntax-highlight-설치">Syntax Highlight 설치</a></li>
+            <li><a href="#호스트-이름-삭제">호스트 이름 삭제</a></li>
+          </ul>
+        </li>
+        <li><a href="#brew-cask-사용하여-자동화-하기">Brew cask 사용하여 자동화 하기</a>
+          <ul>
+            <li><a href="#목록만들기">목록만들기</a></li>
+            <li><a href="#자동-설치하기">자동 설치하기</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Journal/2019/12/01_My-mac-environment/">Mac, 나의 작업환경 만들기 1</a>
+  </h1>
+  
+
+<div>
+
+  <h5>2019/12/01</h5>
+
+
+
+  
+  <div>
+    
+  </div>
+  
+
+  
+  <div>
+    
+        <a href="/tags/Mac/">Mac</a>, 
+        <a href="/tags/Installation/">Installation</a>
+  </div>
+  
+
+
+</div>
+
+
+  <p><p>집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.</p>
+<h2 id="키보드-백스페이스-속도-올리기">키보드 백스페이스 속도 올리기</h2>
+<ol>
+<li>System Preference 실행</li>
+<li>Keyboard 실행</li>
+</ol>
+<p><img src="/2019/12-01/1_Keyboard_Speed.png" alt="Keyboard_Speed_1"></p>
+<ol>
+<li>Show All 클릭</li>
+<li>Accessibility 실행</li>
+<li>왼쪽 메뉴에서 <code>Keyboard</code> 선택</li>
+<li>중간의 Enable Show Keys 체크박스 클릭하지 말고, 옆에 <code>Options...</code> 버튼클릭</li>
+</ol>
+<p><img src="/2019/12-01/2_Keyboard_Speed.png" alt="Keyboard_Speed_2"></p>
+<h2 id="d2coding-폰트-설치">D2Coding 폰트 설치</h2>
+<ol>
+<li>D2Coding <a href="https://github.com/naver/d2codingfont">다운로드</a></li>
+<li>다운받은 D2Coding-*.zip 파일의 압축을 푼다.</li>
+<li>D2CodingAll 디렉터리에서 *.ttc 파일을 더블 클릭한다.</li>
+<li>팝업 창이 2개 오픈 되는데, 하단에 있는 <code>Install Font</code>를 클릭하여 설치한다.</li>
+</ol>
+<h2 id="homebrew-설치">Homebrew 설치</h2>
+<p>Brew 는 CentOS/RedHat의 <code>RPM</code>, Ubuntu의 <code>Apt</code>와 비슷하다. 맥은 예전에는 <code>Port</code>명령어를 썼지만 Brew로 이제 완전히(?) 넘어온 것 같다. 물론 Brew는 맥의 공식 설치 프로그램이 아니다. 맥에서 프로그램 설치는 다음과 같은 방법이 있다.</p>
+<ul>
+<li>AppStore</li>
+<li>Zip</li>
+<li>Pkg</li>
+<li>Dmg</li>
+<li>Brew</li>
+<li>Brew Cask</li>
+</ul>
+<p><a href="https://brew.sh/index_ko">Brew</a> 웹사이트 가면 설치방법 있다. 설치방법의 스크립트를 복사하여 터미널에 붙여넣기하고 실행하면 되는데, 아래와 같은 에러 메시지를 만날 수 있다.</p>
+<blockquote>
+<p>error: could not lock config file /usr/local/Homebrew/.git/config: Permission denied
+fatal: could not set &lsquo;core.repositoryformatversion&rsquo; to &lsquo;0&rsquo;</p>
+</blockquote>
+<p>위의 메시지가 나온다면 /usr/local 접근 권한이 없기 때문이므로 아래처럼 자신의 계정에 admin 퍼미션으로 변경을 해주면 된다. 따라서 아래처럼 실행한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ sudo chown -R $USER:admin /usr/local
+$ /usr/bin/ruby -e <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><p>Brew cask도 설치한다. Brew는 맥에서 사용하는 패키지 관리자 프로그램으로 우분투의 <code>apt</code>, RedHat 계졀의 <code>rpm</code>과 유사한 Command Line 계열의 패키지 설치관리자이다. 하지만, Brew는 GUI 기반 프로그램 설치관리자로 <code>brew cask</code>를 제공한다. 이것도 설치한다. <code>brew search --casks</code> 명령어를 통해서 소프트웨어 설치 가능한 목록을 확인할 수 있다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew cask install
+</code></pre></div><h2 id="vs-code-설치">VS Code 설치</h2>
+<p>VC Code를 웹사이트에서 <a href="https://code.visualstudio.com/Download">다운로드</a>해도 되지만, 여기서는 brew (cask) 명령어를 통해서 설치한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew search --cask | grep code
+appcode
+avidcodecsle
+avocode
+code-notes
+code42-crashplan
+codekit
+codelite
+coderunner
+dcp-o-matic-encode-server
+jclasslib-bytecode-viewer
+key-codes
+open-in-code
+paintcode
+qlcolorcode
+teacode
+ukrainian-unicode-layout
+unicodechecker
+visual-studio-code
+
+$ brew cask install visual-studio-code
+$ brew cask list
+</code></pre></div><p><code>LaunchPad</code> 실행으로 설치가 된 것을 확인할 수 있다. Code &gt; Preference &gt; Settings 실행하고 상단 검색창에서 <code>Font</code> 검색한다. <code>Font Family</code> 텍스트박스를 확인할 수있는데, 가장 앞에 <code>D2Coding</code> 이라고 작성한다. 바로 아래에 <code>Font Size</code> 텍스트 박스에 폰트 크기 설정한다.</p>
+<h2 id="chrome-설치">Chrome 설치</h2>
+<p>brew cask 통해서 설치</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew search --cask | grep chrome
+$ brew cask install google-chrome
+$ brew cask list
+</code></pre></div><h2 id="iterm2-설치">iTerm2 설치</h2>
+<h3 id="설치">설치</h3>
+<p>brew cask 통해서 설치한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew search --cask | grep iterm
+iterm2
+
+$ brew cask install iterm2
+$ brew cask list
+</code></pre></div><h3 id="테마-설치">테마 설치</h3>
+<p>dracular 테마를 설치한다.</p>
+<ol>
+<li><a href="https://draculatheme.com/">웹페이지</a>에 가서 <code>iTerm</code> 검색하면 설치가이드가 나온다. 여기서는 설치 가이드의 GitHub .zip 파일을 수동으로 다운로드하는 방식으로 설치</li>
+<li>다운받았으면 압축을 해제</li>
+<li><code>iTerm2 </code> 실행</li>
+<li>iTerm2 &gt; Preferences &gt; Profiles 탭으로 이동</li>
+<li>하단의 톱니바퀴의 <code>Other Actions</code> 선택 &gt; <code>Duplicate Profile</code> 선택</li>
+<li>해당 프로파일 선택 후, 다시, 하단의 톱니바퀴의 <code>Other Actions</code> 선택 &gt;<code>Set as Default</code> 선택</li>
+<li>오른쪽의 <code>General</code> 탭 &gt; <code>Basics</code>의 <code>Name</code>을 수정</li>
+<li>오른쪽의 <code>Colors</code>  탭 &gt; 오른쪽 아래 코너에 <code>Color Presets...</code> 클릭</li>
+<li><code>Import...</code> 클릭하고 다운받은 파일 중, <code>Dracula.itermcolors</code> 선택</li>
+<li><code>Color Presets...</code>에서 <code>Dracula</code> 선택</li>
+</ol>
+<h3 id="폰트-설정">폰트 설정</h3>
+<p>오른쪽의 <code>Text</code> 탭 선택하고 아래 그림처럼 Font 변경한다.</p>
+<p><img src="/2019/12-01/1.iTerm2-Font.png" alt="iTerm2_Font"></p>
+<h2 id="zsh-환경-구성하기">zsh 환경 구성하기</h2>
+<h3 id="oh-my-zsh-설치">oh-my-zsh 설치</h3>
+<p><a href="https://github.com/ohmyzsh/ohmyzsh">oh-my-zsh</a>의 매뉴얼 설치를 따라 했다. 먼저 iTerm2를 실행한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+$ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+$ chsh -s <span style="color:#66d9ef">$(</span>which zsh<span style="color:#66d9ef">)</span>
+</code></pre></div><p>설치 이후, iTerm2를 재실행한다.</p>
+<h3 id="테마설치">테마설치</h3>
+<p>아래와 같이 실행해서 ZSH_THEME='robyrussell&rsquo; 부분을 ZSH_THEME='agnoster&rsquo; 변경한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ vi .zshrc
+<span style="color:#75715e"># ZSH_THEME=&#39;robyrussell&#39;</span>
+ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;agnoster&#39;</span>
+
+
+:wq!
+
+$ source .zshrc
+</code></pre></div><h3 id="syntax-highlight-설치">Syntax Highlight 설치</h3>
+<p>사용할 수 있는 폰트는 녹색의 색상이지만 사용할 수 없는 색상은 어떤 색상도 아니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew install zsh-syntax-highlighting
+$ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+</code></pre></div><h3 id="호스트-이름-삭제">호스트 이름 삭제</h3>
+<p>맨 아래에 작성</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ vi ~/.zshrc
+
+prompt_context<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+  <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span><span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$USER<span style="color:#e6db74">&#34;</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span>$DEFAULT_USER<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">||</span> -n <span style="color:#e6db74">&#34;</span>$SSH_CLIENT<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span><span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+    prompt_segment black default <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%(!.%{%F{yellow}%}.)</span>$USER<span style="color:#e6db74">&#34;</span>
+  <span style="color:#66d9ef">fi</span>
+<span style="color:#f92672">}</span>
+
+wq!
+
+$ source .zshrc
+</code></pre></div><h2 id="brew-cask-사용하여-자동화-하기">Brew cask 사용하여 자동화 하기</h2>
+<p>Brew Cask 는 리스트를 만들어서 한 번에 설치를 할 수 있다. 내가 설치하고자 하는 프로그램이 cask repository 에 있는지 <code>brew search --casks</code> 명령어를 통해서 확인한다.</p>
+<p>여기서는 cask를 통해서 미리 설치되어 있는 프로그램을 리스트를 만들어 나중에 다시 설치할 때 자동설치를 할 수 있다.</p>
+<h3 id="목록만들기">목록만들기</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">
+$ brew install zsh-autosuggestions
+
+$ brew cask list &gt; brew_cask_program_list.text
+iina
+iterm2
+visual-studio-code
+vlc
+selfcontrol
+karabiner
+spectacle
+appcleaner
+keka
+google-chrome
+</code></pre></div><h3 id="자동-설치하기">자동 설치하기</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew cask install <span style="color:#66d9ef">$(</span>cat brew_cask_program_list.text<span style="color:#66d9ef">)</span>
+</code></pre></div></p>
+</article>
+ 
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+  <div>
+    
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/commit/e880d8e43ae1a96dccca236339fdf32ab4b0f55f" title='Last modified by Ryan Guhnguk Ahn | 2020/01/27' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2020/01/27</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Journal/2019/12/01_My-mac-environment.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+  
+ 
+      </footer>
+      
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#키보드-백스페이스-속도-올리기">키보드 백스페이스 속도 올리기</a></li>
+        <li><a href="#d2coding-폰트-설치">D2Coding 폰트 설치</a></li>
+        <li><a href="#homebrew-설치">Homebrew 설치</a></li>
+        <li><a href="#vs-code-설치">VS Code 설치</a></li>
+        <li><a href="#chrome-설치">Chrome 설치</a></li>
+        <li><a href="#iterm2-설치">iTerm2 설치</a>
+          <ul>
+            <li><a href="#설치">설치</a></li>
+            <li><a href="#테마-설치">테마 설치</a></li>
+            <li><a href="#폰트-설정">폰트 설정</a></li>
+          </ul>
+        </li>
+        <li><a href="#zsh-환경-구성하기">zsh 환경 구성하기</a>
+          <ul>
+            <li><a href="#oh-my-zsh-설치">oh-my-zsh 설치</a></li>
+            <li><a href="#테마설치">테마설치</a></li>
+            <li><a href="#syntax-highlight-설치">Syntax Highlight 설치</a></li>
+            <li><a href="#호스트-이름-삭제">호스트 이름 삭제</a></li>
+          </ul>
+        </li>
+        <li><a href="#brew-cask-사용하여-자동화-하기">Brew cask 사용하여 자동화 하기</a>
+          <ul>
+            <li><a href="#목록만들기">목록만들기</a></li>
+            <li><a href="#자동-설치하기">자동 설치하기</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,16 +7,16 @@
 <meta name="description" content="Posts"><meta property="og:title" content="Posts" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://noweaver.github.io/posts/" />
-<meta property="og:updated_time" content="2020-01-15T00:00:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/" />
+<meta property="og:updated_time" content="2020-01-25T00:00:00+00:00" />
 <title>Posts | noweaver</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.327a7346ed65bd45e7889adff447f01f212a1b54dbf3c12139d26b63b077108f.css" integrity="sha256-MnpzRu1lvUXniJrf9EfwHyEqG1Tb88EhOdJrY7B3EI8=">
+<link rel="stylesheet" href="/book.min.b7fe34b8a4c4da05b2690b4aacfa71ddce0668cc6da3abb67dd3946844125444.css" integrity="sha256-t/40uKTE2gWyaQtKrPpx3c4GaMxto6u2fdOUaEQSVEQ=">
 
 
-<script defer src="/ko.search.min.2942a7576edd9ab793f8913b2fd80bad8f11ea1c6167833557d535cef4e6f7f3.js" integrity="sha256-KUKnV27dmreT&#43;JE7L9gLrY8R6hxhZ4M1V9U1zvTm9/M="></script>
+<script defer src="/ko.search.min.1c6457f3ef078a03897cea370c23f2063028f1be83650f6ed39a3922fd5f2ea1.js" integrity="sha256-HGRX8&#43;8HigOJfOo3DCPyBjAo8b6DZQ9u05o5Iv1fLqE="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -29,7 +29,7 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-<link rel="alternate" type="application/rss+xml" href="https://noweaver.github.io/posts/index.xml" title="noweaver" />
+<link rel="alternate" type="application/rss+xml" href="http://example.org/posts/index.xml" title="noweaver" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -39,12 +39,69 @@ https://github.com/alex-shpak/hugo-book
 </head>
 
 <body>
-  <input type="checkbox" class="hidden" id="toc-control" />
   <input type="checkbox" class="hidden" id="menu-control" />
-  <main class="container">
-    
-  <aside class="book-toc fixed">
-<nav>
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+  
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Posts</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav>
   <ul>
   
     
@@ -72,6 +129,14 @@ https://github.com/alex-shpak/hugo-book
           <a href="/categories/%EB%8F%85%EC%84%9C/">독서</a>
         </li>
       
+        <li>
+          <a href="/categories/Development/">Development</a>
+        </li>
+      
+        <li>
+          <a href="/categories/golang/">golang</a>
+        </li>
+      
       </ul>
     </li>
     
@@ -80,6 +145,14 @@ https://github.com/alex-shpak/hugo-book
     <li class="book-section-flat">
       <strong>Tags</strong>
       <ul>
+      
+        <li>
+          <a href="/tags/Karabiner/">Karabiner</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Mac/">Mac</a>
+        </li>
       
         <li>
           <a href="/tags/Hugo/">Hugo</a>
@@ -98,11 +171,11 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
         <li>
-          <a href="/tags/Jupyter/">Jupyter</a>
+          <a href="/tags/Installation/">Installation</a>
         </li>
       
         <li>
-          <a href="/tags/Mac/">Mac</a>
+          <a href="/tags/Jupyter/">Jupyter</a>
         </li>
       
         <li>
@@ -189,32 +262,49 @@ https://github.com/alex-shpak/hugo-book
           <a href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</a>
         </li>
       
+        <li>
+          <a href="/tags/development/">development</a>
+        </li>
+      
+        <li>
+          <a href="/tags/go/">go</a>
+        </li>
+      
+        <li>
+          <a href="">golang</a>
+        </li>
+      
+        <li>
+          <a href="">hugo</a>
+        </li>
+      
+        <li>
+          <a href="/tags/templates/">templates</a>
+        </li>
+      
+        <li>
+          <a href="/tags/themes/">themes</a>
+        </li>
+      
       </ul>
     </li>
     
   
   </ul>
 </nav>
-</aside>
 
 
-
-    <div class="book-page">
-      <header class="flex align-center justify-between book-header">
-  <label id="menu-control" for="menu-control">
-    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
-  </label>
-  <label id="toc-control" for="toc-control">
-  <strong>Posts</strong>
-  </label>
-</header>
+    </aside>
+  
+ 
+      </header>
 
       
   
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/03/16_Journal/">지난 주 봄인가 싶었는데, 오늘 쌀쌀</a>
+      <a href="/posts/Journal/2018/03/16_Journal/">지난 주 봄인가 싶었는데, 오늘 쌀쌀</a>
     </h2>
     
 
@@ -227,7 +317,6 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
@@ -239,14 +328,14 @@ https://github.com/alex-shpak/hugo-book
 
     <p>하다. 시간이 지나 인생을 한 번쯤 뒤 돌아 본다고 했을 때, 나의 터닝 포인트가 지금일까? 생각해 본다. 어떤 이에게는 터닝포인트가 무의미하게, 불필요하게 느껴질 지도 모르겠다. 물론 터닝 포인트의 결과가 플러스일지 마이너스일지 아무도 모른다. 인생은 선택의 연속이니까. 점점 1분 1초를 지나 선택을 해야 하는 순간이 다가오고 있다. 가슴은 답답하고 매우 두렵다.
 어제 후배가 말하길, “형은 지금처럼만 살아도 은퇴까지는 몰라도 최소 10년은 평탄대로에 서 있을 것 같다고.” 어쩌면 맞는 말인지도 모르겠다. 오만하고 건방지고 교만한 말이겠지만, 회사의 방향과 조직, 업무를 생각해 볼 때 나는, 말단이고 월급쟁일 뿐이지만, Right Person인 것이다.
-        <a href="/posts/Journal/Life/2018/03/16_Journal/">...</a>
+        <a href="/posts/Journal/2018/03/16_Journal/">...</a>
       
     </p>
   </article>
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/03/11_Journal/">nowist 되기 위한 계획</a>
+      <a href="/posts/Journal/2018/03/11_Journal/">nowist 되기 위한 계획</a>
     </h2>
     
 
@@ -259,7 +348,6 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
@@ -271,14 +359,14 @@ https://github.com/alex-shpak/hugo-book
 
     <p>내가 이주하려는 목적은 인생의 2막을 열어 보고 싶기 때문이다. 물론 기간이 있으며, 사랑하는 사람을 위해서라도 기간에 종결 되어야 한다. 몇 년이 될지 모르겠지만 내 마음속으로 정해둔 기간은 말도 안 되게 짧다. 정말 이루고 싶고 간절하다. 아니 절박하다. 그런데 그 절박하다는 말은, 간절하다는 말은 수도 없이 반복했던 것 같다. 그리고 그렇게 하지 못 했다. 그저 그렇게 인생을 살아가고 있다.
 절박하다, 간절하다 말은 하지만 행동하지 못 하는 것은 새벽에 일어나는 것 보면 알 수 있다.
-        <a href="/posts/Journal/Life/2018/03/11_Journal/">...</a>
+        <a href="/posts/Journal/2018/03/11_Journal/">...</a>
       
     </p>
   </article>
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/03/09_Journal/">가장 낮은 자세에서 서고 싶다.</a>
+      <a href="/posts/Journal/2018/03/09_Journal/">가장 낮은 자세에서 서고 싶다.</a>
     </h2>
     
 
@@ -291,7 +379,6 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
@@ -433,67 +520,239 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 
 
+ 
 
-      <div class="book-footer justify-between">
-  
-
-  
-
-  
-
-</div>
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
 
 
-<div class="book-comments">
-  
+
 
 
 </div>
 
-
+ 
+        
+  
+ 
+      </footer>
       
     </div>
 
-    <aside class="book-menu fixed">
-      <nav id="BookMenu">
-<h2 class="book-brand">
-  <a href="https://noweaver.github.io/"><span>noweaver</span>
-  </a>
-</h2>
-
-
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s /" />
-  <div class="book-search-spinner spinner hidden"></div>
-  <ul id="book-search-results"></ul>
-</div>
-
-
-
-
-
     
-
-
-
-
+    <aside class="book-toc">
+      
+  <nav>
+  <ul>
+  
+    
+    <li class="book-section-flat">
+      <strong>Categories</strong>
+      <ul>
+      
+        <li>
+          <a href="/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/">잡동사니</a>
+        </li>
+      
+        <li>
+          <a href="/categories/%EA%B3%B5%EB%B6%80/">공부</a>
+        </li>
+      
+        <li>
+          <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
+        </li>
+      
+        <li>
+          <a href="/categories/FIRE/">FIRE</a>
+        </li>
+      
+        <li>
+          <a href="/categories/%EB%8F%85%EC%84%9C/">독서</a>
+        </li>
+      
+        <li>
+          <a href="/categories/Development/">Development</a>
+        </li>
+      
+        <li>
+          <a href="/categories/golang/">golang</a>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+    
+    <li class="book-section-flat">
+      <strong>Tags</strong>
+      <ul>
+      
+        <li>
+          <a href="/tags/Karabiner/">Karabiner</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Mac/">Mac</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Hugo/">Hugo</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%84%A4%EC%B9%98/">설치</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/">린 스타트업</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/">플랫폼 비즈니스</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Installation/">Installation</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Jupyter/">Jupyter</a>
+        </li>
+      
+        <li>
+          <a href="/tags/PySpark/">PySpark</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%A3%BC%EC%8B%9D-%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/">주식 | 재무제표</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Zsh/">Zsh</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Java/">Java</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%A3%BC%EC%8B%9D/">주식</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%8F%85%EC%84%9C-%EC%A3%BC%EC%8B%9D/">독서 | 주식</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%8F%85%EC%84%9C-%EC%98%81%EC%96%B4/">독서 | 영어</a>
+        </li>
+      
+        <li>
+          <a href="/tags/CMA/">CMA</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Virtual-Box/">Virtual Box</a>
+        </li>
+      
+        <li>
+          <a href="/tags/ISLR/">ISLR</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%98%81%EC%96%91%EC%A0%9C/">영양제</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Golang/">Golang</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Pandas/">Pandas</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/">데이터 분석 환경</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Anaconda/">Anaconda</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Python/">Python</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Career/">Career</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Coursera/">Coursera</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Deep-Learning/">Deep Learning</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98/">자본주의</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</a>
+        </li>
+      
+        <li>
+          <a href="/tags/development/">development</a>
+        </li>
+      
+        <li>
+          <a href="/tags/go/">go</a>
+        </li>
+      
+        <li>
+          <a href="">golang</a>
+        </li>
+      
+        <li>
+          <a href="">hugo</a>
+        </li>
+      
+        <li>
+          <a href="/tags/templates/">templates</a>
+        </li>
+      
+        <li>
+          <a href="/tags/themes/">themes</a>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+  </ul>
 </nav>
 
-
-<script>
-(function() {
-  var menu = document.querySelector("aside.book-menu nav");
-  addEventListener("beforeunload", function(event) {
-    localStorage.setItem("menu.scrollTop", menu.scrollTop);
-  });
-  menu.scrollTop = localStorage.getItem("menu.scrollTop");
-})();
-</script>
-
+ 
     </aside>
+    
   </main>
 
   
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

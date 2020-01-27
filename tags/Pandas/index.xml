@@ -2,20 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pandas on noweaver</title>
-    <link>https://noweaver.github.io/tags/Pandas/</link>
+    <link>http://example.org/tags/Pandas/</link>
     <description>Recent content in Pandas on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://noweaver.github.io/tags/Pandas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/Pandas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pandas Tips</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2019/04/24_Pandas-tips/</link>
+      <link>http://example.org/posts/Journal/2019/04/24_Pandas-tips/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2019/04/24_Pandas-tips/</guid>
+      <guid>http://example.org/posts/Journal/2019/04/24_Pandas-tips/</guid>
       <description>쉘 실행시, 경고메시지 제거 import warnings warnings.filterwarnings(&amp;#39;ignore&amp;#39;) # warnings.filterwarnings(action=&amp;#39;once&amp;#39;) Pandas Display 옵션 pd.set_option(&amp;#39;display.notebook_repr_html&amp;#39;, True) pd.set_option(&amp;#39;display.max_column&amp;#39;, 100) pd.set_option(&amp;#39;display.max_rows&amp;#39;, 10) pd.set_option(&amp;#39;display.width&amp;#39;, 60) </description>
     </item>
     

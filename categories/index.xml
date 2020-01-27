@@ -2,56 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on noweaver</title>
-    <link>https://noweaver.github.io/categories/</link>
+    <link>http://example.org/categories/</link>
     <description>Recent content in Categories on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://noweaver.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>잡동사니</title>
-      <link>https://noweaver.github.io/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <link>http://example.org/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</guid>
+      <guid>http://example.org/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</guid>
       <description></description>
     </item>
     
     <item>
       <title>공부</title>
-      <link>https://noweaver.github.io/categories/%EA%B3%B5%EB%B6%80/</link>
+      <link>http://example.org/categories/%EA%B3%B5%EB%B6%80/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/categories/%EA%B3%B5%EB%B6%80/</guid>
+      <guid>http://example.org/categories/%EA%B3%B5%EB%B6%80/</guid>
       <description></description>
     </item>
     
     <item>
       <title>기록</title>
-      <link>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</link>
+      <link>http://example.org/categories/%EA%B8%B0%EB%A1%9D/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</guid>
+      <guid>http://example.org/categories/%EA%B8%B0%EB%A1%9D/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FIRE</title>
-      <link>https://noweaver.github.io/categories/FIRE/</link>
+      <link>http://example.org/categories/FIRE/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/categories/FIRE/</guid>
+      <guid>http://example.org/categories/FIRE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>독서</title>
-      <link>https://noweaver.github.io/categories/%EB%8F%85%EC%84%9C/</link>
+      <link>http://example.org/categories/%EB%8F%85%EC%84%9C/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/categories/%EB%8F%85%EC%84%9C/</guid>
+      <guid>http://example.org/categories/%EB%8F%85%EC%84%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://example.org/categories/Development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/Development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>http://example.org/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/golang/</guid>
       <description></description>
     </item>
     

@@ -2,67 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>데이터 분석 환경 on noweaver</title>
-    <link>https://noweaver.github.io/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/</link>
+    <link>http://example.org/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/</link>
     <description>Recent content in 데이터 분석 환경 on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://noweaver.github.io/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pandas Tips</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2019/04/24_Pandas-tips/</link>
+      <link>http://example.org/posts/Journal/2019/04/24_Pandas-tips/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2019/04/24_Pandas-tips/</guid>
+      <guid>http://example.org/posts/Journal/2019/04/24_Pandas-tips/</guid>
       <description>쉘 실행시, 경고메시지 제거 import warnings warnings.filterwarnings(&amp;#39;ignore&amp;#39;) # warnings.filterwarnings(action=&amp;#39;once&amp;#39;) Pandas Display 옵션 pd.set_option(&amp;#39;display.notebook_repr_html&amp;#39;, True) pd.set_option(&amp;#39;display.max_column&amp;#39;, 100) pd.set_option(&amp;#39;display.max_rows&amp;#39;, 10) pd.set_option(&amp;#39;display.width&amp;#39;, 60) </description>
     </item>
     
     <item>
       <title>아나콘다, Mac에서 삭제 방법</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2019/04/11_Anaconda-uninstall-on-the-mac/</link>
+      <link>http://example.org/posts/Journal/2019/04/11_Anaconda-uninstall-on-the-mac/</link>
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2019/04/11_Anaconda-uninstall-on-the-mac/</guid>
+      <guid>http://example.org/posts/Journal/2019/04/11_Anaconda-uninstall-on-the-mac/</guid>
       <description>앱으로 삭제 App Cleaner 이용
 직접 삭제 $ rm -rf ~/anaconda3 ~/.conda ~/.anaconda ~/.condarc $ rm ~/Library/Application Support/binstar/*anaconda* $ rm ~/Library/Receipts/io.continuum.pkg.anaconda* </description>
     </item>
     
     <item>
       <title>Jupyter Lab &amp; Git Extension 설치</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-lab-installation/</link>
+      <link>http://example.org/posts/Journal/2018/11/28_Jupyter-lab-installation/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-lab-installation/</guid>
+      <guid>http://example.org/posts/Journal/2018/11/28_Jupyter-lab-installation/</guid>
       <description>주피터를 사용하다 사내 분석 환경 중에 Jupyter Lab이 설치 되어 있는 것을 발견했다. 플랫폼 엔지니어가 PySpark 등 아주 유용한 커널을 설치해 두었다. 그러나 가장 아쉬운 부분이 Git 연동이 되지 않는 것이다. 그래서 플랫폼 엔지니어에게 요청하니 다른 업무로 시간이 부족해 보였다. 그 다른 업무도 내가 간접적으로 Involve 되어 있는 것이라 강력하게 요청하는 것도 무리였다. 목마른 사람이 우물을 팔 수 밖에 없어서 결국 내가 설치 테스트 해봤다.
 그러나 아직 한글 폰트, 그래프 테스트는 끝나지 않아 더 테스트를 해 봐야겠다.</description>
     </item>
     
     <item>
       <title>Jupyter Tips</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-tips/</link>
+      <link>http://example.org/posts/Journal/2018/11/28_Jupyter-tips/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2018/11-28_Jupyter-tips/</guid>
+      <guid>http://example.org/posts/Journal/2018/11/28_Jupyter-tips/</guid>
       <description>Jupyter 설치 후, 몇 가지 Customizing Jupyter 설정파일 생성 // ~/.jupyter 디렉토리가 생기고, 하위에 jupyter_notebook_config.py 파일이 생성된다. $ jupyter notebook --generate-config 토큰 사용하지 않고 패스워드 사용 $ ipython In [1]: from IPython.lib import passwd In [2]: passwd() Enter password: Verify password: Out[2]: &amp;#39;sha1:e54713337d5c:c9bfccddf9c07560f8590e4fc97a81ef1a1ab714&amp;#39; // 컴마 안의 내용 복사 `ctrl + D` $ vi ~/.jupyter/jupyter_notebook_config.py c = get_config() // 위에서 복사한 패스워드 복불 c.NotebookApp.password = &amp;#39;sha1:e54713337d5c:c9bfccddf9c07560f8590e4fc97a81ef1a1ab714&amp;#39; 기타 설정 // 서버로 사용 c.</description>
     </item>
     
     <item>
       <title>주피터 테마 적용</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2018/10-15_Jupyter-theme-apply/</link>
+      <link>http://example.org/posts/Journal/2018/10/15_Jupyter-theme-apply/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2018/10-15_Jupyter-theme-apply/</guid>
+      <guid>http://example.org/posts/Journal/2018/10/15_Jupyter-theme-apply/</guid>
       <description>오랫동안 개발 툴을 사용하면 생산성을 위해서 손에 익히는 데 상당히 시간을 썼다. 그런데, UI/UX 훌륭하지 않으면 조금 거리를 두게 되는 경향이 있다. 사실 노트북 스타일 보다는 PyCharm 을 쓰고 싶은데 많은 분석가들이 Jupyter Notebook 을 사용하는 것 같더라. 나도 좀 쓰다가 말다가 했는데, 이번에 본격적으로 쓰기 시작하면서 여러 가지 문제를 발견했다. 그 중 하나 테마 적용 시, 출력 값이 짤리더라. 이유인즉 CSS 적용 상 버그 같다. 왜 안 고치는지 모르겠으나 이슈 리포트를 보고 적용해보니 쓸만할 정도가 되어 기록으로 남긴다.</description>
     </item>
     
     <item>
       <title>파이썬 데이터 분석 환경에 대해서</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2018/03-31_Pyenv-anaconda-virtual-env/</link>
+      <link>http://example.org/posts/Journal/2018/03/31_Pyenv-anaconda-virtual-env/</link>
       <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2018/03-31_Pyenv-anaconda-virtual-env/</guid>
+      <guid>http://example.org/posts/Journal/2018/03/31_Pyenv-anaconda-virtual-env/</guid>
       <description>파이썬 분석 환경 이해가 너무 어려워서 기록한다. 우선 내가 파이썬 전문가가 아닌 것도 있지만 Python은 2개의 버전을 가지고 각 가상환경의 이력의 변화도 무척이나 다양하다. 여기서 가상환경은 OS 가상화가 아니다.
 주로 쓰는 환경은 맥과 리눅스다. 물론 회사에서는 윈도우 환경에서 사용도 한다. 모든 환경에서 100% 적용되는 것인지 확인할 수 없다. 그러나 아직까지는 이렇게 구성해서 사용하는데 크게 문제는 없는 것 같다. 파이썬은 공식적인 버전 외에 다양한 버전이 존재한다. 이런 버전 관리를 해주는 것이 pyenv 이다.</description>
     </item>

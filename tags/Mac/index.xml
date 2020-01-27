@@ -2,22 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on noweaver</title>
-    <link>https://noweaver.github.io/tags/Mac/</link>
+    <link>http://example.org/tags/Mac/</link>
     <description>Recent content in Mac on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://noweaver.github.io/tags/Mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/Mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>맥 키보드 한/영 키 설정</title>
+      <link>http://example.org/posts/Journal/2020/01/25_Mac-Brew-Program-Installation/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/Journal/2020/01/25_Mac-Brew-Program-Installation/</guid>
+      <description>Karabiner 설치 여기서는 Brew로 맥의 GUI 프로그램을 설치하는 brew cask방법으로 설치한다.
+$ brew cask install karabiner-elements Karabiner 구성파일 셋업 파인더에서 command + shift + g 실행한다. 그리고 팝업에 다음을 입력하고 엔터한다.
+~/.config/karabiner/assets/complex_modifications
+애플키보드 한영전환/한자키 지정 (rev.1.13d) 다른 이름으로 저장해서 위의 디렉터리로 파일 복사 혹은 이동
+ 출처: https://blog.naver.com/hankboy/221200885234
+ Karabiner-Elements 실행 3번째 Complex modifications 클릭
+아래 Add rule 클릭하고, Enable All 클릭해서 등록
+아래처럼 나오는지 확인하고 종료
+오른쪽에 Command 키가 잘 동작하는지 눌러보자.</description>
+    </item>
+    
+    <item>
       <title>Mac, 나의 작업환경 만들기 1</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2019/12/01_My-mac-environment/</link>
+      <link>http://example.org/posts/Journal/2019/12/01_My-mac-environment/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2019/12/01_My-mac-environment/</guid>
+      <guid>http://example.org/posts/Journal/2019/12/01_My-mac-environment/</guid>
       <description>집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.
 키보드 백스페이스 속도 올리기  System Preference 실행 Keyboard 실행   Show All 클릭 Accessibility 실행 왼쪽 메뉴에서 Keyboard 선택 중간의 Enable Show Keys 체크박스 클릭하지 말고, 옆에 Options... 버튼클릭  D2Coding 폰트 설치  D2Coding 다운로드 다운받은 D2Coding-*.zip 파일의 압축을 푼다. D2CodingAll 디렉터리에서 *.ttc 파일을 더블 클릭한다. 팝업 창이 2개 오픈 되는데, 하단에 있는 Install Font를 클릭하여 설치한다.</description>
+    </item>
+    
+    <item>
+      <title>Mac, 나의 작업환경 만들기 2</title>
+      <link>http://example.org/posts/Journal/2019/12/01_Python-environmnet-in-Mac-/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/Journal/2019/12/01_Python-environmnet-in-Mac-/</guid>
+      <description>집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.
+Pyenv 설치 $ brew search pyenv $ brew install pyenv $ pyevn --version pyenv 1.2.15 $ echo &amp;#39;export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc $ echo &amp;#39;export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc // 파이썬 버전 정보를 prompt 에서 보여주기 위한 방법 $ echo &amp;#39;eval &amp;#34;$(pyenv init -)&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc Anaconda 설치 $ pyenv install -l | more $ pyenv install anaconda3-5.3.1 $ pyenv versions * system (set by /Users/Ryan/.</description>
     </item>
     
   </channel>

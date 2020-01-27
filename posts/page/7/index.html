@@ -7,16 +7,16 @@
 <meta name="description" content="Posts"><meta property="og:title" content="Posts" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://noweaver.github.io/posts/" />
-<meta property="og:updated_time" content="2020-01-15T00:00:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/" />
+<meta property="og:updated_time" content="2020-01-25T00:00:00+00:00" />
 <title>Posts | noweaver</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.327a7346ed65bd45e7889adff447f01f212a1b54dbf3c12139d26b63b077108f.css" integrity="sha256-MnpzRu1lvUXniJrf9EfwHyEqG1Tb88EhOdJrY7B3EI8=">
+<link rel="stylesheet" href="/book.min.b7fe34b8a4c4da05b2690b4aacfa71ddce0668cc6da3abb67dd3946844125444.css" integrity="sha256-t/40uKTE2gWyaQtKrPpx3c4GaMxto6u2fdOUaEQSVEQ=">
 
 
-<script defer src="/ko.search.min.2942a7576edd9ab793f8913b2fd80bad8f11ea1c6167833557d535cef4e6f7f3.js" integrity="sha256-KUKnV27dmreT&#43;JE7L9gLrY8R6hxhZ4M1V9U1zvTm9/M="></script>
+<script defer src="/ko.search.min.1c6457f3ef078a03897cea370c23f2063028f1be83650f6ed39a3922fd5f2ea1.js" integrity="sha256-HGRX8&#43;8HigOJfOo3DCPyBjAo8b6DZQ9u05o5Iv1fLqE="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -29,7 +29,7 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-<link rel="alternate" type="application/rss+xml" href="https://noweaver.github.io/posts/index.xml" title="noweaver" />
+<link rel="alternate" type="application/rss+xml" href="http://example.org/posts/index.xml" title="noweaver" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -39,12 +39,69 @@ https://github.com/alex-shpak/hugo-book
 </head>
 
 <body>
-  <input type="checkbox" class="hidden" id="toc-control" />
   <input type="checkbox" class="hidden" id="menu-control" />
-  <main class="container">
-    
-  <aside class="book-toc fixed">
-<nav>
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+  
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Posts</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav>
   <ul>
   
     
@@ -72,6 +129,14 @@ https://github.com/alex-shpak/hugo-book
           <a href="/categories/%EB%8F%85%EC%84%9C/">독서</a>
         </li>
       
+        <li>
+          <a href="/categories/Development/">Development</a>
+        </li>
+      
+        <li>
+          <a href="/categories/golang/">golang</a>
+        </li>
+      
       </ul>
     </li>
     
@@ -80,6 +145,14 @@ https://github.com/alex-shpak/hugo-book
     <li class="book-section-flat">
       <strong>Tags</strong>
       <ul>
+      
+        <li>
+          <a href="/tags/Karabiner/">Karabiner</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Mac/">Mac</a>
+        </li>
       
         <li>
           <a href="/tags/Hugo/">Hugo</a>
@@ -98,11 +171,11 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
         <li>
-          <a href="/tags/Jupyter/">Jupyter</a>
+          <a href="/tags/Installation/">Installation</a>
         </li>
       
         <li>
-          <a href="/tags/Mac/">Mac</a>
+          <a href="/tags/Jupyter/">Jupyter</a>
         </li>
       
         <li>
@@ -189,32 +262,49 @@ https://github.com/alex-shpak/hugo-book
           <a href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</a>
         </li>
       
+        <li>
+          <a href="/tags/development/">development</a>
+        </li>
+      
+        <li>
+          <a href="/tags/go/">go</a>
+        </li>
+      
+        <li>
+          <a href="">golang</a>
+        </li>
+      
+        <li>
+          <a href="">hugo</a>
+        </li>
+      
+        <li>
+          <a href="/tags/templates/">templates</a>
+        </li>
+      
+        <li>
+          <a href="/tags/themes/">themes</a>
+        </li>
+      
       </ul>
     </li>
     
   
   </ul>
 </nav>
-</aside>
 
 
-
-    <div class="book-page">
-      <header class="flex align-center justify-between book-header">
-  <label id="menu-control" for="menu-control">
-    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
-  </label>
-  <label id="toc-control" for="toc-control">
-  <strong>Posts</strong>
-  </label>
-</header>
+    </aside>
+  
+ 
+      </header>
 
       
   
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/06/06_Journal/">이렇게 쉬는 날에</a>
+      <a href="/posts/Journal/2018/06/06_Journal/">이렇게 쉬는 날에</a>
     </h2>
     
 
@@ -227,7 +317,6 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
@@ -244,7 +333,7 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/05/31_Journal-1/">이직 준비 1</a>
+      <a href="/posts/Journal/2018/05/31_Journal-1/">이직 준비 1</a>
     </h2>
     
 
@@ -257,14 +346,12 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
   
   <div>
     
-      
         <a href="/tags/Career/">Career</a>
   </div>
   
@@ -275,14 +362,14 @@ https://github.com/alex-shpak/hugo-book
 
     <p>이것 저것 저질러 놓은 것이 많아 제대로 집중하기가 매우 힘들다. 블록체인 교육도 다음 주면 끝난다. 이제 본격적으로(?) 준비를 해야 한다. 내가 가장 가고 싶은 직무와 회사는 빅데이터기술과 블록체인 기술의 두 기술의 밸류체인이 있는 회사를 가고자 한다. 사실, 지인의 소개를 받은 헤드헌터가 그런 회사를 소개해 주었다. 무척 마음에 든다.
 기술준비를 어떻게 해야 하는지 모르겠다. 일단 코딩 준비를 해야 하는데, 매일 할 수 없는 노릇이다. 그래서 코딩 준비는 대략 다음처럼 계획을 세웠다.
-        <a href="/posts/Journal/Life/2018/05/31_Journal-1/">...</a>
+        <a href="/posts/Journal/2018/05/31_Journal-1/">...</a>
       
     </p>
   </article>
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/05/31_Journal-2/">인터뷰에게 역 질문</a>
+      <a href="/posts/Journal/2018/05/31_Journal-2/">인터뷰에게 역 질문</a>
     </h2>
     
 
@@ -295,14 +382,12 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
   
   <div>
     
-      
         <a href="/tags/Career/">Career</a>
   </div>
   
@@ -317,7 +402,7 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/05/27_Journal/">시간은 계속 흐르고 있다.</a>
+      <a href="/posts/Journal/2018/05/27_Journal/">시간은 계속 흐르고 있다.</a>
     </h2>
     
 
@@ -330,7 +415,6 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
@@ -343,14 +427,14 @@ https://github.com/alex-shpak/hugo-book
     <p>내가 최대한 할 수 있는 시간과 에너지가 정해져 있다. 그런데, 의욕만 앞서서 과도하게 이것 저것 벌려 놓은 것 같다. 하나에만 집중해야 한다. 하나에만.
 최근 블록체인 공부를 진행하고 있다. 분명 핫한 기술임에 틀림 없는데, Learning Curve가 상당히 크다. Machine Learning, Deep Learining도 그랬다. 초기에 집중하지 못 하고 물욕에 젖어 한동안 학습하지 못해 주류에서 벗어났었는데 지금 할려니 너무 힘들다.
 내가 쉬는 이유, 내가 해외로 가고자 하는 이유 중 어떤 것은 Self-Bussiness를 위한 것이다.
-        <a href="/posts/Journal/Life/2018/05/27_Journal/">...</a>
+        <a href="/posts/Journal/2018/05/27_Journal/">...</a>
       
     </p>
   </article>
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/05/23_Journal/">회사 5(Automotive), Failed-3</a>
+      <a href="/posts/Journal/2018/05/23_Journal/">회사 5(Automotive), Failed-3</a>
     </h2>
     
 
@@ -363,7 +447,6 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
@@ -375,14 +458,14 @@ https://github.com/alex-shpak/hugo-book
 
     <p>18/04/27/금 – 새벽 2시, Automotive 쪽 서비스 회사의 Data Science Engineer 분야에 지원했다. 정말 가고 싶은 곳인데 잘 되었으면 좋겠다. 새벽에 쓰고나서 일어나 생각해보니 후회가 됐다. 후회하고 있다. 좋은 회사일 수록 더 면접 경험을 쌓고 봐야 하는데 말이다. 밤 10시, 메일로 연락이 왔다. 일정 Arrange를 하였다. 5/2/수 9:30 ~ 10:00. 꼭 가고 싶은 분야다.
 18/05/02/수 - 인터뷰 완료 했다. 그런데 준비한대로 말하지 못 해서 실망스럽다. 예상했던 질문 다 나온 것 같고, 준비하지 못 했던 질문은 &ldquo;너 리더인데 왜 일반 엔지니어로 오려고 하는거냐?
-        <a href="/posts/Journal/Life/2018/05/23_Journal/">...</a>
+        <a href="/posts/Journal/2018/05/23_Journal/">...</a>
       
     </p>
   </article>
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/05/18_Journal/">초조한가? 그렇지는 않다.</a>
+      <a href="/posts/Journal/2018/05/18_Journal/">초조한가? 그렇지는 않다.</a>
     </h2>
     
 
@@ -395,14 +478,12 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
   
   <div>
     
-      
         <a href="/tags/Career/">Career</a>
   </div>
   
@@ -413,7 +494,7 @@ https://github.com/alex-shpak/hugo-book
 
     <p>답답하기만 할 뿐 초조하지는 않다. 돈이 부족할 것이고 미래를 보장할 수 없지만 그렇다고 지금, 오늘 하루를 만족하지 않지만 초조하지는 않는다. 정말 답답하다. 계획대로 공부가 잘 되지 않음의 스트레스가 상당히 크다. 그렇다고 내가 어떻게 더 할 수 있는 부분은 존재하지 않는 것 같다.
 매일 해야하는 영어공부를 못 해서 답답하고, 매일 해야 하는 코딩을 못 해서 답답하고, 면접 준비를 해야 함에도 집중하지 못하는 것에 답답하고, 가지치기를 해야 하는데&hellip; 너무 벌려 놓았다. 이번 달까지만 어떻게든 버텨보자.
-        <a href="/posts/Journal/Life/2018/05/18_Journal/">...</a>
+        <a href="/posts/Journal/2018/05/18_Journal/">...</a>
       
     </p>
   </article>
@@ -433,16 +514,13 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
   
   <div>
     
-      
         <a href="/tags/Deep-Learning/">Deep Learning</a>, 
-      
         <a href="/tags/Coursera/">Coursera</a>
   </div>
   
@@ -460,7 +538,7 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/05/14_Journal-1/">다큐멘터리 자본주의 - 제2부</a>
+      <a href="/posts/Journal/2018/05/14_Journal-1/">다큐멘터리 자본주의 - 제2부</a>
     </h2>
     
 
@@ -473,14 +551,12 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
   
   <div>
     
-      
   </div>
   
 
@@ -495,7 +571,7 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/05/14_Journal-2/">다큐멘터리 자본주의 - 제3부</a>
+      <a href="/posts/Journal/2018/05/14_Journal-2/">다큐멘터리 자본주의 - 제3부</a>
     </h2>
     
 
@@ -508,14 +584,12 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
   
   <div>
     
-      
   </div>
   
 
@@ -525,14 +599,14 @@ https://github.com/alex-shpak/hugo-book
 
     <p>금융 지능은 있는가? 정리한 글을 남긴다.
 은행의 비밀  은행원이 권하는 상품  본사의 프로모션 원하는 상품일 때만 가입 은행원의 문제  은행원도 상품을 다 모른다. 상품의 종류가 너무 많다. 안좋은점은대충얘기하고, 좋은 점만 얘기한다.     후순위 채권  예금자 보호법에 의해서 5천만원 보장 후순위 채권은 채권자에게 모든 부채를 다 갚고 주겠다. BIS 지표 때문임 채권은 부채가 잡히지 않음 높은 이자 뒤에 숨은 위험이 분명 있다.   결론: 은행은 내 편이 아니다.
-        <a href="/posts/Journal/Life/2018/05/14_Journal-2/">...</a>
+        <a href="/posts/Journal/2018/05/14_Journal-2/">...</a>
       
     </p>
   </article>
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Journal/Life/2018/05/14_Journal-3/">다큐멘터리 자본주의 - 제4부</a>
+      <a href="/posts/Journal/2018/05/14_Journal-3/">다큐멘터리 자본주의 - 제4부</a>
     </h2>
     
 
@@ -545,14 +619,12 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      
   </div>
   
 
   
   <div>
     
-      
   </div>
   
 
@@ -562,7 +634,7 @@ https://github.com/alex-shpak/hugo-book
 
     <p>세상을 바꾼 위대한 철학들 보고 정리한다. 아직도 2008년 금융위기 안에 있다. 어떻게 하면 위기를 벗어날 수 있을까?
 경제학 철학자들  아담 스미스 칼 맑스 케인스 하이에크  아담 스미스(1723~1790)  도덕감정론 저술 인간은 이기적인 존재 어떻게 도덕적 행동을 할 수 있을까?  마음속에 공명정대한 관찰자가 이기심을 조절해서 도덕적으로 행동하게 한다.   (당시 유행했던 교육으로) 공작과 유럽 여행을 하면서 국부론 초기 견문록을 쓰기 시작함 18C  봉건주의-&gt;자본주의 산업혁명 중상주의 사상 지배 &ndash;&gt; 아담스미스를 화나게 했음   어디서든 노동이 이뤄지면 부가 생성될 수 있다.
-        <a href="/posts/Journal/Life/2018/05/14_Journal-3/">...</a>
+        <a href="/posts/Journal/2018/05/14_Journal-3/">...</a>
       
     </p>
   </article>
@@ -701,67 +773,239 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 
 
+ 
 
-      <div class="book-footer justify-between">
-  
-
-  
-
-  
-
-</div>
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
 
 
-<div class="book-comments">
-  
+
 
 
 </div>
 
-
+ 
+        
+  
+ 
+      </footer>
       
     </div>
 
-    <aside class="book-menu fixed">
-      <nav id="BookMenu">
-<h2 class="book-brand">
-  <a href="https://noweaver.github.io/"><span>noweaver</span>
-  </a>
-</h2>
-
-
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s /" />
-  <div class="book-search-spinner spinner hidden"></div>
-  <ul id="book-search-results"></ul>
-</div>
-
-
-
-
-
     
-
-
-
-
+    <aside class="book-toc">
+      
+  <nav>
+  <ul>
+  
+    
+    <li class="book-section-flat">
+      <strong>Categories</strong>
+      <ul>
+      
+        <li>
+          <a href="/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/">잡동사니</a>
+        </li>
+      
+        <li>
+          <a href="/categories/%EA%B3%B5%EB%B6%80/">공부</a>
+        </li>
+      
+        <li>
+          <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
+        </li>
+      
+        <li>
+          <a href="/categories/FIRE/">FIRE</a>
+        </li>
+      
+        <li>
+          <a href="/categories/%EB%8F%85%EC%84%9C/">독서</a>
+        </li>
+      
+        <li>
+          <a href="/categories/Development/">Development</a>
+        </li>
+      
+        <li>
+          <a href="/categories/golang/">golang</a>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+    
+    <li class="book-section-flat">
+      <strong>Tags</strong>
+      <ul>
+      
+        <li>
+          <a href="/tags/Karabiner/">Karabiner</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Mac/">Mac</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Hugo/">Hugo</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%84%A4%EC%B9%98/">설치</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/">린 스타트업</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/">플랫폼 비즈니스</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Installation/">Installation</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Jupyter/">Jupyter</a>
+        </li>
+      
+        <li>
+          <a href="/tags/PySpark/">PySpark</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%A3%BC%EC%8B%9D-%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/">주식 | 재무제표</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Zsh/">Zsh</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Java/">Java</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%A3%BC%EC%8B%9D/">주식</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%8F%85%EC%84%9C-%EC%A3%BC%EC%8B%9D/">독서 | 주식</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%8F%85%EC%84%9C-%EC%98%81%EC%96%B4/">독서 | 영어</a>
+        </li>
+      
+        <li>
+          <a href="/tags/CMA/">CMA</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Virtual-Box/">Virtual Box</a>
+        </li>
+      
+        <li>
+          <a href="/tags/ISLR/">ISLR</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%98%81%EC%96%91%EC%A0%9C/">영양제</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Golang/">Golang</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Pandas/">Pandas</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/">데이터 분석 환경</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Anaconda/">Anaconda</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Python/">Python</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Career/">Career</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Coursera/">Coursera</a>
+        </li>
+      
+        <li>
+          <a href="/tags/Deep-Learning/">Deep Learning</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98/">자본주의</a>
+        </li>
+      
+        <li>
+          <a href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</a>
+        </li>
+      
+        <li>
+          <a href="/tags/development/">development</a>
+        </li>
+      
+        <li>
+          <a href="/tags/go/">go</a>
+        </li>
+      
+        <li>
+          <a href="">golang</a>
+        </li>
+      
+        <li>
+          <a href="">hugo</a>
+        </li>
+      
+        <li>
+          <a href="/tags/templates/">templates</a>
+        </li>
+      
+        <li>
+          <a href="/tags/themes/">themes</a>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+  </ul>
 </nav>
 
-
-<script>
-(function() {
-  var menu = document.querySelector("aside.book-menu nav");
-  addEventListener("beforeunload", function(event) {
-    localStorage.setItem("menu.scrollTop", menu.scrollTop);
-  });
-  menu.scrollTop = localStorage.getItem("menu.scrollTop");
-})();
-</script>
-
+ 
     </aside>
+    
   </main>
 
   
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

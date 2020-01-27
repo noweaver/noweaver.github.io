@@ -2,20 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anaconda on noweaver</title>
-    <link>https://noweaver.github.io/tags/Anaconda/</link>
+    <link>http://example.org/tags/Anaconda/</link>
     <description>Recent content in Anaconda on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Thu, 11 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://noweaver.github.io/tags/Anaconda/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/Anaconda/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>아나콘다, Mac에서 삭제 방법</title>
-      <link>https://noweaver.github.io/posts/Journal/Job/2019/04/11_Anaconda-uninstall-on-the-mac/</link>
+      <link>http://example.org/posts/Journal/2019/04/11_Anaconda-uninstall-on-the-mac/</link>
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Job/2019/04/11_Anaconda-uninstall-on-the-mac/</guid>
+      <guid>http://example.org/posts/Journal/2019/04/11_Anaconda-uninstall-on-the-mac/</guid>
       <description>앱으로 삭제 App Cleaner 이용
 직접 삭제 $ rm -rf ~/anaconda3 ~/.conda ~/.anaconda ~/.condarc $ rm ~/Library/Application Support/binstar/*anaconda* $ rm ~/Library/Receipts/io.continuum.pkg.anaconda* </description>
     </item>

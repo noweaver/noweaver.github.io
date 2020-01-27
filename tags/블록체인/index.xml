@@ -2,30 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>블록체인 on noweaver</title>
-    <link>https://noweaver.github.io/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</link>
+    <link>http://example.org/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</link>
     <description>Recent content in 블록체인 on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://noweaver.github.io/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>비트코인 영화를 보면서</title>
-      <link>https://noweaver.github.io/posts/Journal/Life/2018/05/09_Journal-1/</link>
+      <link>http://example.org/posts/Journal/2018/05/09_Journal-1/</link>
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Life/2018/05/09_Journal-1/</guid>
+      <guid>http://example.org/posts/Journal/2018/05/09_Journal-1/</guid>
       <description>내가 블록체인에 관심을 갖게 된 이유는 특정 기업이나 특정 그룹만이 형성하는 이익을 부셔버리고 싶은 욕구가 생겼기 때문이다. 그리고 그것을 활용하여 나만의 회사를 창업하고 싶기 때문이다. 하지만 아직은 정확한 개념이 없다. 그래서 하나 둘씩 찾아보고 있다. 그 첫 번째가 비트코인이다.
 비트코인다큐 옵션코리아 제공이라는 유튜브를 보았다. 비트코인의 양지와 음지를 보게 되었다. 어떻게 시작 되었는지 정확하게 알 수 없었지만 - 비트코인의 핵심 유력들이 다 나오는 것을 보았는데, 뭔가 70-80년 해커나 히피 문화 비슷하다는 것을 느꼈다.</description>
     </item>
     
     <item>
       <title>블록체인 스터디</title>
-      <link>https://noweaver.github.io/posts/Journal/Life/2018/05/08_Journal/</link>
+      <link>http://example.org/posts/Journal/2018/05/08_Journal/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/Life/2018/05/08_Journal/</guid>
+      <guid>http://example.org/posts/Journal/2018/05/08_Journal/</guid>
       <description>Part I  비트코인영화 비트코인다큐 옵션코리아제공 EBS 다큐 프라임 자본주의 5부작 제1부 돈은 빚이다. 제2부 소비는 감정이다. 제3부 금융지능은 있는가 제4부 세상을 바꾼 위대한 철학들 제5부 국가는 무엇을 해야 하는가? 블록체인이 돈과 경제를 어떻게 변화시키고 있는가 TED 영상 돈의 미래 TED 영상 참고자료 화폐의 진화 쫄지말고 블록체인: 1편, 2편, 3편, 4편, 5편, 6편, 7편, 8편  Part 2  블록체인이란 무엇인가?(1시간) 비트코인 개요 (20분) 참고글 외계어없이 블록체인 비트코인 이해하기 알기쉽게 이해하는 비트코인 퍼블릭/프라이빗키(2분) 참고글: RSA 암호 방식 51% 공격이 뭔가요?</description>
     </item>
     
