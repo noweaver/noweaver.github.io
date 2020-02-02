@@ -9,32 +9,47 @@
   
   <url>
     <loc>http://example.org/categories/</loc>
-    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/LifeHack/</loc>
-    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+    <loc>http://example.org/tags/Lean-Startup/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/</loc>
-    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/Journal/2020/01/27_Journal/</loc>
-    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/posts/</loc>
-    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/tags/</loc>
-    <lastmod>2020-01-27T15:51:20+09:00</lastmod>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/%EA%B3%B5%EB%B6%80/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/Learning/Business/2020/02/02_the-lean-startup-W3/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/LifeHack/</loc>
+    <lastmod>2020-01-27T16:10:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/Journal/2020/01/27_Journal/</loc>
+    <lastmod>2020-01-27T16:10:43+09:00</lastmod>
   </url>
   
   <url>
@@ -44,7 +59,7 @@
   
   <url>
     <loc>http://example.org/categories/%EA%B8%B0%EB%A1%9D/</loc>
-    <lastmod>2020-01-27T15:13:40+09:00</lastmod>
+    <lastmod>2020-01-27T16:10:43+09:00</lastmod>
   </url>
   
   <url>
@@ -83,18 +98,13 @@
   </url>
   
   <url>
-    <loc>http://example.org/categories/%EA%B3%B5%EB%B6%80/</loc>
-    <lastmod>2020-01-27T15:13:40+09:00</lastmod>
+    <loc>http://example.org/posts/Learning/Business/2020/01/12_the-lean-startup-W2/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/</loc>
-    <lastmod>2020-01-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/Learning/Business/2020/01/07_%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EA%B3%BC-%EC%B5%9C%EC%86%8C-%EA%B8%B0%EB%8A%A5-%EC%A0%9C%ED%92%88MVP%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4-W1/</loc>
-    <lastmod>2020-01-07T00:00:00+00:00</lastmod>
+    <loc>http://example.org/posts/Learning/Business/2020/01/05_the-lean-startup-W1/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
