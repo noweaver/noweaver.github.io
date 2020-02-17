@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="An Introduiction to Statistical Learning - 5주차"><meta property="og:title" content="An Introduiction to Statistical Learning - 5주차" />
+<meta property="og:description" content="5주차 커리큘럼 Day 1  Ch7: Moving Beyond Linearity  슬라이드: 원본, 복사본 교재: Ch7.1 Polynomial Regression Polynomial Regression and Step Functions (14:59)    Day 2  Ch7: Moving Beyond Linearity  교재  Ch 7.2 Step Functions Ch 7.3 Basis Functions   Polynomial Regression and Step Functions (14:59)    Day 3  Ch7: Moving Beyond Linearity  교재: Ch7.4 Regression Splines Piecewise Polynomials and Splines (13:13)    Day 4  Ch7: Moving Beyond Linearity  교재: Ch 7." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noweaver.github.io/posts/Learning/Data/2019/07/21-ISLR-Week-05/" />
+<meta property="article:published_time" content="2019-07-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-07-21T00:00:00+00:00" />
+<title>An Introduiction to Statistical Learning - 5주차 | noweaver</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.edc993575be58655f3e49634e3ca6db09cc38ac9aa03ecdbe81d941636e35273.css" integrity="sha256-7cmTV1vlhlXz5JY048ptsJzDismqA&#43;zb6B2UFjbjUnM=">
+
+
+<script defer src="/ko.search.min.2be86e2d4f5d728eb6b9f79d2a67d0fee78b739f93606c44391cae7824b5fa1a.js" integrity="sha256-K&#43;huLU9dco62ufedKmfQ/ueLc5&#43;TYGxEORyueCS1&#43;ho="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123156470-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>An Introduiction to Statistical Learning - 5주차</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#5주차-커리큘럼">5주차 커리큘럼</a>
+          <ul>
+            <li><a href="#day-1">Day 1</a></li>
+            <li><a href="#day-2">Day 2</a></li>
+            <li><a href="#day-3">Day 3</a></li>
+            <li><a href="#day-4">Day 4</a></li>
+            <li><a href="#day-5">Day 5</a></li>
+            <li><a href="#day-6">Day 6</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Learning/Data/2019/07/21-ISLR-Week-05/">An Introduiction to Statistical Learning - 5주차</a>
+  </h1>
+  
+
+<div>
+
+  <h5>2019/07/21</h5>
+
+
+
+  
+  <div>
+    
+  </div>
+  
+
+  
+  <div>
+    
+        <a href="/tags/ISLR/">ISLR</a>
+  </div>
+  
+
+
+</div>
+
+
+  <p><h2 id="5주차-커리큘럼">5주차 커리큘럼</h2>
+<h3 id="day-1">Day 1</h3>
+<ul>
+<li>Ch7: Moving Beyond Linearity
+<ul>
+<li>슬라이드: <a href="https://lagunita.stanford.edu/c4x/HumanitiesScience/StatLearning/asset/nonlinear.pdf">원본</a>, <a href="/data-science/ISLR/nonlinear.pdf">복사본</a></li>
+<li>교재: Ch7.1 Polynomial Regression</li>
+<li><a href="https://www.youtube.com/watch?v=gtXQXA7qF3c&amp;list=PL5-da3qGB5IBn84fvhh-u2MU80jvo8OoR">Polynomial Regression and Step Functions (14:59)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-2">Day 2</h3>
+<ul>
+<li>Ch7: Moving Beyond Linearity
+<ul>
+<li>교재
+<ul>
+<li>Ch 7.2 Step Functions</li>
+<li>Ch 7.3 Basis Functions</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=gtXQXA7qF3c&amp;list=PL5-da3qGB5IBn84fvhh-u2MU80jvo8OoR">Polynomial Regression and Step Functions (14:59)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-3">Day 3</h3>
+<ul>
+<li>Ch7: Moving Beyond Linearity
+<ul>
+<li>교재: Ch7.4 Regression Splines</li>
+<li><a href="https://www.youtube.com/watch?v=7ZIqzTNB8lk&amp;list=PL5-da3qGB5IBn84fvhh-u2MU80jvo8OoR">Piecewise Polynomials and Splines (13:13)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-4">Day 4</h3>
+<ul>
+<li>Ch7: Moving Beyond Linearity
+<ul>
+<li>교재: Ch 7.5 Smoothing Splines</li>
+<li><a href="https://www.youtube.com/watch?v=mxXHJa1DsWQ&amp;list=PL5-da3qGB5IBn84fvhh-u2MU80jvo8OoR">Smoothing Splines (10:10)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-5">Day 5</h3>
+<ul>
+<li>Ch7: Moving Beyond Linearity
+<ul>
+<li>교재:
+<ul>
+<li>Ch 7.6 Local Regression</li>
+<li>Ch 7.7 Generalized Additive Models</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=N2hBXqPiegQ&amp;list=PL5-da3qGB5IBn84fvhh-u2MU80jvo8OoR">Local Regression and Generalized Additive Models (10:45)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-6">Day 6</h3>
+<ol>
+<li>
+<p>기저함수로 사용되는 대표적인 함수들에 대해 나열해보자</p>
+<ul>
+<li>기저함수는 공간상에서 일어나는 것을 표현하기 위한 기본적인 함수들의 집합이고 그것을 이용해서 공간상에서 일어나는 모든 것들 을 표현할 수 있다.</li>
+<li>다항식회귀, 계단함수, 회귀 스플라인, 평활 스플라인 등</li>
+</ul>
+</li>
+<li>
+<p>기존 선형회귀보다 다항식 회귀가 갖는 장점은 무엇이며 보통 몇 차수까지 사용 하는가? 차수를 선택하는 검정기법은?</p>
+<ul>
+<li>선형회귀는 예측 능력면에서 상당히 제한적임
+<ul>
+<li>가정 부준은 근사 값이고, 때때로 잘 맞지 않는다.</li>
+<li>해석력이 다소 떨어지는 부분이 있다.</li>
+</ul>
+</li>
+<li>다항식 회귀는 원래의 설명변수를 각 거듭제곱하여 얻은 추가적인 설명변수를 포함하혀 선형모델을 확장함
+<ul>
+<li>삼차회귀는 세 개의 변수 X, X^2, X^3을 설명변수로 사용</li>
+</ul>
+</li>
+<li>코치 답)
+<ul>
+<li>기존 선형회귀와 달리 비선형 데이터에도 적합 가능 함</li>
+<li>보통 3 - 4차수까지 선택함</li>
+<li>ANOVA // 교차검정</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>회귀 스플라인을 설명하고 회귀 스플라인의 장점을 설명하라</p>
+<ul>
+<li>다항식 회귀, 계단함수를 적용한 기저함수의 문제점을 해결하기 위해 구간을 나누어 낮은 차원의 다항식 모형을 적합함.</li>
+<li>다항식은 유연한 적합을 위해 높은 차수(차수가 가장 높은 항의 지수)를 사용해야 하지만 스플라인은 차수는 고정시키고 매듭의 수를 증가시켜 유연성을 높일 수 있으며 더 좋은 성능을 냄.</li>
+<li>일반적으로, 스플라인에서 사용하는 기법이 더 안정적인 추정치들을 제공함</li>
+<li>코치 답)
+<ul>
+<li>구간마다 잘라서 다항식 회귀를 적용 할 수 있으며 구간이 많이 잘릴수록 (knot 커질수록) 유연해짐</li>
+<li>장점: 유연한 적합을 위해 높은 차수를 써야하는 다항식 회귀와 달리 회귀 스플라인은 차수를 고정하고 매듭(knots)를 늘려 안정적인 값을 제공함</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>평활 스플라인을 설명하고 회귀 스플라인의 장점을 설명하라</p>
+<ul>
+<li>데이터에 smoothing 한 곡선을 찾아 관측된 데이터에 잘 적합하는 함수</li>
+<li>즉, RSS를 가장 작게하는 함수를 찾는 방법.</li>
+<li>하이퍼 파라미터를 튜닝하여 함수를 평활하게 함</li>
+<li>코치 답)
+<ul>
+<li>평활 스플라인이란 RSS를 작게 하지만 모델의 곡선의 정도에 패널 티를 주어, 함수가 평활(smooth)해지도록 함.</li>
+<li>장점: 지나치게 유연해져서 과적합이 발생하는것을 제어 할수 있음</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>GAM은 무엇이며 장점, 단점 및 한계는 무엇인가?</p>
+<ul>
+<li>여러 개의 설명변수 X를 기반으로 Y를 유연하게 예측하는 것으로 다중선형회귀의 확장임.</li>
+<li>다중선형회귀와 같이 가산성(additivity)는 유지하면서 각 변수의 비선형함수를 허용하여 표준선형모델을 확장함.</li>
+<li>장점
+<ul>
+<li>표준적 선형회귀로는 놓치게 될 비선형 관계를 자동적으로 모델링을 할수있음.</li>
+<li>비선형 적합은 반응변수 Y에 대해 더 정확하게 예측할 가능성이 있음.</li>
+</ul>
+</li>
+<li>단점
+<ul>
+<li>모델이 가산적이어야 하며, 그렇기 때문에 많은 변수들이 있는 경우 중요한 상호작용을 놓칠 수 있다.</li>
+</ul>
+</li>
+<li>코치 답)
+<ul>
+<li>Generalized Additive Models(GAM)은 다중회귀모델과 같이 가산성(additivity)을 유지하면서 비선형함수들로 대체하여 모델을 확장함</li>
+<li>장점:
+<ul>
+<li>변수마다 비선형 함수를 적합 할수 있어 비선형 관계를 자동으로 모델링 할수 있음.</li>
+<li>비선형이기 때문에 성능이 더 뛰어남. 함수의 smooth한 정도는 자유도를 통해서 요약가능함</li>
+</ul>
+</li>
+<li>단점: 다중회귀 모델같이 가산성(additivity)어야 하기 때문에 많은 변수들이 있는 경우 중요한 상호작용을 놓칠 수 있음</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</p>
+</article>
+ 
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Learning/Data/2019/07/21-ISLR-Week-05.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+      </footer>
+      
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#5주차-커리큘럼">5주차 커리큘럼</a>
+          <ul>
+            <li><a href="#day-1">Day 1</a></li>
+            <li><a href="#day-2">Day 2</a></li>
+            <li><a href="#day-3">Day 3</a></li>
+            <li><a href="#day-4">Day 4</a></li>
+            <li><a href="#day-5">Day 5</a></li>
+            <li><a href="#day-6">Day 6</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

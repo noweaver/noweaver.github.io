@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Virtual Box on noweaver</title>
-    <link>http://example.org/tags/Virtual-Box/</link>
+    <link>https://noweaver.github.io/tags/Virtual-Box/</link>
     <description>Recent content in Virtual Box on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/Virtual-Box/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://noweaver.github.io/tags/Virtual-Box/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac에 VirtualBox 설치하고 Windows10 설치하기</title>
-      <link>http://example.org/posts/Journal/2019/08/19_Mac-VirtualBox-Windows10/</link>
+      <link>https://noweaver.github.io/posts/Journal/2019/08/19-Mac-VirtualBox-Windows10/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/Journal/2019/08/19_Mac-VirtualBox-Windows10/</guid>
+      <guid>https://noweaver.github.io/posts/Journal/2019/08/19-Mac-VirtualBox-Windows10/</guid>
       <description>맥에서 VirtualBox를 설치하는 것을 알아본다. 맥 환경은 다음과 같다.
 VirtualBox 설치하기  https://www.virtualbox.org/ 접속, 왼쪽 메뉴 Downloads 클릭  아래그림과 같이 빨간색 박스를 클릭해서 다운로드  다운로드 받은 파일 중, dmg 파일 클릭  아래 그림과 같이 1번 VirtualBox.pkg 클릭하고, Continue 클릭  설치 권한의 암호를 묻는다. 지문으로 풀던, 암호입력으로 풀던해서 입력하면 설치가 진행된다.  설치가 완료되면, 설치파일을 삭제할 것인가 묻는다. 그냥 지우지 않았다. 쓸 수 있는데, 다시 다운받기 귀찮아서. Keep 버튼을 누르고 종료한다.</description>
     </item>

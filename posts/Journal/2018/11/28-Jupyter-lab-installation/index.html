@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jupyter Lab &amp; Git Extension 설치"><meta property="og:title" content="Jupyter Lab &amp; Git Extension 설치" />
+<meta property="og:description" content="주피터를 사용하다 사내 분석 환경 중에 Jupyter Lab이 설치 되어 있는 것을 발견했다. 플랫폼 엔지니어가 PySpark 등 아주 유용한 커널을 설치해 두었다. 그러나 가장 아쉬운 부분이 Git 연동이 되지 않는 것이다. 그래서 플랫폼 엔지니어에게 요청하니 다른 업무로 시간이 부족해 보였다. 그 다른 업무도 내가 간접적으로 Involve 되어 있는 것이라 강력하게 요청하는 것도 무리였다. 목마른 사람이 우물을 팔 수 밖에 없어서 결국 내가 설치 테스트 해봤다.
+그러나 아직 한글 폰트, 그래프 테스트는 끝나지 않아 더 테스트를 해 봐야겠다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noweaver.github.io/posts/Journal/2018/11/28-Jupyter-lab-installation/" />
+<meta property="article:published_time" content="2018-11-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-11-28T00:00:00+00:00" />
+<title>Jupyter Lab &amp; Git Extension 설치 | noweaver</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.edc993575be58655f3e49634e3ca6db09cc38ac9aa03ecdbe81d941636e35273.css" integrity="sha256-7cmTV1vlhlXz5JY048ptsJzDismqA&#43;zb6B2UFjbjUnM=">
+
+
+<script defer src="/ko.search.min.2be86e2d4f5d728eb6b9f79d2a67d0fee78b739f93606c44391cae7824b5fa1a.js" integrity="sha256-K&#43;huLU9dco62ufedKmfQ/ueLc5&#43;TYGxEORyueCS1&#43;ho="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123156470-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Jupyter Lab &amp; Git Extension 설치</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#파이썬-가상머신-설치">파이썬 가상머신 설치</a></li>
+    <li><a href="#jupyter-lab-git-extension">Jupyter Lab, Git extension</a>
+      <ul>
+        <li><a href="#git-installation">Git Installation</a></li>
+        <li><a href="#jupyter-lab-git-usage">Jupyter Lab Git Usage</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Journal/2018/11/28-Jupyter-lab-installation/">Jupyter Lab &amp; Git Extension 설치</a>
+  </h1>
+  
+
+<div>
+
+  <h5>2018/11/28</h5>
+
+
+
+  
+  <div>
+    
+  </div>
+  
+
+  
+  <div>
+    , 
+        <a href="/tags/Jupyter/">Jupyter</a>, 
+  </div>
+  
+
+
+</div>
+
+
+  <p><p>주피터를 사용하다 사내 분석 환경 중에 Jupyter Lab이 설치 되어 있는 것을 발견했다. 플랫폼 엔지니어가 PySpark 등 아주 유용한 커널을 설치해 두었다. 그러나 가장 아쉬운 부분이 Git 연동이 되지 않는 것이다. 그래서 플랫폼 엔지니어에게 요청하니 다른 업무로 시간이 부족해 보였다. 그 다른 업무도 내가 간접적으로 Involve 되어 있는 것이라 강력하게 요청하는 것도 무리였다. 목마른 사람이 우물을 팔 수 밖에 없어서 결국 내가 설치 테스트 해봤다.</p>
+<p>그러나 아직 한글 폰트, 그래프 테스트는 끝나지 않아 더 테스트를 해 봐야겠다.</p>
+<h1 id="파이썬-가상머신-설치">파이썬 가상머신 설치</h1>
+<p>Anaconda 사용자로 무작정 패키지 설치하는 것을 지양하여 Anaconda 제공한 conda 로 가상환경을 생성했다.</p>
+<pre><code>$ conda create -y -n jupyterlab-env python=3.6
+$ source activate jupyterlab-env
+(jupyterlab-env) $
+
+(jupyterlab-env) $ conda install -y -c conda-forge jupyterlab
+
+</code></pre><h1 id="jupyter-lab-git-extension">Jupyter Lab, Git extension</h1>
+<h2 id="git-installation">Git Installation</h2>
+<pre><code>(jupyterlab-env) $ conda install -y -c conda-forge nodejs
+
+(jupyterlab-env) $ jupyter labextension install @jupyterlab/git
+(jupyterlab-env) $ pip install jupyterlab-git
+(jupyterlab-env) $ jupyter serverextension enable --py jupyterlab_git
+</code></pre><h2 id="jupyter-lab-git-usage">Jupyter Lab Git Usage</h2>
+<p>참고로 Jupyter Lab에서 Copy &amp; Paste 명령인 Ctrl + c / Ctrl + v 명령은 두 가지 방법이 존재</p>
+<ul>
+<li>Ctrl + c =&gt; Ctrl + Shift + c</li>
+<li>Ctrl + v =&gt; Ctrl + Shift + v</li>
+<li>Shift + [Mouse right button]</li>
+</ul>
+</p>
+</article>
+ 
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Journal/2018/11/28-Jupyter-lab-installation.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+      </footer>
+      
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#파이썬-가상머신-설치">파이썬 가상머신 설치</a></li>
+    <li><a href="#jupyter-lab-git-extension">Jupyter Lab, Git extension</a>
+      <ul>
+        <li><a href="#git-installation">Git Installation</a></li>
+        <li><a href="#jupyter-lab-git-usage">Jupyter Lab Git Usage</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

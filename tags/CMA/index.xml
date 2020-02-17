@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CMA on noweaver</title>
-    <link>http://example.org/tags/CMA/</link>
+    <link>https://noweaver.github.io/tags/CMA/</link>
     <description>Recent content in CMA on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/CMA/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://noweaver.github.io/tags/CMA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>삼성증권 CMA</title>
-      <link>http://example.org/posts/Learning/FIRE/2019-09-16_%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/</link>
+      <link>https://noweaver.github.io/posts/Learning/FIRE/2019-09-16-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%80%E1%85%AF%E1%86%AB-CMA/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/Learning/FIRE/2019-09-16_%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/</guid>
+      <guid>https://noweaver.github.io/posts/Learning/FIRE/2019-09-16-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%80%E1%85%AF%E1%86%AB-CMA/</guid>
       <description>삼성증권의 계좌를 만든지 꽤 시간이 흘렀다. 한국투자증권과 같은 대형(?) 증권사 활용을 못 했다. 뭔가 수수료가 쎄기 때문이다라고 생각했고 확신이 들어서다. 무엇보다 MTS 사용을 주로하는 입장에서 MTS 인터페이스와 속도가 그렇게 좋지 않았다. 하지만, 통장과 계좌 정리를 하고자 하여 몇 가지 알아봤다. 내 경우 삼성증권의 CMA 계좌는 생활통장의 개념으로 활용될 것으로 보인다. 다만 6개월간은 가장 높은 우대금리로 활용하고자 한다.
 CMA 이체수수료 무료 방법  PC의 홈페이지가 아니라 모바일에서는 모든 수수료가 무료다. 그래서 나는 따로 신청할 필요는 없다.</description>
     </item>
