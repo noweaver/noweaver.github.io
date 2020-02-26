@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://noweaver.github.io/categories/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
@@ -14,22 +14,22 @@
   
   <url>
     <loc>https://noweaver.github.io/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
@@ -99,27 +99,27 @@
   
   <url>
     <loc>https://noweaver.github.io/tags/Windows-10/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/2020/01/27-Windows-10-Activation/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Karabiner/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Mac/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/2020/01/25-Mac-Brew-Program-Installation/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
@@ -134,12 +134,12 @@
   
   <url>
     <loc>https://noweaver.github.io/tags/Hugo/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/2020/01/15-Hugo-Theme-History/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
@@ -159,7 +159,7 @@
   
   <url>
     <loc>https://noweaver.github.io/tags/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
@@ -343,28 +343,28 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/08/11-After-ISLR/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/08/11-After-ISLR/</loc>
+    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/Data-Science/</loc>
+    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/ISLR/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/categories/%EA%B3%B5%EB%B6%80/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/08/10-ISLR-Week-08/</loc>
+    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/08/10-ISLR-Week-08/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/08/04-ISLR-Week-07/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/08/04-ISLR-Week-07/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -373,8 +373,8 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/07/28-ISLR-Week-06/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/07/28-ISLR-Week-06/</loc>
+    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -383,23 +383,23 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/07/21-ISLR-Week-05/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/07/21-ISLR-Week-05/</loc>
+    <lastmod>2019-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/07/14-ISLR-Week-04/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/07/14-ISLR-Week-04/</loc>
+    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/07/01-ISLR-Week-03/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/07/01-ISLR-Week-03/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/06/24-ISLR-Week-02/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/06/24-ISLR-Week-02/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -408,8 +408,8 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/06/17-ISLR-Week-01/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/06/17-ISLR-Week-01/</loc>
+    <lastmod>2019-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -529,7 +529,7 @@
   
   <url>
     <loc>https://noweaver.github.io/posts/Journal/2018/07/31-Financial-recommend-books/</loc>
-    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-26T09:55:57+09:00</lastmod>
   </url>
   
   <url>
@@ -594,17 +594,17 @@
   
   <url>
     <loc>https://noweaver.github.io/tags/Coursera/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Learning/Data/2019/05/14-Coursera-deeplearning-specialization/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/05/14-Coursera-deeplearning-specialization/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Deep-Learning/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
