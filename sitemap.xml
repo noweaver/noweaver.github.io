@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://noweaver.github.io/categories/</loc>
-    <lastmod>2020-02-26T10:13:48+09:00</lastmod>
+    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
   </url>
   
   <url>
@@ -14,17 +14,17 @@
   
   <url>
     <loc>https://noweaver.github.io/</loc>
-    <lastmod>2020-02-26T10:13:48+09:00</lastmod>
+    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/</loc>
-    <lastmod>2020-02-26T10:13:48+09:00</lastmod>
+    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/</loc>
-    <lastmod>2020-02-26T10:13:48+09:00</lastmod>
+    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
   </url>
   
   <url>
@@ -83,12 +83,17 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Reading/Business/2020/02/09-%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-W4/</loc>
+    <loc>https://noweaver.github.io/posts/Reading/Business/2020/02/09-%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EA%B3%BC-MVP-%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4-W4/</loc>
     <lastmod>2020-02-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Reading/Business/2020/02/02-%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-W3/</loc>
+    <loc>https://noweaver.github.io/tags/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/Reading/Business/2020/02/02-%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EA%B3%BC-MVP-%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4-W3/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -148,12 +153,12 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Reading/Business/2020/01/12-%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-W2/</loc>
+    <loc>https://noweaver.github.io/posts/Reading/Business/2020/01/12-%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EA%B3%BC-MVP-%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4-W2/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Reading/Business/2020/01/05-%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-W1/</loc>
+    <loc>https://noweaver.github.io/posts/Reading/Business/2020/01/05-%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EA%B3%BC-MVP-%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4-W1/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -168,13 +173,18 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98/</loc>
+    <loc>https://noweaver.github.io/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC/</loc>
     <lastmod>2019-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Reading/Business/2019/12/31-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B4%ED%95%B4/</loc>
+    <loc>https://noweaver.github.io/posts/Reading/Business/2019/12/31-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98/</loc>
     <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -214,7 +224,7 @@
   
   <url>
     <loc>https://noweaver.github.io/categories/FIRE/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
   </url>
   
   <url>
@@ -229,7 +239,7 @@
   
   <url>
     <loc>https://noweaver.github.io/tags/%EC%A3%BC%EC%8B%9D/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
   </url>
   
   <url>
@@ -274,7 +284,7 @@
   
   <url>
     <loc>https://noweaver.github.io/posts/FIRE/2019-10-04-Wealth/</loc>
-    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
   </url>
   
   <url>
