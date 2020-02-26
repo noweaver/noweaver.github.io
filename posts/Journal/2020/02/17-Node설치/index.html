@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NVM(Node) 설치"><meta property="og:title" content="NVM(Node) 설치" />
+<meta property="og:description" content="nvm은 여러 Node.js 버전을 분리하여 사용할 수 있는 Node.js 버전 매니저이다. 기존에 Node를 설치를 했다면, 여기를 참조하여 노드를 제거한다. 대략 제걱하는 방법은 다음과 같다. 맥을 기준으로 설명한다.
+기존 노드 삭제 $ sudo rm /usr/local/bin/npm $ sudo rm /usr/local/share/man/man1/node.1 $ sudo rm /usr/local/lib/dtrace/node.d $ sudo rm -rf ~/.npm $ sudo rm -rf ~/.node-gyp $ sudo rm /opt/local/bin/node $ sudo rm /opt/local/include/node $ sudo rm -rf /opt/local/lib/node_modules 노드 매니저 NVM 설치 맥은 Brew 를 이용하는 것이 가장 편하다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noweaver.github.io/posts/Journal/2020/02/17-Node%EC%84%A4%EC%B9%98/" />
+<meta property="article:published_time" content="2020-02-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-17T00:00:00+00:00" />
+<title>NVM(Node) 설치 | noweaver</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.edc993575be58655f3e49634e3ca6db09cc38ac9aa03ecdbe81d941636e35273.css" integrity="sha256-7cmTV1vlhlXz5JY048ptsJzDismqA&#43;zb6B2UFjbjUnM=">
+
+
+<script defer src="/ko.search.min.ab854449c081017218e24aa95b34f2a012b72289cd0750a09ac735ce0d301229.js" integrity="sha256-q4VEScCBAXIY4kqpWzTyoBK3IonNB1Cgmsc1zg0wEik="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123156470-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>NVM(Node) 설치</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#기존-노드-삭제">기존 노드 삭제</a></li>
+        <li><a href="#노드-매니저-nvm-설치">노드 매니저 NVM 설치</a></li>
+        <li><a href="#노드-설치-확인">노드 설치 확인</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Journal/2020/02/17-Node%EC%84%A4%EC%B9%98/">NVM(Node) 설치</a>
+  </h1>
+  
+
+<div>
+
+  <h5>2020/02/17</h5>
+
+
+
+  
+  <div>
+    
+  </div>
+  
+
+  
+  <div>
+    
+        <a href="/tags/Node/">Node</a>, 
+  </div>
+  
+
+
+</div>
+
+
+  <p><p><code>nvm</code>은 여러 <code>Node.js</code> 버전을 분리하여 사용할 수 있는 Node.js <code>버전 매니저</code>이다. 기존에 Node를 설치를 했다면, <a href="http://junsikshim.github.io/2016/01/29/Mac%EC%97%90%EC%84%9C-Node.js-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0.html">여기</a>를 참조하여 노드를 제거한다. 대략 제걱하는 방법은 다음과 같다. 맥을 기준으로 설명한다.</p>
+<h2 id="기존-노드-삭제">기존 노드 삭제</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ sudo rm /usr/local/bin/npm
+$ sudo rm /usr/local/share/man/man1/node.1
+$ sudo rm /usr/local/lib/dtrace/node.d
+$ sudo rm -rf ~/.npm
+$ sudo rm -rf ~/.node-gyp
+$ sudo rm /opt/local/bin/node
+$ sudo rm /opt/local/include/node
+$ sudo rm -rf /opt/local/lib/node_modules
+</code></pre></div><h2 id="노드-매니저-nvm-설치">노드 매니저 NVM 설치</h2>
+<p>맥은 Brew 를 이용하는 것이 가장 편하다. 사용자 구성을 위해서는 공식사이트를 이용한다. 여기서는 Brew를 이용한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew install nvm
+$ mkdir ~/.nvm
+$ vi .zshrc
+
+export NVM_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/.nvm</span><span style="color:#e6db74">&#34;</span>
+  <span style="color:#f92672">[</span> -s <span style="color:#e6db74">&#34;/usr/local/opt/nvm/nvm.sh&#34;</span> <span style="color:#f92672">]</span> <span style="color:#f92672">&amp;&amp;</span> . <span style="color:#e6db74">&#34;/usr/local/opt/nvm/nvm.sh&#34;</span>  <span style="color:#75715e"># This loads nvm</span>
+  <span style="color:#f92672">[</span> -s <span style="color:#e6db74">&#34;/usr/local/opt/nvm/etc/bash_completion.d/nvm&#34;</span> <span style="color:#f92672">]</span> <span style="color:#f92672">&amp;&amp;</span> . <span style="color:#e6db74">&#34;/usr/local/opt/nvm/etc/bash_completion.d/nvm&#34;</span>  <span style="color:#75715e"># This loads nvm bash_completion</span>
+
+:wq!
+
+$ source .zshrc
+$ nvm install stable
+</code></pre></div><h2 id="노드-설치-확인">노드 설치 확인</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ nvm ls
+-&gt;      v13.8.0
+         system
+default -&gt; stable <span style="color:#f92672">(</span>-&gt; v13.8.0<span style="color:#f92672">)</span>
+node -&gt; stable <span style="color:#f92672">(</span>-&gt; v13.8.0<span style="color:#f92672">)</span> <span style="color:#f92672">(</span>default<span style="color:#f92672">)</span>
+stable -&gt; 13.8 <span style="color:#f92672">(</span>-&gt; v13.8.0<span style="color:#f92672">)</span> <span style="color:#f92672">(</span>default<span style="color:#f92672">)</span>
+iojs -&gt; N/A <span style="color:#f92672">(</span>default<span style="color:#f92672">)</span>
+unstable -&gt; N/A <span style="color:#f92672">(</span>default<span style="color:#f92672">)</span>
+lts/* -&gt; lts/erbium <span style="color:#f92672">(</span>-&gt; N/A<span style="color:#f92672">)</span>
+lts/argon -&gt; v4.9.1 <span style="color:#f92672">(</span>-&gt; N/A<span style="color:#f92672">)</span>
+lts/boron -&gt; v6.17.1 <span style="color:#f92672">(</span>-&gt; N/A<span style="color:#f92672">)</span>
+lts/carbon -&gt; v8.17.0 <span style="color:#f92672">(</span>-&gt; N/A<span style="color:#f92672">)</span>
+lts/dubnium -&gt; v10.19.0 <span style="color:#f92672">(</span>-&gt; N/A<span style="color:#f92672">)</span>
+lts/erbium -&gt; v12.16.0 <span style="color:#f92672">(</span>-&gt; N/A<span style="color:#f92672">)</span>
+</code></pre></div></p>
+</article>
+ 
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Journal/2020/02/17-Node%ec%84%a4%ec%b9%98.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+      </footer>
+      
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#기존-노드-삭제">기존 노드 삭제</a></li>
+        <li><a href="#노드-매니저-nvm-설치">노드 매니저 NVM 설치</a></li>
+        <li><a href="#노드-설치-확인">노드 설치 확인</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

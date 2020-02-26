@@ -6,17 +6,29 @@
     <description>Recent content in 기록 on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>파이썬 분석 환경 Jupyter 설치</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/24-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/24-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/</guid>
+      <description>3번째 정리하는 파이썬 데이터 분석환경 구축 정리다. 여기서는 Mac환경에서만 설명한다.
+$ 표기는 쉘 프롬프트를 나타낸다.
+pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda 파이썬 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34; export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(pyenv init -)편집하고 나온다.
+$ source .zshrc 파이썬 버전 확인 $ pyenv --version pyenv 1.</description>
+    </item>
+    
+    <item>
       <title>NVM(Node) 설치</title>
-      <link>https://noweaver.github.io/posts/Journal/2020/02/2020-02-17-Node%EC%84%A4%EC%B9%98/</link>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/17-Node%EC%84%A4%EC%B9%98/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/2020/02/2020-02-17-Node%EC%84%A4%EC%B9%98/</guid>
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/17-Node%EC%84%A4%EC%B9%98/</guid>
       <description>nvm은 여러 Node.js 버전을 분리하여 사용할 수 있는 Node.js 버전 매니저이다. 기존에 Node를 설치를 했다면, 여기를 참조하여 노드를 제거한다. 대략 제걱하는 방법은 다음과 같다. 맥을 기준으로 설명한다.
 기존 노드 삭제 $ sudo rm /usr/local/bin/npm $ sudo rm /usr/local/share/man/man1/node.1 $ sudo rm /usr/local/lib/dtrace/node.d $ sudo rm -rf ~/.npm $ sudo rm -rf ~/.node-gyp $ sudo rm /opt/local/bin/node $ sudo rm /opt/local/include/node $ sudo rm -rf /opt/local/lib/node_modules 노드 매니저 NVM 설치 맥은 Brew 를 이용하는 것이 가장 편하다.</description>
     </item>

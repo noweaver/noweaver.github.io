@@ -4,7 +4,42 @@
   
   <url>
     <loc>https://noweaver.github.io/categories/</loc>
-    <lastmod>2020-02-19T14:21:29+09:00</lastmod>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/Jupyter/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/Journal/2020/02/24-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,33 +48,8 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/</loc>
-    <lastmod>2020-02-19T14:21:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/Journal/2020/02/2020-02-17-Node%EC%84%A4%EC%B9%98/</loc>
+    <loc>https://noweaver.github.io/posts/Journal/2020/02/17-Node%EC%84%A4%EC%B9%98/</loc>
     <lastmod>2020-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/</loc>
-    <lastmod>2020-02-19T14:21:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/</loc>
-    <lastmod>2020-02-19T14:21:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</loc>
-    <lastmod>2020-02-19T14:21:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
   </url>
   
   <url>
@@ -184,11 +194,6 @@
   
   <url>
     <loc>https://noweaver.github.io/tags/Installation/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/Jupyter/</loc>
     <lastmod>2020-02-17T09:22:21+09:00</lastmod>
   </url>
   
@@ -735,11 +740,6 @@
   <url>
     <loc>https://noweaver.github.io/posts/Journal/2018/03/09-Journal/</loc>
     <lastmod>2020-02-17T09:22:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/posts/Journal/2020/02/2020-02-24-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

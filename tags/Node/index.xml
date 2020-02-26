@@ -13,10 +13,10 @@
     
     <item>
       <title>NVM(Node) 설치</title>
-      <link>https://noweaver.github.io/posts/Journal/2020/02/2020-02-17-Node%EC%84%A4%EC%B9%98/</link>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/17-Node%EC%84%A4%EC%B9%98/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/2020/02/2020-02-17-Node%EC%84%A4%EC%B9%98/</guid>
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/17-Node%EC%84%A4%EC%B9%98/</guid>
       <description>nvm은 여러 Node.js 버전을 분리하여 사용할 수 있는 Node.js 버전 매니저이다. 기존에 Node를 설치를 했다면, 여기를 참조하여 노드를 제거한다. 대략 제걱하는 방법은 다음과 같다. 맥을 기준으로 설명한다.
 기존 노드 삭제 $ sudo rm /usr/local/bin/npm $ sudo rm /usr/local/share/man/man1/node.1 $ sudo rm /usr/local/lib/dtrace/node.d $ sudo rm -rf ~/.npm $ sudo rm -rf ~/.node-gyp $ sudo rm /opt/local/bin/node $ sudo rm /opt/local/include/node $ sudo rm -rf /opt/local/lib/node_modules 노드 매니저 NVM 설치 맥은 Brew 를 이용하는 것이 가장 편하다.</description>
     </item>
