@@ -8,15 +8,15 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://noweaver.github.io/posts/" />
-<meta property="og:updated_time" content="2020-01-15T00:00:00+00:00" />
+<meta property="og:updated_time" content="2020-02-17T00:00:00+00:00" />
 <title>Posts | noweaver</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.327a7346ed65bd45e7889adff447f01f212a1b54dbf3c12139d26b63b077108f.css" integrity="sha256-MnpzRu1lvUXniJrf9EfwHyEqG1Tb88EhOdJrY7B3EI8=">
+<link rel="stylesheet" href="/book.min.edc993575be58655f3e49634e3ca6db09cc38ac9aa03ecdbe81d941636e35273.css" integrity="sha256-7cmTV1vlhlXz5JY048ptsJzDismqA&#43;zb6B2UFjbjUnM=">
 
 
-<script defer src="/ko.search.min.61a31a585d201789fea1f0eab184c7c7af610b84e2dfa8539ccc99c9dc38c812.js" integrity="sha256-YaMaWF0gF4n&#43;ofDqsYTHx69hC4Ti36hTnMyZydw4yBI="></script>
+<script defer src="/ko.search.min.edb87446f520f53e37c5ec5bed2cf61a162bd2992769e3f300413633224537eb.js" integrity="sha256-7bh0RvUg9T43xexb7Sz2GhYr0pknaePzAEE2MyJFN&#43;s="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -39,12 +39,71 @@ https://github.com/alex-shpak/hugo-book
 </head>
 
 <body>
-  <input type="checkbox" class="hidden" id="toc-control" />
   <input type="checkbox" class="hidden" id="menu-control" />
-  <main class="container">
-    
-  <aside class="book-toc fixed">
-<nav>
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Posts</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav>
   <ul>
   
     
@@ -52,32 +111,29 @@ https://github.com/alex-shpak/hugo-book
       <strong>Categories</strong>
       <ul>
       
-        <li>
-          <a href="/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/">잡동사니</a>
-        </li>
-      
-        <li>
-          <a href="/categories/%EA%B3%B5%EB%B6%80/">공부</a>
-        </li>
-      
-        <li>
+        <li class="flex justify-between">
           <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
+          <span>68</span>
         </li>
       
-        <li>
-          <a href="/categories/FIRE/">FIRE</a>
-        </li>
-      
-        <li>
+        <li class="flex justify-between">
           <a href="/categories/%EB%8F%85%EC%84%9C/">독서</a>
+          <span>14</span>
         </li>
       
-        <li>
-          <a href="/categories/Development/">Development</a>
+        <li class="flex justify-between">
+          <a href="/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/">잡동사니</a>
+          <span>4</span>
         </li>
       
-        <li>
-          <a href="/categories/golang/">golang</a>
+        <li class="flex justify-between">
+          <a href="/categories/FIRE/">FIRE</a>
+          <span>6</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/categories/%EA%B3%B5%EB%B6%80/">공부</a>
+          <span>10</span>
         </li>
       
       </ul>
@@ -89,144 +145,184 @@ https://github.com/alex-shpak/hugo-book
       <strong>Tags</strong>
       <ul>
       
-        <li>
-          <a href="">Hugo</a>
+        <li class="flex justify-between">
+          <a href="/tags/Node/">Node</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/%EC%84%A4%EC%B9%98/">설치</a>
+          <span>12</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
+          <a href="/tags/%EB%A6%B0-%EB%B6%84%EC%84%9D/">린 분석</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/">비즈니스</a>
+          <span>9</span>
+        </li>
+      
+        <li class="flex justify-between">
           <a href="/tags/%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/">린 스타트업</a>
+          <span>4</span>
         </li>
       
-        <li>
-          <a href="/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/">플랫폼 비즈니스</a>
+        <li class="flex justify-between">
+          <a href="/tags/LifeHack/">LifeHack</a>
+          <span>1</span>
         </li>
       
-        <li>
-          <a href="/tags/Platform-Business/">Platform Business</a>
+        <li class="flex justify-between">
+          <a href="/tags/Windows-10/">Windows 10</a>
+          <span>1</span>
         </li>
       
-        <li>
-          <a href="/tags/Jupyter/">Jupyter</a>
+        <li class="flex justify-between">
+          <a href="/tags/Karabiner/">Karabiner</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/Mac/">Mac</a>
+          <span>3</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
+          <a href="/tags/%EC%98%81%EC%96%B4/">영어</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Hugo/">Hugo</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC/">플랫폼</a>
+          <span>4</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98/">플랫폼 레볼루션</a>
+          <span>4</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Installation/">Installation</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Jupyter/">Jupyter</a>
+          <span>5</span>
+        </li>
+      
+        <li class="flex justify-between">
           <a href="/tags/PySpark/">PySpark</a>
+          <span>2</span>
         </li>
       
-        <li>
-          <a href="/tags/%EC%A3%BC%EC%8B%9D-%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/">주식 | 재무제표</a>
+        <li class="flex justify-between">
+          <a href="/tags/%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/">재무제표</a>
+          <span>1</span>
         </li>
       
-        <li>
-          <a href="/tags/Zsh/">Zsh</a>
-        </li>
-      
-        <li>
-          <a href="/tags/Java/">Java</a>
-        </li>
-      
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/%EC%A3%BC%EC%8B%9D/">주식</a>
+          <span>8</span>
         </li>
       
-        <li>
-          <a href="/tags/%EB%8F%85%EC%84%9C-%EC%A3%BC%EC%8B%9D/">독서 | 주식</a>
+        <li class="flex justify-between">
+          <a href="/tags/%EC%9D%B8%EB%8F%84/">인도</a>
+          <span>1</span>
         </li>
       
-        <li>
-          <a href="/tags/%EB%8F%85%EC%84%9C-%EC%98%81%EC%96%B4/">독서 | 영어</a>
+        <li class="flex justify-between">
+          <a href="/tags/%EC%B6%9C%EC%9E%A5/">출장</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
+          <a href="/tags/Zsh/">Zsh</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Java/">Java</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
           <a href="/tags/CMA/">CMA</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/Virtual-Box/">Virtual Box</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/ISLR/">ISLR</a>
+          <span>9</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/%EC%98%81%EC%96%91%EC%A0%9C/">영양제</a>
+          <span>1</span>
         </li>
       
-        <li>
-          <a href="">Golang</a>
+        <li class="flex justify-between">
+          <a href="/tags/Golang/">Golang</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/Pandas/">Pandas</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/">데이터 분석 환경</a>
+          <span>6</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/Anaconda/">Anaconda</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/Python/">Python</a>
+          <span>2</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/Career/">Career</a>
+          <span>9</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/Coursera/">Coursera</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/Deep-Learning/">Deep Learning</a>
+          <span>1</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98/">자본주의</a>
+          <span>3</span>
         </li>
       
-        <li>
+        <li class="flex justify-between">
           <a href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</a>
-        </li>
-      
-        <li>
-          <a href="/tags/Book-Theme/">Book Theme</a>
-        </li>
-      
-        <li>
-          <a href="/tags/development/">development</a>
-        </li>
-      
-        <li>
-          <a href="/tags/go/">go</a>
-        </li>
-      
-        <li>
-          <a href="/tags/golang/">golang</a>
-        </li>
-      
-        <li>
-          <a href="/tags/hugo/">hugo</a>
-        </li>
-      
-        <li>
-          <a href="/tags/templates/">templates</a>
-        </li>
-      
-        <li>
-          <a href="/tags/themes/">themes</a>
+          <span>2</span>
         </li>
       
       </ul>
@@ -235,56 +331,87 @@ https://github.com/alex-shpak/hugo-book
   
   </ul>
 </nav>
-</aside>
 
 
-
-    <div class="book-page">
-      <header class="flex align-center justify-between book-header">
-  <label id="menu-control" for="menu-control">
-    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
-  </label>
-  <label id="toc-control" for="toc-control">
-  <strong>Posts</strong>
-  </label>
-</header>
+    </aside>
+  
+ 
+      </header>
 
       
   
   
   <article class="markdown book-post">
     <h2>
-      <a href="/posts/Misc/2014-04-02_hugoisforlovers/">Getting Started with Hugo</a>
+      <a href="/posts/Journal/2018/03/11-Journal/">nowist 되기 위한 계획</a>
     </h2>
     
 
 <div>
 
-  <h5>2014/04/02</h5>
+  <h5>2018/03/11</h5>
 
 
-
-  
 
   
   <div>
     
-      
-        <a href="/tags/Book-Theme/">Book Theme</a>
   </div>
+  
+
   
 
 
 </div>
 
 
-    <p>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
-        <a href="/posts/Misc/2014-04-02_hugoisforlovers/">...</a>
+    <p>내가 이주하려는 목적은 인생의 2막을 열어 보고 싶기 때문이다. 물론 기간이 있으며, 사랑하는 사람을 위해서라도 기간에 종결 되어야 한다. 몇 년이 될지 모르겠지만 내 마음속으로 정해둔 기간은 말도 안 되게 짧다. 정말 이루고 싶고 간절하다. 아니 절박하다. 그런데 그 절박하다는 말은, 간절하다는 말은 수도 없이 반복했던 것 같다. 그리고 그렇게 하지 못 했다. 그저 그렇게 인생을 살아가고 있다.
+절박하다, 간절하다 말은 하지만 행동하지 못 하는 것은 새벽에 일어나는 것 보면 알 수 있다.
+        <a href="/posts/Journal/2018/03/11-Journal/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/Journal/2018/03/09-Journal/">가장 낮은 자세에서 서고 싶다.</a>
+    </h2>
+    
+
+<div>
+
+  <h5>2018/03/09</h5>
+
+
+
+  
+  <div>
+    
+  </div>
+  
+
+  
+
+
+</div>
+
+
+    <p>가르쳐 들려 하지 말자. 내 경험이 틀릴 수 있다. 낮게 보지 말자. 그저 울타리가 높고 좋다한들 벗어나면 똑같다. 직위의 문제가 아니라 역할의 문제다. 마찬가지로 벗겨내면 똑같다. 인생은 어딘들 실전이다. 연습은 없다.
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/Journal/2020/02/2020-02-24-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/"></a>
+    </h2>
+    
+
+
+    <p>3번째 정리하는 파이썬 데이터 분석환경 구축 정리다. 여기서는 Mac환경에서만 설명한다.
+$ 표기는 쉘 프롬프트를 나타낸다.
+pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda 파이썬 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&#34;$HOME/.pyenv&#34; export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)편집하고 나온다.
+$ source .zshrc 파이썬 버전 확인 $ pyenv --version pyenv 1.
+        <a href="/posts/Journal/2020/02/2020-02-24-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/">...</a>
       
     </p>
   </article>
@@ -426,86 +553,276 @@ Follow the following steps:
 </ul>
 
 
+ 
 
-      <div class="book-footer justify-between">
-  
-
-  
-
-  
-
-</div>
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
 
 
-<div class="book-comments">
-  
-<div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
 
 </div>
 
-
+ 
+        
+  
+ 
+      </footer>
       
     </div>
 
-    <aside class="book-menu fixed">
-      <nav id="BookMenu">
-<h2 class="book-brand">
-  <a href="https://noweaver.github.io/"><span>noweaver</span>
-  </a>
-</h2>
-
-
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s /" />
-  <div class="book-search-spinner spinner hidden"></div>
-  <ul id="book-search-results"></ul>
-</div>
-
-
-
-
-
     
-
-
-
-
+    <aside class="book-toc">
+      
+  <nav>
+  <ul>
+  
+    
+    <li class="book-section-flat">
+      <strong>Categories</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
+          <span>68</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/categories/%EB%8F%85%EC%84%9C/">독서</a>
+          <span>14</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/">잡동사니</a>
+          <span>4</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/categories/FIRE/">FIRE</a>
+          <span>6</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/categories/%EA%B3%B5%EB%B6%80/">공부</a>
+          <span>10</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+    
+    <li class="book-section-flat">
+      <strong>Tags</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Node/">Node</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EC%84%A4%EC%B9%98/">설치</a>
+          <span>12</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EB%A6%B0-%EB%B6%84%EC%84%9D/">린 분석</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/">비즈니스</a>
+          <span>9</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/">린 스타트업</a>
+          <span>4</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/LifeHack/">LifeHack</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Windows-10/">Windows 10</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Karabiner/">Karabiner</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Mac/">Mac</a>
+          <span>3</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EC%98%81%EC%96%B4/">영어</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Hugo/">Hugo</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC/">플랫폼</a>
+          <span>4</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98/">플랫폼 레볼루션</a>
+          <span>4</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Installation/">Installation</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Jupyter/">Jupyter</a>
+          <span>5</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/PySpark/">PySpark</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/">재무제표</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EC%A3%BC%EC%8B%9D/">주식</a>
+          <span>8</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EC%9D%B8%EB%8F%84/">인도</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EC%B6%9C%EC%9E%A5/">출장</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Zsh/">Zsh</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Java/">Java</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/CMA/">CMA</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Virtual-Box/">Virtual Box</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/ISLR/">ISLR</a>
+          <span>9</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EC%98%81%EC%96%91%EC%A0%9C/">영양제</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Golang/">Golang</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Pandas/">Pandas</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/">데이터 분석 환경</a>
+          <span>6</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Anaconda/">Anaconda</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Python/">Python</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Career/">Career</a>
+          <span>9</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Coursera/">Coursera</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/Deep-Learning/">Deep Learning</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98/">자본주의</a>
+          <span>3</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</a>
+          <span>2</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+  </ul>
 </nav>
 
-
-<script>
-(function() {
-  var menu = document.querySelector("aside.book-menu nav");
-  addEventListener("beforeunload", function(event) {
-    localStorage.setItem("menu.scrollTop", menu.scrollTop);
-  });
-  menu.scrollTop = localStorage.getItem("menu.scrollTop");
-})();
-</script>
-
+ 
     </aside>
+    
   </main>
 
   
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
