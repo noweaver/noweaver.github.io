@@ -108,11 +108,6 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/categories/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</loc>
-    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://noweaver.github.io/tags/Karabiner/</loc>
     <lastmod>2020-02-17T09:22:21+09:00</lastmod>
   </url>
@@ -158,7 +153,12 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Misc/2020-01-01-2020%E1%84%82%E1%85%A7%E1%86%AB-%E1%84%8B%E1%85%B5%E1%86%B0%E1%84%80%E1%85%A9-%E1%84%89%E1%85%B5%E1%87%81%E1%84%8B%E1%85%B3%E1%86%AB-%E1%84%8E%E1%85%A2%E1%86%A8/</loc>
+    <loc>https://noweaver.github.io/posts/Journal/2020/01/01-2020%EB%85%84-%EC%9D%BD%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EC%B1%85/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -525,6 +525,11 @@
   <url>
     <loc>https://noweaver.github.io/posts/Journal/2018/08/02-Journal/</loc>
     <lastmod>2020-02-17T09:22:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/Journal/2018/07/31-Financial-recommend-books/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
