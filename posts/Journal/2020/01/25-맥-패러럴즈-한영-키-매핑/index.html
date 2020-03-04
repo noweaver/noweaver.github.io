@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="맥 키보드 한/영 키 설정"><meta property="og:title" content="맥 키보드 한/영 키 설정" />
+<meta property="og:description" content="Karabiner 설치 여기서는 Brew로 맥의 GUI 프로그램을 설치하는 brew cask방법으로 설치한다.
+$ brew cask install karabiner-elements Karabiner 구성파일 셋업  출처: https://blog.naver.com/hankboy/221200885234
+  ⌘ command  &#43; ⇧ shift  &#43; .을 누르면 숨겨진 파일을 보여준다. ~/.config/karabiner/assets/complex_modifications 의 경로를 찾아 이동한다. 혹은 ⌘ command &#43; ⇧ Shift &#43; g 실행해서 위의 경로를 입력해서 이동한다.  애플키보드 한영전환/한자키 지정 (rev.1.13d) 다른 이름(KorEng-Hanja.json)으로 저장해서 위의 디렉터리로 파일 복사 혹은 이동한다.   Karabiner-Elements 실행  3번째 Complex modifications 탭을 클릭한다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noweaver.github.io/posts/Journal/2020/01/25-%EB%A7%A5-%ED%8C%A8%EB%9F%AC%EB%9F%B4%EC%A6%88-%ED%95%9C%EC%98%81-%ED%82%A4-%EB%A7%A4%ED%95%91/" />
+<meta property="article:published_time" content="2020-01-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-25T00:00:00+00:00" />
+<title>맥 키보드 한/영 키 설정 | noweaver</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.edc993575be58655f3e49634e3ca6db09cc38ac9aa03ecdbe81d941636e35273.css" integrity="sha256-7cmTV1vlhlXz5JY048ptsJzDismqA&#43;zb6B2UFjbjUnM=">
+
+
+<script defer src="/ko.search.min.ecac93437a9450809a10d2ba086655b8f6fa1480833f86403b0d045f526bdcfd.js" integrity="sha256-7KyTQ3qUUICaENK6CGZVuPb6FICDP4ZAOw0EX1Jr3P0="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123156470-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>맥 키보드 한/영 키 설정</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#karabiner-설치">Karabiner 설치</a></li>
+        <li><a href="#karabiner-구성파일-셋업">Karabiner 구성파일 셋업</a></li>
+        <li><a href="#karabiner-elements-실행">Karabiner-Elements 실행</a></li>
+        <li><a href="#맥과-패러럴즈윈도우-키보드-싱크-회피">맥과 패러럴즈(윈도우) 키보드 싱크 회피</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Journal/2020/01/25-%EB%A7%A5-%ED%8C%A8%EB%9F%AC%EB%9F%B4%EC%A6%88-%ED%95%9C%EC%98%81-%ED%82%A4-%EB%A7%A4%ED%95%91/">맥 키보드 한/영 키 설정</a>
+  </h1>
+  
+
+<div>
+
+  <h5>2020/01/25</h5>
+
+
+
+  
+  <div>
+    
+  </div>
+  
+
+  
+  <div>
+    
+        <a href="/tags/Mac/">Mac</a>, 
+        <a href="/tags/Karabiner/">Karabiner</a>
+  </div>
+  
+
+
+</div>
+
+
+  <p><h2 id="karabiner-설치">Karabiner 설치</h2>
+<p>여기서는 Brew로 맥의 GUI 프로그램을 설치하는 <code>brew cask</code>방법으로 설치한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew cask install karabiner-elements
+</code></pre></div><h2 id="karabiner-구성파일-셋업">Karabiner 구성파일 셋업</h2>
+<blockquote>
+<p>출처: <a href="https://blog.naver.com/hankboy/221200885234">https://blog.naver.com/hankboy/221200885234</a></p>
+</blockquote>
+<ol>
+<li><kbd>⌘ command </kbd> + <kbd>⇧ shift </kbd> + <kbd>.</kbd>을 누르면 숨겨진 파일을 보여준다.</li>
+<li><code>~/.config/karabiner/assets/complex_modifications</code> 의 경로를 찾아 이동한다.</li>
+<li>혹은 <kbd>⌘ command</kbd> + <kbd>⇧ Shift</kbd> + <kbd>g</kbd> 실행해서 위의 경로를 입력해서 이동한다.
+<img src="/2020/01-25/Karabiner-1.png" alt="Karabiner1"></li>
+<li><a href="/2020/01-25/KorEng-Hanja.json">애플키보드 한영전환/한자키 지정 (rev.1.13d)</a> 다른 이름(KorEng-Hanja.json)으로 저장해서 위의 디렉터리로 파일 복사 혹은 이동한다.
+<img src="/2020/01-25/Karabiner-2.png" alt="Karabiner2"></li>
+</ol>
+<h2 id="karabiner-elements-실행">Karabiner-Elements 실행</h2>
+<ol>
+<li>3번째 <code>Complex modifications</code> 탭을 클릭한다.
+<img src="/2020/01-25/Karabiner-3.png" alt="Karabiner3"></li>
+<li>아래 <code>Add rule</code> 클릭하고, <code>Enable All</code> 클릭해서 등록한다.
+<img src="/2020/01-25/Karabiner-4.png" alt="Karabiner4"></li>
+<li>아래처럼 나오는지 확인하고 종료한다.
+<img src="/2020/01-25/Karabiner-5.png" alt="Karabiner5"></li>
+<li>오른쪽의 <kbd>⌘  command</kbd> 키가 잘 동작하는지 눌러보자.</li>
+<li>패러럴즈의 윈도우에서도 되는지 확인한다.</li>
+</ol>
+<h2 id="맥과-패러럴즈윈도우-키보드-싱크-회피">맥과 패러럴즈(윈도우) 키보드 싱크 회피</h2>
+<p>위와 같이 했다면 아래 그림과 같이 <strong><code>A</code></strong>과 <strong><code>한</code></strong> 보여야 한다.</p>
+<p align="center">
+<img width=100 src="/2020/01-25/eng-kor-1-1.png" />
+</p>
+<p>윈도우 10 이하 버전에서 발생하는 것인지 모르겠으나, 윈도우10에서 키보드가 아래 그림처럼 <strong><code>ENG</code></strong> 형태가 보인다.</p>
+<p align="center">
+<img width=400 src="/2020/01-25/eng-kor-2.png" />
+</p>
+<p><code>패러럴즈</code>는 OS를 설치하면서 키보드의 매핑을 <strong>기본 값으로 설정</strong>하고 있다고 한다.</p>
+<blockquote>
+<p><i>윈도우를 사용하고 있다 맥으로 전환되거나 혹은 윈도우 리부팅을 해도 <strong><code>ENG</code></strong>형태가 보이는 현상이 즉시 나타나지 않아도 시간이 지나, 사용하면서 발생하게 되었다.</i></p>
+</blockquote>
+<p>이것은 이것은 맥의 키보드와 패러럴즈 가상 형태의 키보드가 <strong><code>Sync</code></strong> 되어 있기 때문이라는데, 이것을 해결 하기 위해서는 다음과 같은 가상화 설정 변경으로 해결 할 수 있다. 일주일 째 사용하고 있는데 문제 없이 잘 사용하고 있어 기록으로 남긴다.</p>
+<ol>
+<li>가상머신 <code>Windows 10</code>이 실행 중이면, <code>Suspend</code>가 아닌 완전히 <code>OS 종료</code>를 한다.</li>
+<li>패러럴즈를 종료한다.</li>
+<li>그림처럼 <kbd>⌘ command</kbd> + <kbd>⇧ Shift</kbd> + <kbd>g</kbd> 실행하여 <code>/Users/{User 이름}/Parallels/</code>로 이동한다.
+<img src="/2020/01-25/vm-1.png" alt="vm-1"></li>
+<li><code>{가상 머신 이름}.pvm</code> 형태의 파일의 가상머신이 보일 것이다(여기서 가상머신 이름은 <code>Windows 10.pvm</code>). 마우스 우클릭 선택하여, 이 가상머신의 컨텍스트 메뉴의 <code>패키지 보기</code>를 한다.
+<img src="/2020/01-25/vm-2.png" alt="vm-2"><p align=center><img src="/2020/01-25/vm-3.png"/></p></li>
+<li>텍스트 편집기로 <code>config.pvs</code> 파일을 오픈한다.
+<img src="/2020/01-25/vm-4.png" alt="vm-4"></li>
+<li><code>KeyboardLayoutSync</code>를 찾는다. 바로 아래의 <code>Enabled</code>의 값이 <code>1</code>로 되어 있을텐데 <code>0</code>으로 변경한다.
+<img src="/2020/01-25/vm-5.png" alt="vm-5"></li>
+<li>패러럴즈 시작하고, 가상머신을 시작한다.</li>
+</ol>
+</p>
+</article>
+ 
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Journal/2020/01/25-%eb%a7%a5-%ed%8c%a8%eb%9f%ac%eb%9f%b4%ec%a6%88-%ed%95%9c%ec%98%81-%ed%82%a4-%eb%a7%a4%ed%95%91.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+      </footer>
+      
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#karabiner-설치">Karabiner 설치</a></li>
+        <li><a href="#karabiner-구성파일-셋업">Karabiner 구성파일 셋업</a></li>
+        <li><a href="#karabiner-elements-실행">Karabiner-Elements 실행</a></li>
+        <li><a href="#맥과-패러럴즈윈도우-키보드-싱크-회피">맥과 패러럴즈(윈도우) 키보드 싱크 회피</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,10 +6,20 @@
     <description>Recent content in 기록 on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>마음의 우선순위가 혼란하다.</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/02-Journal/</link>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/02-Journal/</guid>
+      <description>지난 주 수요일부터, 그러니까 회사의 재택 근무 공지를 받고부터 일까? 집에서 일하다 보니 삶의 대한 태도가 매우 게을러지고 의지가 없는 사람이 되어 버렸다. 쉬는 동안 아니 집에 있는 동안, 하루 종일 하는 일은 신천지 검색하고 뉴스 읽고 하는 것이 전부가 되어 버렸다. 사회적 이슈로 인해 분노가 치밀어 있는 상태이기도 하다.
+내 삶의 목표가 무엇인지 너무나도 잘 아는데, 몸이 쉽게 움직여 지지 않았다. 점점 게을러지고 능력 없이 지내기 싫은데, 말처럼 생각처럼 몸은 따라주지 않는다.</description>
+    </item>
     
     <item>
       <title>파이썬 분석 환경 Jupyter 설치</title>
@@ -55,19 +65,13 @@ $ source .zshrc 파이썬 버전 확인 $ pyenv --version pyenv 1.</description>
     
     <item>
       <title>맥 키보드 한/영 키 설정</title>
-      <link>https://noweaver.github.io/posts/Journal/2020/01/25-Mac-Brew-Program-Installation/</link>
+      <link>https://noweaver.github.io/posts/Journal/2020/01/25-%EB%A7%A5-%ED%8C%A8%EB%9F%AC%EB%9F%B4%EC%A6%88-%ED%95%9C%EC%98%81-%ED%82%A4-%EB%A7%A4%ED%95%91/</link>
       <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/2020/01/25-Mac-Brew-Program-Installation/</guid>
+      <guid>https://noweaver.github.io/posts/Journal/2020/01/25-%EB%A7%A5-%ED%8C%A8%EB%9F%AC%EB%9F%B4%EC%A6%88-%ED%95%9C%EC%98%81-%ED%82%A4-%EB%A7%A4%ED%95%91/</guid>
       <description>Karabiner 설치 여기서는 Brew로 맥의 GUI 프로그램을 설치하는 brew cask방법으로 설치한다.
-$ brew cask install karabiner-elements Karabiner 구성파일 셋업 Finder에서 command + shift + g 실행한다. 그리고 팝업에 다음을 입력하고 엔터한다.
-~/.config/karabiner/assets/complex_modifications
-애플키보드 한영전환/한자키 지정 (rev.1.13d) 다른 이름으로 저장해서 위의 디렉터리로 파일 복사 혹은 이동
- 출처: https://blog.naver.com/hankboy/221200885234
- Karabiner-Elements 실행 3번째 Complex modifications 클릭
-아래 Add rule 클릭하고, Enable All 클릭해서 등록
-아래처럼 나오는지 확인하고 종료
-오른쪽에 Command 키가 잘 동작하는지 눌러보자.</description>
+$ brew cask install karabiner-elements Karabiner 구성파일 셋업  출처: https://blog.naver.com/hankboy/221200885234
+  ⌘ command  + ⇧ shift  + .을 누르면 숨겨진 파일을 보여준다. ~/.config/karabiner/assets/complex_modifications 의 경로를 찾아 이동한다. 혹은 ⌘ command + ⇧ Shift + g 실행해서 위의 경로를 입력해서 이동한다.  애플키보드 한영전환/한자키 지정 (rev.1.13d) 다른 이름(KorEng-Hanja.json)으로 저장해서 위의 디렉터리로 파일 복사 혹은 이동한다.   Karabiner-Elements 실행  3번째 Complex modifications 탭을 클릭한다.</description>
     </item>
     
     <item>
