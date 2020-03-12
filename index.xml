@@ -6,10 +6,29 @@
     <description>Recent content on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>독서에 관해서</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/09-%EB%8F%85%EC%84%9C%EC%97%90-%EA%B4%80%ED%95%B4%EC%84%9C/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/09-%EB%8F%85%EC%84%9C%EC%97%90-%EA%B4%80%ED%95%B4%EC%84%9C/</guid>
+      <description>은퇴 이후를 어떻게 준비하지라는 생각을 1주간 생각을 정리를 해 보았다. 그럼에 보면 무언가를 하기 위해서 배워야 하고 학습해야 한다고 생각하고 있었다. 틀린 말은 아니지만 경험에 배우는 실전이 아님에 스스로 조금은 실망했다. 평소에 경험이 중요하다. 경험이 전부다.라고 스스로에게 말했던 것과 다른 얘기가 되기 때문이다. 하지만 스스로의 자위일지 몰라도, 이제 나도 늙었구나.라는 생각에 많이 안타까움을 느꼈고, 슬프기까지 했다. 또한 그렇게 배우고 학습하고자 했던 것들 보면 모두가 책을 통해서 준비하는 것이다. 책, 책, 책&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>마음의 수양</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/09-Journal/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/09-Journal/</guid>
+      <description>오랜만에 이모부와 통화를 했다. 회사에 올바른 소리 하지 말고, 큰 불만 품지 말라고. 당신도 회사 생활 하면서 그때가 가장 후회스럽다고. 부당한 것 얘기를 한 듯 바뀌는 것이 아니라는 것. 그렇게 조용히 묵묵히 일 하다 기회를 잡는 것이 훨씬 더 이익이다라는 것이다. 100% 나는 동의한다.
+어떤 사람인지 확인시켜줄 방법은 사람들에게 오르락 내리는 평판뿐이다고. 일은 잘하고, 똑똑한데&amp;hellip; 평판 중, 긍정 메시지 다음으로 ~한데, 그런데 등이 들어가면 그것만 기억한다고. 맞다. 나는 그렇게 잃어버렸다. 시간을 잃어버렸다.</description>
+    </item>
     
     <item>
       <title>마음의 우선순위가 혼란하다.</title>
@@ -109,7 +128,7 @@ $ source .zshrc 파이썬 버전 확인 $ pyenv --version pyenv 1.</description>
       
       <guid>https://noweaver.github.io/posts/Journal/2020/01/25-%EB%A7%A5-%ED%8C%A8%EB%9F%AC%EB%9F%B4%EC%A6%88-%ED%95%9C%EC%98%81-%ED%82%A4-%EB%A7%A4%ED%95%91/</guid>
       <description>Karabiner 설치 여기서는 Brew로 맥의 GUI 프로그램을 설치하는 brew cask방법으로 설치한다.
-$ brew cask install karabiner-elements Karabiner 구성파일 셋업  출처: https://blog.naver.com/hankboy/221200885234
+$ brew cask install karabiner-elements Karabiner 구성파일 셋업  출처: 작은곰의 작업실
   ⌘ command  + ⇧ shift  + .을 누르면 숨겨진 파일을 보여준다. ~/.config/karabiner/assets/complex_modifications 의 경로를 찾아 이동한다. 혹은 ⌘ command + ⇧ Shift + g 실행해서 위의 경로를 입력해서 이동한다.  애플키보드 한영전환/한자키 지정 (rev.1.13d) 다른 이름(KorEng-Hanja.json)으로 저장해서 위의 디렉터리로 파일 복사 혹은 이동한다.   Karabiner-Elements 실행  3번째 Complex modifications 탭을 클릭한다.</description>
     </item>
     
