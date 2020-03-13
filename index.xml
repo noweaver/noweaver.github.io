@@ -6,10 +6,33 @@
     <description>Recent content on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac에 자바 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/13-Mac-Java-Installation/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/13-Mac-Java-Installation/</guid>
+      <description>오라클의 자바가 유료화 되면서, 그리고 자바 업무를 더 이상 하지 않아 설치를 미루고 있었다. 게다가 스칼라 코딩도 이제는 하지 않는 상황이므로 자바를 이유가 없었기 때문이다. 이클립스 기반의 DBeaver 를 Brew로 설치하고 실행하니 아래와 같은 팝업이 뜬다.
+한 만디로 자바가 없다는 얘기다. 아래 참고를 통해서 설치한다.
+ 참고
+  OpenJDK 설명: https://ko.wikipedia.org/wiki/OpenJDK OpenJDK: https://openjdk.java.net/ AdoptOpenJDK: https://adoptopenjdk.net/ AdoptOpenJDK GitHub: https://github.com/AdoptOpenJDK/homebrew-openjdk    여기서는 Java 8을 설치했다.
+brew tap AdoptOpenJDK/openjdk brew cask install adoptopenjdk8 설치 된 자바 버전 확인</description>
+    </item>
+    
+    <item>
+      <title>온종일 책 한권 읽기 회고</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/10-%ED%95%98%EB%A3%A8%EC%A2%85%EC%9D%BC-%EC%A7%91%EC%A4%91%ED%95%98%EA%B8%B0-%ED%9A%8C%EA%B3%A0/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/10-%ED%95%98%EB%A3%A8%EC%A2%85%EC%9D%BC-%EC%A7%91%EC%A4%91%ED%95%98%EA%B8%B0-%ED%9A%8C%EA%B3%A0/</guid>
+      <description>결론부터 말하면, 온종일 책 한권 읽기는 실패했다.
+ 책 한 권을 온종일 읽어 끝내 보려고 했다. 역시, 1시간 이상 책을 읽기는 쉽지가 않았다. 린 고객 개발이라는 책을 새벽부터 오전 내내 읽었다. 앉아서 책 읽는데, 매우 답답함을 느꼈으며 집중력도 매우 높지가 않았다. 잡생각이 끊임없이 났다. 처음에는 습관이 잡히지 않아서 그럴 가능성이 크다고 생각했다. 하지만 돌이켜 생각해 보면 꼭 습관 때문은 아닌 것 같다. 예전에 공부할 때도 가만히 앉아 있지 못했던 경험이 있다.</description>
+    </item>
     
     <item>
       <title>독서에 관해서</title>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mac에 자바 설치하기"><meta property="og:title" content="Mac에 자바 설치하기" />
+<meta property="og:description" content="오라클의 자바가 유료화 되면서, 그리고 자바 업무를 더 이상 하지 않아 설치를 미루고 있었다. 게다가 스칼라 코딩도 이제는 하지 않는 상황이므로 자바를 이유가 없었기 때문이다. 이클립스 기반의 DBeaver 를 Brew로 설치하고 실행하니 아래와 같은 팝업이 뜬다.
+한 만디로 자바가 없다는 얘기다. 아래 참고를 통해서 설치한다.
+ 참고
+  OpenJDK 설명: https://ko.wikipedia.org/wiki/OpenJDK OpenJDK: https://openjdk.java.net/ AdoptOpenJDK: https://adoptopenjdk.net/ AdoptOpenJDK GitHub: https://github.com/AdoptOpenJDK/homebrew-openjdk    여기서는 Java 8을 설치했다.
+brew tap AdoptOpenJDK/openjdk brew cask install adoptopenjdk8 설치 된 자바 버전 확인" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noweaver.github.io/posts/Journal/2020/03/13-Mac-Java-Installation/" />
+<meta property="article:published_time" content="2020-03-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-13T00:00:00+00:00" />
+<title>Mac에 자바 설치하기 | noweaver</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.edc993575be58655f3e49634e3ca6db09cc38ac9aa03ecdbe81d941636e35273.css" integrity="sha256-7cmTV1vlhlXz5JY048ptsJzDismqA&#43;zb6B2UFjbjUnM=">
+
+
+<script defer src="/ko.search.min.4d4d2e021bd2a02b5534244886ad162f5d312224133211327e3c7365c1b69ec0.js" integrity="sha256-TU0uAhvSoCtVNCRIhq0WL10xIiQTMhEyfjxzZcG2nsA="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123156470-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Mac에 자바 설치하기</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents"></nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Journal/2020/03/13-Mac-Java-Installation/">Mac에 자바 설치하기</a>
+  </h1>
+  
+
+<div>
+
+  <h5>2020/03/13</h5>
+
+
+
+  
+  <div>
+    
+  </div>
+  
+
+  
+  <div>
+    
+        <a href="/tags/LifeHack/">LifeHack</a>
+  </div>
+  
+
+
+</div>
+
+
+  <p><p>오라클의 자바가 유료화 되면서, 그리고 자바 업무를 더 이상 하지 않아 설치를 미루고 있었다. 게다가 스칼라 코딩도 이제는 하지 않는 상황이므로 자바를 이유가 없었기 때문이다. 이클립스 기반의 DBeaver 를 Brew로 설치하고 실행하니 아래와 같은 팝업이 뜬다.</p>
+<p><img src="/2020/03-13/Java-Missed.png" alt="Java Missed"></p>
+<p>한 만디로 자바가 없다는 얘기다. 아래 참고를 통해서 설치한다.</p>
+<blockquote>
+<p><em><strong>참고</strong></em></p>
+<blockquote>
+<ul>
+<li><em><strong>OpenJDK 설명: <a href="https://ko.wikipedia.org/wiki/OpenJDK">https://ko.wikipedia.org/wiki/OpenJDK</a></strong></em></li>
+<li><em><strong>OpenJDK: <a href="https://openjdk.java.net/">https://openjdk.java.net/</a></strong></em></li>
+<li><em><strong>AdoptOpenJDK: <a href="https://adoptopenjdk.net/">https://adoptopenjdk.net/</a></strong></em></li>
+<li><em><strong>AdoptOpenJDK GitHub: <a href="https://github.com/AdoptOpenJDK/homebrew-openjdk">https://github.com/AdoptOpenJDK/homebrew-openjdk</a></strong></em></li>
+</ul>
+</blockquote>
+</blockquote>
+<p>여기서는 <code>Java 8</code>을 설치했다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+</code></pre></div><p>설치 된 자바 버전 확인</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">java -version
+openjdk version <span style="color:#e6db74">&#34;1.8.0_242&#34;</span>
+OpenJDK Runtime Environment <span style="color:#f92672">(</span>AdoptOpenJDK<span style="color:#f92672">)</span><span style="color:#f92672">(</span>build 1.8.0_242-b08<span style="color:#f92672">)</span>
+OpenJDK 64-Bit Server VM <span style="color:#f92672">(</span>AdoptOpenJDK<span style="color:#f92672">)</span><span style="color:#f92672">(</span>build 25.242-b08, mixed mode<span style="color:#f92672">)</span>
+</code></pre></div></p>
+</article>
+ 
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Journal/2020/03/13-Mac-Java-Installation.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+      </footer>
+      
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents"></nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
