@@ -6,10 +6,24 @@
     <description>Recent content in Java on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/Java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac에 자바 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/13-Mac-Java-Installation/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/13-Mac-Java-Installation/</guid>
+      <description>오라클의 자바가 유료화 되면서, 그리고 자바 업무를 더 이상 하지 않아 설치를 미루고 있었다. 이클립스 기반의 DBeaver 를 Brew로 설치하고 실행하니 아래와 같은 팝업이 뜬다.
+한 만디로 자바가 없다는 얘기다. 아래 참고를 통해서 설치한다.
+ 참고
+  OpenJDK 설명: https://ko.wikipedia.org/wiki/OpenJDK OpenJDK: https://openjdk.java.net/ AdoptOpenJDK: https://adoptopenjdk.net/ AdoptOpenJDK GitHub: https://github.com/AdoptOpenJDK/homebrew-openjdk    여기서는 Java 8을 설치했다.
+brew tap AdoptOpenJDK/openjdk brew cask install adoptopenjdk8 설치 된 자바 버전 확인
+java -version openjdk version &amp;#34;1.</description>
+    </item>
     
     <item>
       <title>Mac에 Java 설치하기</title>

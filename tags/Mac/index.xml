@@ -6,10 +6,34 @@
     <description>Recent content in Mac on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/Mac/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac, DataGrip 에서 Tibero 설정하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/16-DataGrip-Tibero/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/16-DataGrip-Tibero/</guid>
+      <description>맥을 사용하면서 DB Connection GUI 툴을 오래만에 사용한다. 예전에는 Oracle 접속을 위해서 Toad나 SQL Developer를 사용 했었다. 이번에 Tibero 데이터베이스에 처음으로 접근하는데, 맥용 DB 접근 GUI 툴을 제공하지 않아서 찾아보니, JDBC 드라이버만 있으면 접속할 수 있을 것 같았고, 설정을 해보니 문제 없이 동작하는 것을 확인이 되어 기록으로 남겨 둔다.
+1. JDBC Driver 다운 받기 Tibero 공식 홈페이지에서 JDBC 드라이버가 어딨는지 도저히 못 찾겠더라. 스무 고개 하니 Technet 을 만나기도 했지만 딱히 JDBC 드라이버는 보이지 않고, 또한 가입을 하라기에 중단하고 최신 1년 필터링으로 구글링 하니 jdbc driver가 발견이 되더라.</description>
+    </item>
+    
+    <item>
+      <title>Mac에 자바 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/13-Mac-Java-Installation/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/13-Mac-Java-Installation/</guid>
+      <description>오라클의 자바가 유료화 되면서, 그리고 자바 업무를 더 이상 하지 않아 설치를 미루고 있었다. 이클립스 기반의 DBeaver 를 Brew로 설치하고 실행하니 아래와 같은 팝업이 뜬다.
+한 만디로 자바가 없다는 얘기다. 아래 참고를 통해서 설치한다.
+ 참고
+  OpenJDK 설명: https://ko.wikipedia.org/wiki/OpenJDK OpenJDK: https://openjdk.java.net/ AdoptOpenJDK: https://adoptopenjdk.net/ AdoptOpenJDK GitHub: https://github.com/AdoptOpenJDK/homebrew-openjdk    여기서는 Java 8을 설치했다.
+brew tap AdoptOpenJDK/openjdk brew cask install adoptopenjdk8 설치 된 자바 버전 확인
+java -version openjdk version &amp;#34;1.</description>
+    </item>
     
     <item>
       <title>맥 키보드 한/영 키 설정</title>

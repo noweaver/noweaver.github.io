@@ -6,19 +6,23 @@
     <description>Recent content in Installation on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/Installation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mac, 나의 작업환경 만들기 1</title>
-      <link>https://noweaver.github.io/posts/Journal/2019/12/01-My-mac-environment/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <title>Mac에 자바 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/13-Mac-Java-Installation/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/2019/12/01-My-mac-environment/</guid>
-      <description>집에 있는 2013년 맥북에 아무것도 설치가 되지 않아서 새로 세팅하면서 기록을 남겨 놓는다.
-키보드 백스페이스 속도 올리기  System Preference 실행 Keyboard 실행   Show All 클릭 Accessibility 실행 왼쪽 메뉴에서 Keyboard 선택 중간의 Enable Show Keys 체크박스 클릭하지 말고, 옆에 Options... 버튼클릭  D2Coding 폰트 설치  D2Coding 다운로드 다운받은 D2Coding-*.zip 파일의 압축을 푼다. D2CodingAll 디렉터리에서 *.ttc 파일을 더블 클릭한다. 팝업 창이 2개 오픈 되는데, 하단에 있는 Install Font를 클릭하여 설치한다.</description>
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/13-Mac-Java-Installation/</guid>
+      <description>오라클의 자바가 유료화 되면서, 그리고 자바 업무를 더 이상 하지 않아 설치를 미루고 있었다. 이클립스 기반의 DBeaver 를 Brew로 설치하고 실행하니 아래와 같은 팝업이 뜬다.
+한 만디로 자바가 없다는 얘기다. 아래 참고를 통해서 설치한다.
+ 참고
+  OpenJDK 설명: https://ko.wikipedia.org/wiki/OpenJDK OpenJDK: https://openjdk.java.net/ AdoptOpenJDK: https://adoptopenjdk.net/ AdoptOpenJDK GitHub: https://github.com/AdoptOpenJDK/homebrew-openjdk    여기서는 Java 8을 설치했다.
+brew tap AdoptOpenJDK/openjdk brew cask install adoptopenjdk8 설치 된 자바 버전 확인
+java -version openjdk version &amp;#34;1.</description>
     </item>
     
   </channel>
