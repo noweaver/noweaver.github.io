@@ -6,10 +6,19 @@
     <description>Recent content on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>린 고객개발 - 개발자 없이 사업모델 검증하기 - 1주차</title>
+      <link>https://noweaver.github.io/posts/Reading/Business/2020/03/24-%EB%A6%B0-%EA%B3%A0%EA%B0%9D%EA%B0%9C%EB%B0%9C-W1/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Reading/Business/2020/03/24-%EB%A6%B0-%EA%B3%A0%EA%B0%9D%EA%B0%9C%EB%B0%9C-W1/</guid>
+      <description>과정  Day 1: [Chapter1 - 왜 고객 개발이 필요한가?] 읽기 Day 2: [Chapter2 - 어디서부터 시작해야 하는가?] 읽기 Day 3: [Chapter3 - 어디서 시작해야 하는가?] 읽기 Day 4: 러닝 린/린캔버스 소개 영상 보기 Day 5  린 캔버스 (Lean canvas) 작성하는 요령 초기 창업자에게 유용한 &amp;lsquo;린 캔버스&amp;rsquo; 정복하기 (해당 글에서는 Problem을 문제/기존 대안 2개로 나눠 적어서 린캔버스의 칸 개수가, 9칸이 아니라 10칸입니다.)   Day 6: 린 캔버스VS.비즈니스 모델 캔버스 차이점 : 4개 블록  주간 과제 1) 린 캔버스를 작성해 이미지 파일로 제출해주세요.</description>
+    </item>
     
     <item>
       <title>Mac, DataGrip 에서 Tibero 설정하기</title>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Pandas Tips"><meta property="og:title" content="Pandas Tips" />
+<meta name="description" content="쉘 실행시, 경고메시지 제거 import warnings warnings.filterwarnings(&#39;ignore&#39;) # warnings.filterwarnings(action=&#39;once&#39;) Pandas Display 옵션 pd.set_option(&#39;display.notebook_repr_html&#39;, True) pd.set_option(&#39;display.max_column&#39;, 100) pd.set_option(&#39;display.max_rows&#39;, 10) pd.set_option(&#39;display.width&#39;, 60) "><meta property="og:title" content="Pandas Tips" />
 <meta property="og:description" content="쉘 실행시, 경고메시지 제거 import warnings warnings.filterwarnings(&#39;ignore&#39;) # warnings.filterwarnings(action=&#39;once&#39;) Pandas Display 옵션 pd.set_option(&#39;display.notebook_repr_html&#39;, True) pd.set_option(&#39;display.max_column&#39;, 100) pd.set_option(&#39;display.max_rows&#39;, 10) pd.set_option(&#39;display.width&#39;, 60) " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://noweaver.github.io/posts/Journal/2019/04/24-Pandas-tips/" />
@@ -14,10 +14,10 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.edc993575be58655f3e49634e3ca6db09cc38ac9aa03ecdbe81d941636e35273.css" integrity="sha256-7cmTV1vlhlXz5JY048ptsJzDismqA&#43;zb6B2UFjbjUnM=">
+<link rel="stylesheet" href="/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css" integrity="sha256-Y&#43;uI2qVFNlQF7NuyEDMoajJcYKNs&#43;m0i0h58O8koaUE=">
 
 
-<script defer src="/ko.search.min.b88338aa9f6327029be61424ddf989296dd0d4b457edb504d5b17e46a85f7d6b.js" integrity="sha256-uIM4qp9jJwKb5hQk3fmJKW3Q1LRX7bUE1bF&#43;RqhffWs="></script>
+<script defer src="/ko.search.min.0c622b92ad5d1775f0a0568df6a381259828d4f34d5f4d458c872669dab917ba.js" integrity="sha256-DGIrkq1dF3XwoFaN9qOBJZgo1PNNX01FjIcmadq5F7o="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -64,7 +64,11 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+
+
   
+
+
 
 
 
@@ -117,13 +121,12 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
+      
 <article class="markdown">
   <h1>
     <a href="/posts/Journal/2019/04/24-Pandas-tips/">Pandas Tips</a>
   </h1>
   
-
-<div>
 
   <h5>2019/04/24</h5>
 
@@ -132,32 +135,32 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
+        <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
   </div>
   
 
   
   <div>
-    , 
+    
+        <a href="/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/">데이터 분석 환경</a>, 
         <a href="/tags/Pandas/">Pandas</a>
   </div>
   
 
 
-</div>
-
-
   <p><h1 id="쉘-실행시-경고메시지-제거">쉘 실행시, 경고메시지 제거</h1>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> warnings
-warnings<span style="color:#f92672">.</span>filterwarnings(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">ignore</span><span style="color:#e6db74">&#39;</span>)
+warnings<span style="color:#f92672">.</span>filterwarnings(<span style="color:#e6db74">&#39;ignore&#39;</span>)
 <span style="color:#75715e"># warnings.filterwarnings(action=&#39;once&#39;)</span>
 </code></pre></div><h1 id="pandas-display-옵션">Pandas Display 옵션</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">display.notebook_repr_html</span><span style="color:#e6db74">&#39;</span>, True)
-pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">display.max_column</span><span style="color:#e6db74">&#39;</span>, <span style="color:#ae81ff">100</span>)
-pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">display.max_rows</span><span style="color:#e6db74">&#39;</span>, <span style="color:#ae81ff">10</span>)
-pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">display.width</span><span style="color:#e6db74">&#39;</span>, <span style="color:#ae81ff">60</span>)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74">&#39;display.notebook_repr_html&#39;</span>, True)
+pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74">&#39;display.max_column&#39;</span>, <span style="color:#ae81ff">100</span>)
+pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74">&#39;display.max_rows&#39;</span>, <span style="color:#ae81ff">10</span>)
+pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74">&#39;display.width&#39;</span>, <span style="color:#ae81ff">60</span>)
 </code></pre></div></p>
 </article>
  
+      
 
       <footer class="book-footer">
         
@@ -186,6 +189,9 @@ pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74"></s
 
  
         
+      </footer>
+
+      
   
   <div class="book-comments">
 
@@ -212,8 +218,8 @@ pd<span style="color:#f92672">.</span>set_option(<span style="color:#e6db74"></s
 </div>
   
  
-      </footer>
-      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
     

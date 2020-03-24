@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="An Introduiction to Statistical Learning - 2주차"><meta property="og:title" content="An Introduiction to Statistical Learning - 2주차" />
+<meta name="description" content="2주차 커리큘럼 Day 1  Ch4. Classification: 4.1 ~ 4.2  슬라이드: 원본, 복사본 영문: 127 ~ 130p / 국문: 147 ~151p Introduction to Classification (10:25)    Day 2  Ch4. Classification: 4.3  영문: 130 ~ 137p / 국문: 151 ~159p Logistic Regression and Maximum Likelihood (9:07) Multivariate Logistic Regression and Confounding (9:53) Case-Control Sampling and Multiclass Logistic Regression (7:28)    Day 3  Ch4. Classification: 4."><meta property="og:title" content="An Introduiction to Statistical Learning - 2주차" />
 <meta property="og:description" content="2주차 커리큘럼 Day 1  Ch4. Classification: 4.1 ~ 4.2  슬라이드: 원본, 복사본 영문: 127 ~ 130p / 국문: 147 ~151p Introduction to Classification (10:25)    Day 2  Ch4. Classification: 4.3  영문: 130 ~ 137p / 국문: 151 ~159p Logistic Regression and Maximum Likelihood (9:07) Multivariate Logistic Regression and Confounding (9:53) Case-Control Sampling and Multiclass Logistic Regression (7:28)    Day 3  Ch4. Classification: 4." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://noweaver.github.io/posts/Journal/2019/06/24-ISLR-Week-02/" />
@@ -14,10 +14,10 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.edc993575be58655f3e49634e3ca6db09cc38ac9aa03ecdbe81d941636e35273.css" integrity="sha256-7cmTV1vlhlXz5JY048ptsJzDismqA&#43;zb6B2UFjbjUnM=">
+<link rel="stylesheet" href="/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css" integrity="sha256-Y&#43;uI2qVFNlQF7NuyEDMoajJcYKNs&#43;m0i0h58O8koaUE=">
 
 
-<script defer src="/ko.search.min.b88338aa9f6327029be61424ddf989296dd0d4b457edb504d5b17e46a85f7d6b.js" integrity="sha256-uIM4qp9jJwKb5hQk3fmJKW3Q1LRX7bUE1bF&#43;RqhffWs="></script>
+<script defer src="/ko.search.min.0c622b92ad5d1775f0a0568df6a381259828d4f34d5f4d458c872669dab917ba.js" integrity="sha256-DGIrkq1dF3XwoFaN9qOBJZgo1PNNX01FjIcmadq5F7o="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -64,7 +64,11 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+
+
   
+
+
 
 
 
@@ -129,13 +133,12 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
+      
 <article class="markdown">
   <h1>
     <a href="/posts/Journal/2019/06/24-ISLR-Week-02/">An Introduiction to Statistical Learning - 2주차</a>
   </h1>
   
-
-<div>
 
   <h5>2019/06/24</h5>
 
@@ -144,6 +147,7 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
+        <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
   </div>
   
 
@@ -154,9 +158,6 @@ https://github.com/alex-shpak/hugo-book
         <a href="/tags/ISLR/">ISLR</a>
   </div>
   
-
-
-</div>
 
 
   <p><h2 id="2주차-커리큘럼">2주차 커리큘럼</h2>
@@ -222,7 +223,7 @@ https://github.com/alex-shpak/hugo-book
 <li>참고
 <ul>
 <li>(로지스틱회귀분석 = 분류) 같은 개념으로 보시면됩니다.
-<img src="/data-science/ISLR/W02-HW-A1.png" alt="W02-HW-A1.png"></li>
+<img src="/data-science/ISLR/W02-HW-A1.png" alt="W02-HW-A1.png" /></li>
 </ul>
 </li>
 </ul>
@@ -233,29 +234,29 @@ https://github.com/alex-shpak/hugo-book
 <pre><code>    예) 고객이 해지를 할 확률 = 0.3
     고객이 해지를 하지 않을 확률 = 0.7
     즉 이때odss 는 0.3/0.7 =&gt; 0.43
-</code></pre><p><img src="/data-science/ISLR/W02-HW-A2.png" alt="W02-HW-A2.png"></p>
+</code></pre><p><img src="/data-science/ISLR/W02-HW-A2.png" alt="W02-HW-A2.png" /></p>
 </li>
 </ul>
 </li>
 <li>신용카드 대금을 연체할 공산(odds)이 0.28인 사람 중 평균 몇 퍼센트가 실제로 연체할 것인가?
 <ul>
 <li>21.88%
-<img src="/data-science/ISLR/W02-HW-A3.png" alt="W02-HW-A3.png"></li>
+<img src="/data-science/ISLR/W02-HW-A3.png" alt="W02-HW-A3.png" /></li>
 </ul>
 </li>
 <li>통계 수업을 듣는 한 그룹의 학생들에 대한 데이터를 수집한다고 해보자. 여기서, 변수 X1 = 공부한 시간, X2 = GPA, 그리고 Y = A학점 취득을 나타낸다. 로지스틱 회귀를 적합하여 아래와 같은 결과를 얻었다.
-<img src="/data-science/ISLR/W02-HW-Q4.png" alt="W02-HW-A4.png">
+<img src="/data-science/ISLR/W02-HW-Q4.png" alt="W02-HW-A4.png" />
 <ol>
 <li>30시간 공부하고 GPA가 3.6인 학생이 통계수업에서 A를 받을 확률을 추정하라
 <ul>
 <li>0.29
-<img src="/data-science/ISLR/W02-HW-A4-a.png" alt="W02-HW-A4-a.png"></li>
+<img src="/data-science/ISLR/W02-HW-A4-a.png" alt="W02-HW-A4-a.png" /></li>
 </ul>
 </li>
 <li>1)의 학생이 통계수업에서 A를 받을 가능성이 50%가 되려면 몇시간 공부를 해야하는가?
 <ul>
 <li>48
-<img src="/data-science/ISLR/W02-HW-A4-b.png" alt="W02-HW-A4-b.png"></li>
+<img src="/data-science/ISLR/W02-HW-A4-b.png" alt="W02-HW-A4-b.png" /></li>
 </ul>
 </li>
 </ol>
@@ -298,11 +299,12 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 </li>
 <li>아래의 Confusion Matrix 테이블을 보고 모델의 Accuracy, Precision, Recall, F1-score를 계산하라.
-<img src="/data-science/ISLR/W02-HW-A7.png" alt="W02-HW-A7.png"></li>
+<img src="/data-science/ISLR/W02-HW-A7.png" alt="W02-HW-A7.png" /></li>
 </ol>
 </p>
 </article>
  
+      
 
       <footer class="book-footer">
         
@@ -331,6 +333,9 @@ https://github.com/alex-shpak/hugo-book
 
  
         
+      </footer>
+
+      
   
   <div class="book-comments">
 
@@ -357,8 +362,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
   
  
-      </footer>
-      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
     
