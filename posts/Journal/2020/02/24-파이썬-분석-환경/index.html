@@ -6,12 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="3번째 정리하는 파이썬 데이터 분석환경 구축 정리다. 여기서는 Mac환경에서만 설명한다.
 $ 표기는 쉘 프롬프트를 나타낸다.
-pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda pyenv 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&#34;$HOME/.pyenv&#34; export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)편집하고 나온다.
-$ source .zshrc pyenv 버전 확인 $ pyenv --version pyenv 1."><meta property="og:title" content="파이썬 분석 환경 Jupyter 설치" />
+pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda 파이썬 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&#34;$HOME/.pyenv&#34; export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)편집하고 나온다.
+$ source .zshrc 파이썬 버전 확인 $ pyenv --version pyenv 1."><meta property="og:title" content="파이썬 분석 환경 Jupyter 설치" />
 <meta property="og:description" content="3번째 정리하는 파이썬 데이터 분석환경 구축 정리다. 여기서는 Mac환경에서만 설명한다.
 $ 표기는 쉘 프롬프트를 나타낸다.
-pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda pyenv 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&#34;$HOME/.pyenv&#34; export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)편집하고 나온다.
-$ source .zshrc pyenv 버전 확인 $ pyenv --version pyenv 1." />
+pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda 파이썬 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&#34;$HOME/.pyenv&#34; export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)편집하고 나온다.
+$ source .zshrc 파이썬 버전 확인 $ pyenv --version pyenv 1." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://noweaver.github.io/posts/Journal/2020/02/24-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/" />
 <meta property="article:published_time" content="2020-02-24T00:00:00+00:00" />
@@ -23,7 +23,7 @@ $ source .zshrc pyenv 버전 확인 $ pyenv --version pyenv 1." />
 <link rel="stylesheet" href="/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css" integrity="sha256-Y&#43;uI2qVFNlQF7NuyEDMoajJcYKNs&#43;m0i0h58O8koaUE=">
 
 
-<script defer src="/ko.search.min.47d33c06a642da76c07ad541cf6d691ad451d064f0797b1d6748a74a87143b9a.js" integrity="sha256-R9M8BqZC2nbAetVBz21pGtRR0GTweXsdZ0inSocUO5o="></script>
+<script defer src="/ko.search.min.5ef7954272b4956f72741e6d038c28571b836681fa78405948fb8f741ff71876.js" integrity="sha256-XveVQnK0lW9ydB5tA4woVxuDZoH6eEBZSPuPdB/3GHY="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -115,21 +115,19 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#pyenv-설치">pyenv 설치</a>
+    <li>
       <ul>
+        <li><a href="#pyenv-설치">pyenv 설치</a></li>
         <li><a href="#업그레이드-할-때">업그레이드 할 때</a></li>
         <li><a href="#삭제할-때">삭제할 때</a></li>
-      </ul>
-    </li>
-    <li><a href="#pyenv-환경-변수-설정">pyenv 환경 변수 설정</a>
-      <ul>
-        <li><a href="#pyenv-버전-확인">pyenv 버전 확인</a></li>
-      </ul>
-    </li>
-    <li><a href="#파이썬-미니콘다-최신-버전-설치">파이썬 (미니콘다) 최신 버전 설치</a></li>
-    <li><a href="#데이터분석을-위한-파이썬의-가상환경">데이터분석을 위한 파이썬의 가상환경</a>
-      <ul>
-        <li><a href="#가상-환경-진입-테스트">가상 환경 진입 테스트</a>
+        <li><a href="#파이썬-환경-변수-설정">파이썬 환경 변수 설정</a></li>
+        <li><a href="#파이썬-버전-확인">파이썬 버전 확인</a></li>
+        <li><a href="#파이썬-미니콘다-최신-버전-설치">파이썬 (미니콘다) 최신 버전 설치</a>
+          <ul>
+            <li><a href="#jupyter-가상환경">Jupyter 가상환경</a></li>
+          </ul>
+        </li>
+        <li><a href="#파이썬-가상-환경-진입-테스트">파이썬 가상 환경 진입 테스트</a>
           <ul>
             <li><a href="#가상-환경-진입">가상 환경 진입</a></li>
             <li><a href="#가상-환경-나오기">가상 환경 나오기</a></li>
@@ -137,29 +135,15 @@ https://github.com/alex-shpak/hugo-book
         </li>
         <li><a href="#쉘-환경-설정">쉘 환경 설정</a></li>
         <li><a href="#가상환경-앨리어스-세팅">가상환경 앨리어스 세팅</a></li>
-      </ul>
-    </li>
-    <li><a href="#jupyter-설치">Jupyter 설치</a>
-      <ul>
-        <li><a href="#jupyter-환경-설정">Jupyter 환경 설정</a></li>
-        <li><a href="#jupyter-토큰-없이-로그인-하기">Jupyter 토큰 없이 로그인 하기</a></li>
-        <li><a href="#기타-설정">기타 설정</a></li>
-        <li><a href="#주피터-익스텐션-설치하기">주피터 익스텐션 설치하기</a></li>
-        <li><a href="#주피터-폰트-변경">주피터 폰트 변경</a></li>
-        <li><a href="#주피터-서버로서-백그라운드-실행을-위한-환경설정">주피터 서버로서 백그라운드 실행을 위한 환경설정</a></li>
-      </ul>
-    </li>
-    <li><a href="#주피터랩-설치">주피터랩 설치</a>
-      <ul>
-        <li><a href="#jupyter-lab-exntension-구성">Jupyter Lab Exntension 구성</a>
+        <li><a href="#jupyter-설치">Jupyter 설치</a></li>
+        <li><a href="#jupyter-환경-설정">Jupyter 환경 설정</a>
           <ul>
-            <li><a href="#toc">TOC</a></li>
-            <li><a href="#system-monitor">System Monitor</a></li>
-            <li><a href="#variable-inspector-설치하기">Variable Inspector 설치하기</a></li>
-            <li><a href="#file-tree">File Tree</a></li>
-            <li><a href="#drawio">DrawIO</a></li>
-            <li><a href="#go-to-definition">Go to Definition</a></li>
-            <li><a href="#pydeck">PyDeck</a></li>
+            <li><a href="#jupyter-토큰-없이-로그인-하기">Jupyter 토큰 없이 로그인 하기</a></li>
+            <li><a href="#기타-설정">기타 설정</a></li>
+            <li><a href="#주피터-익스텐션-설치하기">주피터 익스텐션 설치하기</a></li>
+            <li><a href="#주피터-폰트-변경">주피터 폰트 변경</a></li>
+            <li><a href="#주피터랩-설치">주피터랩 설치</a></li>
+            <li><a href="#jupyter-lab-exntension-구성">Jupyter Lab Exntension 구성</a></li>
           </ul>
         </li>
       </ul>
@@ -195,16 +179,16 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-        <a href="/tags/%EC%84%A4%EC%B9%98/">설치</a>, 
         <a href="/tags/Jupyter/">Jupyter</a>, 
-        <a href="/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/">데이터 분석 환경</a>
+        <a href="/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/">데이터 분석 환경</a>, 
+        <a href="/tags/%EC%84%A4%EC%B9%98/">설치</a>
   </div>
   
 
 
   <p><p>3번째 정리하는 파이썬 데이터 분석환경 구축 정리다. 여기서는 <code>Mac</code>환경에서만 설명한다.</p>
 <p><code>$</code> 표기는 쉘 프롬프트를 나타낸다.</p>
-<h1 id="pyenv-설치">pyenv 설치</h1>
+<h2 id="pyenv-설치">pyenv 설치</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew install pyenv
 </code></pre></div><h2 id="업그레이드-할-때">업그레이드 할 때</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew upgrade pyenv
@@ -212,7 +196,7 @@ https://github.com/alex-shpak/hugo-book
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ brew uninstall pyenv
 $ rm -fr .pyenv
 $ rm -fr .conda
-</code></pre></div><h1 id="pyenv-환경-변수-설정">pyenv 환경 변수 설정</h1>
+</code></pre></div><h2 id="파이썬-환경-변수-설정">파이썬 환경 변수 설정</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ vi .zshrc
 
 <span style="color:#75715e">########################################################################</span>
@@ -223,22 +207,22 @@ export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;
 eval <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>pyenv init -<span style="color:#66d9ef">)</span><span style="color:#e6db74">
 </span></code></pre></div><p>편집하고 나온다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ source .zshrc
-</code></pre></div><h2 id="pyenv-버전-확인">pyenv 버전 확인</h2>
+</code></pre></div><h2 id="파이썬-버전-확인">파이썬 버전 확인</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ pyenv --version
 pyenv 1.2.16
-</code></pre></div><h1 id="파이썬-미니콘다-최신-버전-설치">파이썬 (미니콘다) 최신 버전 설치</h1>
+</code></pre></div><h2 id="파이썬-미니콘다-최신-버전-설치">파이썬 (미니콘다) 최신 버전 설치</h2>
 <p>Anaconda 경우는 점점 비대해지고 있고 설치나 실행 성능이 느려지고 있음을 깨닫는다. 아나콘다의 라이트(light) 버전인 Miniconda를 설치한다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ pyenv install miniconda3-latest
 $ conda update conda
 $ which python
 $ python --version
-</code></pre></div><h1 id="데이터분석을-위한-파이썬의-가상환경">데이터분석을 위한 파이썬의 가상환경</h1>
+</code></pre></div><h3 id="jupyter-가상환경">Jupyter 가상환경</h3>
 <p>파이썬의 가상환경개념을 이용해서 Jupyter 전용, 데이터 분석 전용 가상 환경을 만든다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ conda create -y -n myjupyter python<span style="color:#f92672">=</span>3.7
 
 <span style="color:#75715e"># 가상환경 삭제</span>
 $ conda remove -y -n myjupyter --all
-</code></pre></div><h2 id="가상-환경-진입-테스트">가상 환경 진입 테스트</h2>
+</code></pre></div><h2 id="파이썬-가상-환경-진입-테스트">파이썬 가상 환경 진입 테스트</h2>
 <h3 id="가상-환경-진입">가상 환경 진입</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ conda activate myjupyter
 </code></pre></div><h3 id="가상-환경-나오기">가상 환경 나오기</h3>
@@ -268,12 +252,12 @@ __conda_setup<span style="color:#f92672">=</span><span style="color:#e6db74">&#3
 
 alias myjupyter<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;conda activate myjupyter&#34;</span>
 alias deact<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;conda deactivate&#34;</span>
-</code></pre></div><h1 id="jupyter-설치">Jupyter 설치</h1>
+</code></pre></div><h2 id="jupyter-설치">Jupyter 설치</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ conda install -y jupyter
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter notebook
 </code></pre></div><h2 id="jupyter-환경-설정">Jupyter 환경 설정</h2>
 <p>여기 설명에서는 주피터는 Jupyter Notebook 을 줄여서 주피터라고 부르고, JupyterLab은 주피터랩이라고 부른다.</p>
-<h2 id="jupyter-토큰-없이-로그인-하기">Jupyter 토큰 없이 로그인 하기</h2>
+<h3 id="jupyter-토큰-없이-로그인-하기">Jupyter 토큰 없이 로그인 하기</h3>
 <p>아래처럼 실행 했을 때 나오는 결과 값을 복사한다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ ipython 
 
@@ -292,7 +276,7 @@ c <span style="color:#f92672">=</span> get_config<span style="color:#f92672">()<
 
 <span style="color:#75715e"># 위에서 복사한 값을</span>
 c.NotebookApp.password <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;sha1:ff24cef08cf5:175ba108041f3ca42a9c4e6e82871a62bfe1016d&#39;</span>
-</code></pre></div><h2 id="기타-설정">기타 설정</h2>
+</code></pre></div><h3 id="기타-설정">기타 설정</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#75715e"># Jupyter 기본 브라우저 실행 하지 않음</span>
 c.NotebookApp.open_browser <span style="color:#f92672">=</span> False
 
@@ -309,7 +293,7 @@ alias jn<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jup
 
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ source .zshrc
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jn
-</code></pre></div><h2 id="주피터-익스텐션-설치하기">주피터 익스텐션 설치하기</h2>
+</code></pre></div><h3 id="주피터-익스텐션-설치하기">주피터 익스텐션 설치하기</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ conda install -c conda-forge jupyter_contrib_nbextensions
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jn
 </code></pre></div><ul>
@@ -326,7 +310,7 @@ alias jn<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jup
 <blockquote>
 <p>jupyter contrib nbextension uninstall &ndash;user</p>
 </blockquote>
-<h2 id="주피터-폰트-변경">주피터 폰트 변경</h2>
+<h3 id="주피터-폰트-변경">주피터 폰트 변경</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ cd $HOME/.jupyter
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ mkdir custom <span style="color:#f92672">&amp;&amp;</span> touch custom.css
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ cd custom
@@ -343,17 +327,7 @@ alias jn<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jup
  <span style="color:#f92672">}</span>
 
 wq!
-</code></pre></div><h2 id="주피터-서버로서-백그라운드-실행을-위한-환경설정">주피터 서버로서 백그라운드 실행을 위한 환경설정</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ vi .zshrc
-alias jn<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nohup jupyter notebook --allow-root &gt; ~/.jupyter_error.log&amp; jobs -p | awk &#39;{print \$3}&#39; &gt; ~/.jupyter_pid.txt&#34;</span>
-alias jnkill<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;kill -9 \$(cat ~/.jupyter_pid.txt)&#34;</span>
-
-wq!
-<span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ source .zshrc
-</code></pre></div><p>주피터 실행과 종료</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jn
-<span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jnkill
-</code></pre></div><h1 id="주피터랩-설치">주피터랩 설치</h1>
+</code></pre></div><h3 id="주피터랩-설치">주피터랩 설치</h3>
 <p>주피터랩을 설치하고 환경설정에 앨리어스를 걸어둔다. 그리고 앨리어스로 실행해 본다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ conda install -y jupyterlab
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ vi .zshrc
@@ -361,7 +335,7 @@ alias jl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jup
 
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ source .zshrc
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jl
-</code></pre></div><h2 id="jupyter-lab-exntension-구성">Jupyter Lab Exntension 구성</h2>
+</code></pre></div><h3 id="jupyter-lab-exntension-구성">Jupyter Lab Exntension 구성</h3>
 <p>익스텐션을 사용하려면 시스템(맥이나 윈도우 환경 등)에 Node가 설치 되어 있어야 한다. 노드 설치는 <a href="/posts/Journal/2020/02/17-Node%ec%84%a4%ec%b9%98">여기</a>에 작성해 두었다.
 익스텐션 공식 사용법은 <a href="https://jupyterlab.readthedocs.io/en/stable/user/extensions.html">여기</a>에서 살펴보면 된다.</p>
 <ol>
@@ -369,9 +343,9 @@ alias jl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jup
 <li>좌측의 사이드바에 <code>퍼즐조각</code>처럼 생긴 아이콘이 추가 된다.</li>
 <li><code>퍼즐조각</code>을 클릭하면 상단의 <code>검색</code>창에 검색한다.</li>
 </ol>
-<h3 id="toc">TOC</h3>
+<h4 id="toc">TOC</h4>
 <p>검색에서 <a href="https://github.com/jupyterlab/jupyterlab-toc"><code>toc</code></a> 검색해서 <code>Install</code> 클릭해서 설치한다.</p>
-<h3 id="system-monitor">System Monitor</h3>
+<h4 id="system-monitor">System Monitor</h4>
 <p>주피터 노트북을 사용 중의 메모리 상태 모니터링 툴이다.</p>
 <p><a href="https://github.com/jtpio/jupyterlab-system-monitor">JupyterLab-System-Monitor</a> 클릭해서 사용설치 방법대로 설치한다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ pip install nbresuse
@@ -386,23 +360,23 @@ c.NotebookApp.ResourceUseDisplay.mem_limit <span style="color:#f92672">=</span> 
 <span style="color:#75715e"># ctrl + c</span>
 
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jl
-</code></pre></div><h3 id="variable-inspector-설치하기">Variable Inspector 설치하기</h3>
+</code></pre></div><h4 id="variable-inspector-설치하기">Variable Inspector 설치하기</h4>
 <p><a href="https://github.com/lckr/jupyterlab-variableInspector">variableInspector</a> 는 SAS나 R의 변수 조사기와 유사하다. 개인적으로 주피터랩의 기능이 더 훌륭하게 느껴진다. 설치하는 잦은 오류가 발생할 수 있다. 따라서 설치하는 것이 익숙하지 않다면 권장하지 않는다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter labextension install @lckr/jupyterlab_variableinspector
-</code></pre></div><h3 id="file-tree">File Tree</h3>
+</code></pre></div><h4 id="file-tree">File Tree</h4>
 <p><a href="https://github.com/youngthejames/jupyterlab_filetree">filetree</a>디렉터리 구조가 Tree 형태로 보여준다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter labextension install jupyterlab_filetree
-</code></pre></div><h3 id="drawio">DrawIO</h3>
+</code></pre></div><h4 id="drawio">DrawIO</h4>
 <p>주피터랩에서 도형 등을 그릴 수 있게 해준다. <code>Other</code>메뉴로 들어간다.</p>
 <p>검색에서 <a href="https://github.com/QuantStack/jupyterlab-drawio"><code>drawio</code></a> 검색해서 <code>Install</code> 클릭해서 설치한다.</p>
-<h3 id="go-to-definition">Go to Definition</h3>
+<h4 id="go-to-definition">Go to Definition</h4>
 <p>주피터랩에서 가장 필요한 3가지를 선택하라고 한다면 (1) ToC (2) Variable Inspector (3) <a href="https://github.com/krassowski/jupyterlab-go-to-definition">go-to-definition</a>이다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter labextension install @krassowski/jupyterlab_go_to_definition
 
 <span style="color:#75715e"># 이미 설치되어 있다면</span>
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter labextension update @krassowski/jupyterlab_go_to_definition
-</code></pre></div><h3 id="pydeck">PyDeck</h3>
+</code></pre></div><h4 id="pydeck">PyDeck</h4>
 <p>PyDeck은 우버에서 만든 시각화 라이브러리다. PyDeck을 주피터랩에서 사용하기 위해서는 다음과 같은 설치가 필요하다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ conda install -y -c conda-forge pydeck
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter labextension install @jupyter-widgets/jupyterlab-manager
@@ -458,6 +432,8 @@ c.NotebookApp.ResourceUseDisplay.mem_limit <span style="color:#f92672">=</span> 
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
 </div>
   
  
@@ -470,21 +446,19 @@ c.NotebookApp.ResourceUseDisplay.mem_limit <span style="color:#f92672">=</span> 
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#pyenv-설치">pyenv 설치</a>
+    <li>
       <ul>
+        <li><a href="#pyenv-설치">pyenv 설치</a></li>
         <li><a href="#업그레이드-할-때">업그레이드 할 때</a></li>
         <li><a href="#삭제할-때">삭제할 때</a></li>
-      </ul>
-    </li>
-    <li><a href="#pyenv-환경-변수-설정">pyenv 환경 변수 설정</a>
-      <ul>
-        <li><a href="#pyenv-버전-확인">pyenv 버전 확인</a></li>
-      </ul>
-    </li>
-    <li><a href="#파이썬-미니콘다-최신-버전-설치">파이썬 (미니콘다) 최신 버전 설치</a></li>
-    <li><a href="#데이터분석을-위한-파이썬의-가상환경">데이터분석을 위한 파이썬의 가상환경</a>
-      <ul>
-        <li><a href="#가상-환경-진입-테스트">가상 환경 진입 테스트</a>
+        <li><a href="#파이썬-환경-변수-설정">파이썬 환경 변수 설정</a></li>
+        <li><a href="#파이썬-버전-확인">파이썬 버전 확인</a></li>
+        <li><a href="#파이썬-미니콘다-최신-버전-설치">파이썬 (미니콘다) 최신 버전 설치</a>
+          <ul>
+            <li><a href="#jupyter-가상환경">Jupyter 가상환경</a></li>
+          </ul>
+        </li>
+        <li><a href="#파이썬-가상-환경-진입-테스트">파이썬 가상 환경 진입 테스트</a>
           <ul>
             <li><a href="#가상-환경-진입">가상 환경 진입</a></li>
             <li><a href="#가상-환경-나오기">가상 환경 나오기</a></li>
@@ -492,29 +466,15 @@ c.NotebookApp.ResourceUseDisplay.mem_limit <span style="color:#f92672">=</span> 
         </li>
         <li><a href="#쉘-환경-설정">쉘 환경 설정</a></li>
         <li><a href="#가상환경-앨리어스-세팅">가상환경 앨리어스 세팅</a></li>
-      </ul>
-    </li>
-    <li><a href="#jupyter-설치">Jupyter 설치</a>
-      <ul>
-        <li><a href="#jupyter-환경-설정">Jupyter 환경 설정</a></li>
-        <li><a href="#jupyter-토큰-없이-로그인-하기">Jupyter 토큰 없이 로그인 하기</a></li>
-        <li><a href="#기타-설정">기타 설정</a></li>
-        <li><a href="#주피터-익스텐션-설치하기">주피터 익스텐션 설치하기</a></li>
-        <li><a href="#주피터-폰트-변경">주피터 폰트 변경</a></li>
-        <li><a href="#주피터-서버로서-백그라운드-실행을-위한-환경설정">주피터 서버로서 백그라운드 실행을 위한 환경설정</a></li>
-      </ul>
-    </li>
-    <li><a href="#주피터랩-설치">주피터랩 설치</a>
-      <ul>
-        <li><a href="#jupyter-lab-exntension-구성">Jupyter Lab Exntension 구성</a>
+        <li><a href="#jupyter-설치">Jupyter 설치</a></li>
+        <li><a href="#jupyter-환경-설정">Jupyter 환경 설정</a>
           <ul>
-            <li><a href="#toc">TOC</a></li>
-            <li><a href="#system-monitor">System Monitor</a></li>
-            <li><a href="#variable-inspector-설치하기">Variable Inspector 설치하기</a></li>
-            <li><a href="#file-tree">File Tree</a></li>
-            <li><a href="#drawio">DrawIO</a></li>
-            <li><a href="#go-to-definition">Go to Definition</a></li>
-            <li><a href="#pydeck">PyDeck</a></li>
+            <li><a href="#jupyter-토큰-없이-로그인-하기">Jupyter 토큰 없이 로그인 하기</a></li>
+            <li><a href="#기타-설정">기타 설정</a></li>
+            <li><a href="#주피터-익스텐션-설치하기">주피터 익스텐션 설치하기</a></li>
+            <li><a href="#주피터-폰트-변경">주피터 폰트 변경</a></li>
+            <li><a href="#주피터랩-설치">주피터랩 설치</a></li>
+            <li><a href="#jupyter-lab-exntension-구성">Jupyter Lab Exntension 구성</a></li>
           </ul>
         </li>
       </ul>

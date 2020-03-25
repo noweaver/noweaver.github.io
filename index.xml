@@ -6,19 +6,10 @@
     <description>Recent content on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>린 고객개발 - 개발자 없이 사업모델 검증하기 - 1주차</title>
-      <link>https://noweaver.github.io/posts/Reading/Business/2020/03/24-%EB%A6%B0-%EA%B3%A0%EA%B0%9D%EA%B0%9C%EB%B0%9C-W1/</link>
-      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/Reading/Business/2020/03/24-%EB%A6%B0-%EA%B3%A0%EA%B0%9D%EA%B0%9C%EB%B0%9C-W1/</guid>
-      <description>과정  Day 1: [Chapter1 - 왜 고객 개발이 필요한가?] 읽기 Day 2: [Chapter2 - 어디서부터 시작해야 하는가?] 읽기 Day 3: [Chapter3 - 어디서 시작해야 하는가?] 읽기 Day 4: 러닝 린/린캔버스 소개 영상 보기 Day 5  린 캔버스 (Lean canvas) 작성하는 요령 초기 창업자에게 유용한 &amp;lsquo;린 캔버스&amp;rsquo; 정복하기 (해당 글에서는 Problem을 문제/기존 대안 2개로 나눠 적어서 린캔버스의 칸 개수가, 9칸이 아니라 10칸입니다.)   Day 6: 린 캔버스VS.비즈니스 모델 캔버스 차이점 : 4개 블록  주간 과제 1) 린 캔버스를 작성해 이미지 파일로 제출해주세요.</description>
-    </item>
     
     <item>
       <title>Mac, DataGrip 에서 Tibero 설정하기</title>
@@ -91,8 +82,8 @@ java -version openjdk version &amp;#34;1.</description>
       <guid>https://noweaver.github.io/posts/Journal/2020/02/24-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/</guid>
       <description>3번째 정리하는 파이썬 데이터 분석환경 구축 정리다. 여기서는 Mac환경에서만 설명한다.
 $ 표기는 쉘 프롬프트를 나타낸다.
-pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda pyenv 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34; export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(pyenv init -)편집하고 나온다.
-$ source .zshrc pyenv 버전 확인 $ pyenv --version pyenv 1.</description>
+pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda 파이썬 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34; export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(pyenv init -)편집하고 나온다.
+$ source .zshrc 파이썬 버전 확인 $ pyenv --version pyenv 1.</description>
     </item>
     
     <item>
@@ -243,28 +234,28 @@ $ brew cask install karabiner-elements Karabiner 구성파일 셋업  출처: �
     
     <item>
       <title>플랫폼 비즈니스의 이해 - 3주차</title>
-      <link>https://noweaver.github.io/posts/Reading/Business/2019/12/22-%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w3/</link>
+      <link>https://noweaver.github.io/posts/Reading/Business/2019/12/22-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%9D%98-%EC%9D%B4%ED%95%B4-w3/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Reading/Business/2019/12/22-%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w3/</guid>
+      <guid>https://noweaver.github.io/posts/Reading/Business/2019/12/22-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%9D%98-%EC%9D%B4%ED%95%B4-w3/</guid>
       <description>과정  Day 1: &amp;lt;7장 개방성 - 개방형과 폐쇄형, 어떤 플랫폼이 정답인가&amp;gt; 읽기 Day 2: &amp;lt;8장 거버너스 - 통제와 자율, 무엇이 플랫폼에 적합한가&amp;gt; 읽기 Day 3: &amp;lt;9장 경영 지표 - 플랫폼 관리자의 핵심 점검 사항은 무엇인가&amp;gt; 읽기 Day 4: &amp;lt;마켓플레이스에서 측정해야 하는 10가지 지표&amp;gt; 읽기 Day 5: &amp;lt;마켓플레이스 KPI 대시보드&amp;gt; 읽기  주간 질문 1. 개방적으로 시작해서 폐쇄적으로 가고있거나, 폐쇄적으로 시작해서 개방적으로 가고 있는 플랫폼은 어떤게 있을까요?  책의 설명과는 다르게 애플이 폐쇄적 정책에서 개방적 정책으로 가는 것 같다.</description>
     </item>
     
     <item>
       <title>플랫폼 비즈니스의 이해 - 2주차</title>
-      <link>https://noweaver.github.io/posts/Reading/Business/2019/12/09-%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w2/</link>
+      <link>https://noweaver.github.io/posts/Reading/Business/2019/12/09-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%9D%98-%EC%9D%B4%ED%95%B4-w2/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Reading/Business/2019/12/09-%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w2/</guid>
+      <guid>https://noweaver.github.io/posts/Reading/Business/2019/12/09-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%9D%98-%EC%9D%B4%ED%95%B4-w2/</guid>
       <description>과정  Day 1: &amp;lt;4장 파괴적 혁신 - 플랫폼은 어떻게 전통 산업을 정복했는가&amp;gt; 읽기 Day 2: &amp;lt;5장 론칭 - 성공적으로 플랫폼을 시작하는 8가지 방법&amp;gt; 읽기 Day 3: &amp;lt;6장 수익 창출 - 플랫폼은 언제 어디서 어떻게 수익을 거둬야 하는가&amp;gt; 읽기 Day 4: &amp;lt;상위 100개 마켓플레이스가 런칭시 사용한 3가지 방법&amp;gt; 읽기 Day 5: &amp;lt;유동성 해킹: 양면시장 마켓플레이스를 만드는 법&amp;gt; 읽기  주간 질문 1. 플랫폼 비즈니스가 파이프라인 비즈니스 대비 가지는 이점은 어떤것들이 있나요?</description>
     </item>
     
     <item>
       <title>플랫폼 비즈니스의 이해 - 1주차</title>
-      <link>https://noweaver.github.io/posts/Reading/Business/2019/12/03-%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w1/</link>
+      <link>https://noweaver.github.io/posts/Reading/Business/2019/12/03-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%9D%98-%EC%9D%B4%ED%95%B4-w1/</link>
       <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Reading/Business/2019/12/03-%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7-%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B3%E1%84%82%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2-w1/</guid>
+      <guid>https://noweaver.github.io/posts/Reading/Business/2019/12/03-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%9D%98-%EC%9D%B4%ED%95%B4-w1/</guid>
       <description>과정  Day 1: &amp;lt;1장 지금 이 순간 - 시장은 이미 플랫폼이 지배하고 있다&amp;gt; 읽기 Day 2: &amp;lt;2장 플랫폼의 파워 - 왜 거대 기업이 플랫폼에 밀리고 있나&amp;gt; 읽기 Day 3: &amp;lt;3장 아키텍처 - 플랫폼은 어떻게 디자인해야 하는가&amp;gt; 읽기 Day 4: &amp;lt;에어비엔비가 100배 성장하는 동안 배운 5가지 교훈&amp;gt; 읽기 Day 5: &amp;lt;모든 마켓플레이스 스타트업이 답해야하는 4가지 질문&amp;gt; 읽기  주간 질문 1. 플랫폼 비즈니스란 무엇이며, 기존의 비즈니스와 어떻게 다른가요?   기존의 비즈니스에서 기업들이 전반적으로 채택하고 있는 전통적인 시스템을 우리는 파이프라인(pipeline)이라고 말한다.</description>
     </item>
     
@@ -290,10 +281,10 @@ Pyenv 설치 $ brew search pyenv $ brew install pyenv $ pyevn --version pyenv 1.
     
     <item>
       <title>재무제표 강의 기록</title>
-      <link>https://noweaver.github.io/posts/FIRE/2019-11-30-%E1%84%8C%E1%85%A2%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AD%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4/</link>
+      <link>https://noweaver.github.io/posts/FIRE/2019-11-30-%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C%EA%B0%95%EC%9D%98/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/FIRE/2019-11-30-%E1%84%8C%E1%85%A2%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AD%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4/</guid>
+      <guid>https://noweaver.github.io/posts/FIRE/2019-11-30-%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C%EA%B0%95%EC%9D%98/</guid>
       <description>PPSS 쿠폰이 있어서 신청하게 된 강의로, 강사는 재무제표 모르면 절대로 투자하지 마라 책의 저자인 &amp;lsquo;사경인&#39;이다. 사실, 이책은 사내의 후배가 추천해준 책이다. 미리 저자와 책제목이 귀에 익숙해서 선택해서 듣게 되었다. 이 강의는 온라인 전문 강의를 만든 것이 아니고 오프라인에서 진행했던 녹화를 온라인으로 오픈한 형태다. 따라서 발표자료 등이 전혀 없다. 강의 구성은 다음과 3강의가 준비되어 있다.
  1강/ 재무제표 회계사도 안 본다? (31분) 2강/ 실전 재무제표 읽기 (35분) 3강/ 현금흐름표 분석과 투자 팁 (49분)  강의 노트를 적어본다.</description>
     </item>
@@ -386,10 +377,10 @@ $ java -version openjdk version &amp;#34;13.0.1&amp;#34; 2019-10-15 OpenJDK Runt
     
     <item>
       <title>삼성증권 CMA</title>
-      <link>https://noweaver.github.io/posts/FIRE/2019-09-16-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%80%E1%85%AF%E1%86%AB-CMA/</link>
+      <link>https://noweaver.github.io/posts/FIRE/2019-09-16-%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/FIRE/2019-09-16-%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%80%E1%85%AF%E1%86%AB-CMA/</guid>
+      <guid>https://noweaver.github.io/posts/FIRE/2019-09-16-%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/</guid>
       <description>삼성증권의 계좌를 만든지 꽤 시간이 흘렀다. 한국투자증권과 같은 대형(?) 증권사 활용을 못 했다. 뭔가 수수료가 쎄기 때문이다라고 생각했고 확신이 들어서다. 무엇보다 MTS 사용을 주로하는 입장에서 MTS 인터페이스와 속도가 그렇게 좋지 않았다. 하지만, 통장과 계좌 정리를 하고자 하여 몇 가지 알아봤다. 내 경우 삼성증권의 CMA 계좌는 생활통장의 개념으로 활용될 것으로 보인다. 다만 6개월간은 가장 높은 우대금리로 활용하고자 한다.
 CMA 이체수수료 무료 방법  PC의 홈페이지가 아니라 모바일에서는 모든 수수료가 무료다. 그래서 나는 따로 신청할 필요는 없다.</description>
     </item>
@@ -416,10 +407,10 @@ CMA 이체수수료 무료 방법  PC의 홈페이지가 아니라 모바일에�
     
     <item>
       <title>주식 관련 책을 읽는 다는 것</title>
-      <link>https://noweaver.github.io/posts/FIRE/2019-09-05-%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8-%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%A7%E1%86%AB-%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B5%E1%86%B0%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%83%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%80%E1%85%A5%E1%86%BA/</link>
+      <link>https://noweaver.github.io/posts/FIRE/2019-09-05-%EC%A3%BC%EC%8B%9D-%EA%B4%80%EB%A0%A8-%EC%B1%85%EC%9D%84-%EC%9D%BD%EB%8A%94-%EB%8B%A4%EB%8A%94-%EA%B2%83/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/FIRE/2019-09-05-%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8-%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%A7%E1%86%AB-%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B5%E1%86%B0%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%83%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%80%E1%85%A5%E1%86%BA/</guid>
+      <guid>https://noweaver.github.io/posts/FIRE/2019-09-05-%EC%A3%BC%EC%8B%9D-%EA%B4%80%EB%A0%A8-%EC%B1%85%EC%9D%84-%EC%9D%BD%EB%8A%94-%EB%8B%A4%EB%8A%94-%EA%B2%83/</guid>
       <description>작년만해도 나는 창업을 준비했었다. 국내에서 할까? 해외에서 할까? 왜냐하면 내 생각에 돈을 많이 벌 수 있는 방법은 (1) 창업 (2) 주식 (3) 부동산 이렇게 3가지 밖에 없다라고 확신했기 때문이다. 사정이 생겨 해외에는 나가지도 못 하고(어쩌면 용기가 없어서), 창업은 현실적으로 내가 준비하는데에는 시간이 부족했다. 그녀와 관계도 유지하면서 창업을 한다는 것은 나에게 너무나도 벅찬 일이었다. 그래서 아주 오래 전부터 관심을 가기고 있었던 금융으로 관심을 돌렸다. 또한, 창업을 준비한다고 스케치할 때에도 금융쪽으로 발을 담그고 싶었다.</description>
     </item>
     
