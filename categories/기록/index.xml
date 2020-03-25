@@ -82,8 +82,8 @@ java -version openjdk version &amp;#34;1.</description>
       <guid>https://noweaver.github.io/posts/Journal/2020/02/24-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD/</guid>
       <description>3번째 정리하는 파이썬 데이터 분석환경 구축 정리다. 여기서는 Mac환경에서만 설명한다.
 $ 표기는 쉘 프롬프트를 나타낸다.
-pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda 파이썬 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34; export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(pyenv init -)편집하고 나온다.
-$ source .zshrc 파이썬 버전 확인 $ pyenv --version pyenv 1.</description>
+pyenv 설치 $ brew install pyenv 업그레이드 할 때 $ brew upgrade pyenv 삭제할 때 $ brew uninstall pyenv $ rm -fr .pyenv $ rm -fr .conda pyenv 환경 변수 설정 $ vi .zshrc ######################################################################## # 파이썬 버전 관리자 pyen 환경변수 ######################################################################## export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34; export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(pyenv init -)편집하고 나온다.
+$ source .zshrc pyenv 버전 확인 $ pyenv --version pyenv 1.</description>
     </item>
     
     <item>
