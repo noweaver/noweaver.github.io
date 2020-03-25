@@ -9,7 +9,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://noweaver.github.io/posts/Journal/2018/11/28-Jupyter-tips/" />
 <meta property="article:published_time" content="2018-11-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-02-17T09:22:21+09:00" />
+<meta property="article:modified_time" content="2020-03-25T12:57:16+09:00" />
 <title>Jupyter Tips | noweaver</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css" integrity="sha256-Y&#43;uI2qVFNlQF7NuyEDMoajJcYKNs&#43;m0i0h58O8koaUE=">
 
 
-<script defer src="/ko.search.min.0c622b92ad5d1775f0a0568df6a381259828d4f34d5f4d458c872669dab917ba.js" integrity="sha256-DGIrkq1dF3XwoFaN9qOBJZgo1PNNX01FjIcmadq5F7o="></script>
+<script defer src="/ko.search.min.5b059d3af1e2ba6e08cd670552a502fcfbd83aa068daf2e0dec42a8b14c69632.js" integrity="sha256-WwWdOvHium4IzWcFUqUC/PvYOqBo2vLg3sQqixTGljI="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -201,10 +201,17 @@ c.NotebookApp.port = 8888
 // Jupyter 실행 후, 시작 위치 지정
 c.NotebookApp.notebook_dir = '/home/ryan/Workspace'
 </code></pre><h2 id="jupyter-서버로-실행-방법">Jupyter 서버로 실행 방법</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ nohup jupyter notebook --allow-root &gt; .jupyter/error.log &amp; echo $!&gt; .jupyter/pid.txt
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ nohup jupyter notebook --allow-root &gt; ~/.jupyter_error.log&amp; jobs -p | awk <span style="color:#e6db74">&#39;{print $3}&#39;</span> &gt; ~/.jupyter_pid.txt
 
 // Jupyter 프로세스 종료 시킬 때
-$ kill -9 <span style="color:#f92672">{</span>process_id<span style="color:#f92672">}</span>
+$ kill -9 <span style="color:#f92672">{</span>cat ~/.jupyter_pid.txt<span style="color:#f92672">}</span>
+</code></pre></div><p>이것을 다음처럼 환경파일에 Alias 걸어둔다. awk 부분 single quote 부분 유의한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">vi .zshrc
+alias jn<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nohup jupyter notebook --allow-root &gt; ~/.jupyter_error.log&amp; jobs -p | awk &#39;{print \$3}&#39; &gt; ~/.jupyter_pid.txt&#34;</span>
+alias killjn<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;kill -9 \$(cat ~/.jupyter_pid.txt)&#34;</span>
+
+wq!
+$ source .zshrc
 </code></pre></div><h1 id="jupyter-메모리-사용량-체크">Jupyter 메모리 사용량 체크</h1>
 <h2 id="설치">설치</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ conda install -y memory_profiler
@@ -258,9 +265,9 @@ wq!
 
   <div>
     
-    <a class="flex align-center" href="https://github.com/noweaver/noweaver/commit/a189fd0d476808a78ceb01c9951868f445e4f1c4" title='Last modified by Ryan Guhnguk Ahn | 2020/02/17' target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/commit/3e2f0cea114a80b53f799b05a64e46862bb8b9d0" title='Last modified by noweaver | 2020/03/25' target="_blank" rel="noopener">
       <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>2020/02/17</span>
+      <span>2020/03/25</span>
     </a>
   </div>
 
