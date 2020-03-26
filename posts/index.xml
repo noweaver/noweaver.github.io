@@ -6,10 +6,23 @@
     <description>Recent content in Posts on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac, Python에서 Oracle 연결하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/03/26-Mac-Python-Oracle-Connectivity/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/03/26-Mac-Python-Oracle-Connectivity/</guid>
+      <description>데이터베이스 기반의 업무가 아니기 때문에 별달리 접근할 일은 없었다. 하지만, 해외 법인의 데이터베이스에 접근할 일이 종종 있는데, 그럴 경우 JDBC를 통해서 DBGrip 이나 DBwever 를 통해서 접근을 했기 때문에 별 달리 고민이 없었다. 그런데, Mac의 Python을 통해서 오라클 데이터베이스에 접근해야 해서 기록으로 남견둔다.
+ 참고: https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html
+ Oracle Instance Client 설치 오라클 Instant Client 페이지에서 최신 버전과 목적에 맞게 다운로드를 한다.
+여기서는 기본(디폴트) 라이브러리와 SDK를 다운로드 했다.
+ instantclient-basic-macos.x64-19.3.0.0.0dbru.zip instantclient-sdk-macos.x64-19.3.0.0.0dbru.zip  다음과 같이 설치 작업을 진행한다.</description>
+    </item>
     
     <item>
       <title>Mac, DataGrip 에서 Tibero 설정하기</title>
