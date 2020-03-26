@@ -17,7 +17,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://noweaver.github.io/posts/Journal/2020/03/26-Mac-Python-Oracle-Connectivity/" />
 <meta property="article:published_time" content="2020-03-26T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-03-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-26T10:47:40+09:00" />
 <title>Mac, Python에서 Oracle 연결하기 | noweaver</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css" integrity="sha256-Y&#43;uI2qVFNlQF7NuyEDMoajJcYKNs&#43;m0i0h58O8koaUE=">
 
 
-<script defer src="/ko.search.min.422af0e21f2bcebc7cd04681a87789f3be95c14a50598da43a8cf1ac22412ad3.js" integrity="sha256-Qirw4h8rzrx80EaBqHeJ876VwUpQWY2kOozxrCJBKtM="></script>
+<script defer src="/ko.search.min.e0ff35b884ce1e3be71134779a84276b9c5eac9fabaa3728486d524c62635124.js" integrity="sha256-4P81uITOHjvnETR3moQna5xerJ&#43;rqjcoSG1STGJjUSQ="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -157,7 +157,8 @@ https://github.com/alex-shpak/hugo-book
     
         <a href="/tags/Mac/">Mac</a>, 
         <a href="/tags/Oracle/">Oracle</a>, 
-        <a href="/tags/Python/">Python</a>
+        <a href="/tags/Python/">Python</a>, 
+        <a href="/tags/%EC%84%A4%EC%B9%98/">설치</a>
   </div>
   
 
@@ -219,7 +220,7 @@ drwxr-xr-x@ <span style="color:#ae81ff">7</span> root  wheel   224B Mar <span st
 </code></pre></div><p>Oracle Instant Client 의 라이브러리를 모두 (심볼릭) 링크를 걸어둔다.</p>
 <blockquote>
 <p>이 때 유의할 사항은 디렉터리 이름의 버전은 <code>19_3</code> 을 나타내고 있다.
-하지만, 위이 목록을 확인했을 때를 보면, <code>19.1</code> 로 링크가 걸려 있다.
+하지만, 위이 목록에서와 같이 확인해 보면, <code>19.1</code> 로 링크가 걸려 있다.
 따라서 심볼릭 링크를 걸 때, <code>19.1</code>로 링크를 걸어야 한다.</p>
 </blockquote>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ ln -sf /opt/oracle/instantclient_19_3/sdk/include/*.h /usr/local/include/
@@ -271,6 +272,14 @@ db_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;MY
   <div class="flex justify-between">
 
 
+
+  <div>
+    
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/commit/9345f416fe1f28b3762ace5d03246a1230357b64" title='Last modified by noweaver | 2020/03/26' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2020/03/26</span>
+    </a>
+  </div>
 
 
 
