@@ -6,10 +6,37 @@
     <description>Recent content in Tags on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>린 고객개발</title>
+      <link>https://noweaver.github.io/tags/%EB%A6%B0-%EA%B3%A0%EA%B0%9D%EA%B0%9C%EB%B0%9C/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/tags/%EB%A6%B0-%EA%B3%A0%EA%B0%9D%EA%B0%9C%EB%B0%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>비즈니스</title>
+      <link>https://noweaver.github.io/tags/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/tags/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LifeHack</title>
+      <link>https://noweaver.github.io/tags/LifeHack/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/tags/LifeHack/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mac</title>
@@ -75,15 +102,6 @@
     </item>
     
     <item>
-      <title>LifeHack</title>
-      <link>https://noweaver.github.io/tags/LifeHack/</link>
-      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/tags/LifeHack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jupyter</title>
       <link>https://noweaver.github.io/tags/Jupyter/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
@@ -125,15 +143,6 @@
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://noweaver.github.io/tags/%EB%A6%B0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>비즈니스</title>
-      <link>https://noweaver.github.io/tags/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/tags/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/</guid>
       <description></description>
     </item>
     

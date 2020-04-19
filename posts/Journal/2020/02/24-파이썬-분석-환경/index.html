@@ -23,7 +23,7 @@ $ source .zshrc pyenv 버전 확인 $ pyenv --version pyenv 1." />
 <link rel="stylesheet" href="/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css" integrity="sha256-Y&#43;uI2qVFNlQF7NuyEDMoajJcYKNs&#43;m0i0h58O8koaUE=">
 
 
-<script defer src="/ko.search.min.e0ff35b884ce1e3be71134779a84276b9c5eac9fabaa3728486d524c62635124.js" integrity="sha256-4P81uITOHjvnETR3moQna5xerJ&#43;rqjcoSG1STGJjUSQ="></script>
+<script defer src="/ko.search.min.88172b3ce74da9e44c0fdea43a244aeb789bab85c37034aa6c2fece47fddc65d.js" integrity="sha256-iBcrPOdNqeRMD96kOiRK63ibq4XDcDSqbC/s5H/dxl0="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -154,6 +154,7 @@ https://github.com/alex-shpak/hugo-book
         </li>
       </ul>
     </li>
+    <li><a href="#주피터-스타트업-파일-구성">주피터 스타트업 파일 구성</a></li>
   </ul>
 </nav>
 
@@ -411,6 +412,52 @@ c.NotebookApp.ResourceUseDisplay.mem_limit <span style="color:#f92672">=</span> 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ conda install -y -c conda-forge pydeck
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 <span style="color:#f92672">(</span>myjupyter<span style="color:#f92672">)</span> $ jupyter labextension install @deck.gl/jupyter-widget
+</code></pre></div><h1 id="주피터-스타트업-파일-구성">주피터 스타트업 파일 구성</h1>
+<p><code>{사용자 홈디렉토리}/.ipython/profile_default/startup/</code> 경로로 이동한다. 만일, <code>{사용자 홈 디렉토리}/.ipython</code> 이 없다면 아래의 명령어를 실행한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ ipython profile create
+</code></pre></div><p>경로 이동하여 00.py 파일을 만들어 편집한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ cd ~/.ipython/profile_default/startup
+$ vi 00.py
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+
+<span style="color:#f92672">import</span> warnings
+warnings<span style="color:#f92672">.</span>simplefilter(<span style="color:#e6db74">&#39;ignore&#39;</span>)
+
+<span style="color:#f92672">import</span> matplotlib <span style="color:#f92672">as</span> mpl
+mpl<span style="color:#f92672">.</span>use(<span style="color:#e6db74">&#39;Agg&#39;</span>)
+<span style="color:#f92672">import</span> matplotlib.pylab <span style="color:#f92672">as</span> plt
+<span style="color:#f92672">from</span> mpl_toolkits.mplot3d <span style="color:#f92672">import</span> Axes3D
+
+<span style="color:#f92672">import</span> seaborn <span style="color:#f92672">as</span> sns
+sns<span style="color:#f92672">.</span>set()
+sns<span style="color:#f92672">.</span>set_style(<span style="color:#e6db74">&#34;whitegrid&#34;</span>)
+sns<span style="color:#f92672">.</span>set_color_codes()
+
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">import</span> scipy <span style="color:#f92672">as</span> sp
+<span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+<span style="color:#f92672">import</span> statsmodels.api <span style="color:#f92672">as</span> sm
+<span style="color:#f92672">import</span> sklearn <span style="color:#f92672">as</span> sk
+
+<span style="color:#75715e"># Do not remove this line!</span>
+plt, Axes3D, sns, np, sp, pd, sm, sk
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ cd ~/.ipython/profile_default/startup
+$ vi ipython_config.py
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">c <span style="color:#f92672">=</span> get_config()
+
+ c<span style="color:#f92672">.</span>InteractiveShellApp<span style="color:#f92672">.</span>exec_lines <span style="color:#f92672">=</span> [
+     <span style="color:#e6db74">&#34;%matplotlib inline&#34;</span>,
+     <span style="color:#e6db74">&#34;%autoreload 2&#34;</span>,
+     <span style="color:#e6db74">&#34;mpl.rc(&#39;font&#39;, family=&#39;D2Coding&#39;)&#34;</span>,    <span style="color:#75715e"># D2Coding 폰트 사용</span>
+     <span style="color:#e6db74">&#34;mpl.rc(&#39;axes&#39;, unicode_minus=False)&#34;</span>,  <span style="color:#75715e"># 유니코드 음수 기호 사용</span>
+     <span style="color:#e6db74">&#34;mpl.rc(&#39;figure&#39;, figsize=(8, 5))&#34;</span>,     <span style="color:#75715e"># 그림 크기(단위: 인치)</span>
+     <span style="color:#e6db74">&#34;mpl.rc(&#39;figure&#39;, dpi=300)&#34;</span>,            <span style="color:#75715e"># 그림 해상도</span>
+ ]
+
+<span style="color:#75715e"># 아래와 같이 추가를 하면 주피터 노트북에서 matplotlib을 사용할때 </span>
+<span style="color:#75715e"># inline magic command를 설정해줄 필요가 없습니다.</span>
+c<span style="color:#f92672">.</span>IPKernelApp<span style="color:#f92672">.</span>matplotlib <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;inline&#39;</span>
+c<span style="color:#f92672">.</span>InlineBackend<span style="color:#f92672">.</span>figure_format <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;retina&#39;</span>
 </code></pre></div><p>누군가에게 도움이 되었기를 바라면서&hellip;</p>
 </p>
 </article>
@@ -515,6 +562,7 @@ c.NotebookApp.ResourceUseDisplay.mem_limit <span style="color:#f92672">=</span> 
         </li>
       </ul>
     </li>
+    <li><a href="#주피터-스타트업-파일-구성">주피터 스타트업 파일 구성</a></li>
   </ul>
 </nav>
 
