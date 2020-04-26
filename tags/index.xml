@@ -6,10 +6,28 @@
     <description>Recent content in Tags on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LifeHack</title>
+      <link>https://noweaver.github.io/tags/LifeHack/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/tags/LifeHack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>랜딩페이지</title>
+      <link>https://noweaver.github.io/tags/%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/tags/%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>린 고객개발</title>
@@ -26,15 +44,6 @@
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://noweaver.github.io/tags/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LifeHack</title>
-      <link>https://noweaver.github.io/tags/LifeHack/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/tags/LifeHack/</guid>
       <description></description>
     </item>
     

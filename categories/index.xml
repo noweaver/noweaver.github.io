@@ -6,10 +6,19 @@
     <description>Recent content in Categories on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>기록</title>
+      <link>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>독서</title>
@@ -17,15 +26,6 @@
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://noweaver.github.io/categories/%EB%8F%85%EC%84%9C/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>기록</title>
-      <link>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</guid>
       <description></description>
     </item>
     
