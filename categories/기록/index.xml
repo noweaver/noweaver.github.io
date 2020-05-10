@@ -32,6 +32,16 @@
     </item>
     
     <item>
+      <title>Jupyter Hub 설치</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/04/08-Jupyter-Hub-Install/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/04/08-Jupyter-Hub-Install/</guid>
+      <description>우분투 18.04의 환경에서 작업을 진행하였다. sudo 권한을 가진 jhadmin 사용자 계정으로 모든 작업을 진행하였다. 또한, #은 root 계정의 쉘 환경이며 $는 일반 사용자의 쉘환경을 나타낸다. 사용자 커널 추가등을 하기 위해서 Anaconda 의 미니멀 버전의 miniconda3 설치한다.
+미리 할일 # adduser jhadmin # vi /etc/sudoers # su - jhadmin $ sudo apt upgrade -y $ sudo apt update -y $ sudo apt autoremove -y JupyterHub 환경을 위한 Node 설치 $ sudo apt install -y nodejs $ sudo apt install -y npm $ sudo npm install -g configurable-http-proxy Python(Miniconda3) 설치 여기에서는 miniconda 설치 할 것이다.</description>
+    </item>
+    
+    <item>
       <title>Mac, Python에서 Oracle 연결하기</title>
       <link>https://noweaver.github.io/posts/Journal/2020/03/26-Mac-Python-Oracle-Connectivity/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
