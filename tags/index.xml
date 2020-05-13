@@ -12,9 +12,36 @@
     
     
     <item>
+      <title>PostgreSQL</title>
+      <link>https://noweaver.github.io/tags/PostgreSQL/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/tags/PostgreSQL/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://noweaver.github.io/tags/Ubuntu/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/tags/Ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>설치</title>
+      <link>https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Habiter</title>
       <link>https://noweaver.github.io/tags/Habiter/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://noweaver.github.io/tags/Habiter/</guid>
       <description></description>
@@ -23,7 +50,7 @@
     <item>
       <title>LifeHack</title>
       <link>https://noweaver.github.io/tags/LifeHack/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://noweaver.github.io/tags/LifeHack/</guid>
       <description></description>
@@ -120,15 +147,6 @@
     </item>
     
     <item>
-      <title>설치</title>
-      <link>https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>DataGrip</title>
       <link>https://noweaver.github.io/tags/DataGrip/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
@@ -197,15 +215,6 @@
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://noweaver.github.io/tags/CentOS/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PostgreSQL</title>
-      <link>https://noweaver.github.io/tags/PostgreSQL/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/tags/PostgreSQL/</guid>
       <description></description>
     </item>
     

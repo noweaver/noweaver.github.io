@@ -6,10 +6,20 @@
     <description>Recent content in 설치 on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/%EC%84%A4%EC%B9%98/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu, PostgreSQL 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/05/13-Ubuntu-PostgreSQL-Installation/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/05/13-Ubuntu-PostgreSQL-Installation/</guid>
+      <description>이전에 CentOS 7.x에 PostgreSQL 설치한 적이 있다. Vocaking을 만들기 위해서 Database가 필요 했는데, 해당 서버는 Ubuntu 18.04라 기록으로 남긴다.
+미리 할 것 OS 업데이트 $ sudo apt -y install update $ sudo apt -y install upgrade OS 확인 $ cat /etc/os-release NAME=&amp;#34;Ubuntu&amp;#34; VERSION=&amp;#34;18.04.4 LTS (Bionic Beaver)&amp;#34; ID=ubuntu ID_LIKE=debian PRETTY_NAME=&amp;#34;Ubuntu 18.04.4 LTS&amp;#34; VERSION_ID=&amp;#34;18.04&amp;#34; HOME_URL=&amp;#34;https://www.ubuntu.com/&amp;#34; SUPPORT_URL=&amp;#34;https://help.ubuntu.com/&amp;#34; BUG_REPORT_URL=&amp;#34;https://bugs.launchpad.net/ubuntu/&amp;#34; PRIVACY_POLICY_URL=&amp;#34;https://www.ubuntu.com/legal/terms-and-policies/privacy-policy&amp;#34; VERSION_CODENAME=bionic UBUNTU_CODENAME=bionic 현재 패키지 PostgreSQL 버전 확인 $ apt show postgresql Package: postgresql Version: 10+190ubuntu0.</description>
+    </item>
     
     <item>
       <title>Mac, Python에서 Oracle 연결하기</title>
