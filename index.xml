@@ -6,10 +6,19 @@
     <description>Recent content on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu, PostgreSQL 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/05/13-Ubuntu-PostgreSQL-Installation/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/05/13-Ubuntu-PostgreSQL-Installation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>루틴 만들기 도전 실패</title>
@@ -33,10 +42,10 @@
     
     <item>
       <title>단어왕 개발 시작을 알리며</title>
-      <link>https://noweaver.github.io/posts/Journal/2020/04/20-Journal/</link>
+      <link>https://noweaver.github.io/posts/Journal/2020/04/20-Vocaking-start/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/2020/04/20-Journal/</guid>
+      <guid>https://noweaver.github.io/posts/Journal/2020/04/20-Vocaking-start/</guid>
       <description>2020년 4월 20일부터 단어왕을 개발하기로 했다. 만들고자 하는 이유는 내가 영어공부를 해보니 단어가 가장 중요하다고 생각이 되기 때문이다. 수 많은 시간을 생각하고 또 생각했다. 영어를 잘 하려면 기본적으로 단어를 많이 알고 있어야 한다고 생각이 든다. 여러 이유가 있을 것이라고 본다. 나는 영어 전문가도 아니고 영어를 학습해야 하는 입장에서 생각한 것이다.
 현재 생각한 것은 핵심 단어장을 기준을 만들어야 한다. 즉, 서점에 가면 수많은 단어장이 있다. 그 중 어떤 단어장이 핵심이 될 수 있을까?</description>
     </item>
@@ -235,10 +244,10 @@ LISTEN중인 포트를 표시하기 $ netstat -nap | grep LISTEN) 상대방 포�
     
     <item>
       <title>CentOS 7에 PostgreSQL 설치하기</title>
-      <link>https://noweaver.github.io/posts/Journal/2020/02/13-centos-postgresql-%EC%84%A4%EC%B9%98/</link>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/13-Centos-Postgresql-Installation/</link>
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://noweaver.github.io/posts/Journal/2020/02/13-centos-postgresql-%EC%84%A4%EC%B9%98/</guid>
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/13-Centos-Postgresql-Installation/</guid>
       <description>설치 전, 할 일 OS 확인 $ cat /etc/os-release NAME=&amp;#34;CentOS Linux&amp;#34; VERSION=&amp;#34;7 (Core)&amp;#34; ID=&amp;#34;centos&amp;#34; ID_LIKE=&amp;#34;rhel fedora&amp;#34; VERSION_ID=&amp;#34;7&amp;#34; PRETTY_NAME=&amp;#34;CentOS Linux 7 (Core)&amp;#34; ANSI_COLOR=&amp;#34;0;31&amp;#34; CPE_NAME=&amp;#34;cpe:/o:centos:centos:7&amp;#34; HOME_URL=&amp;#34;https://www.centos.org/&amp;#34; BUG_REPORT_URL=&amp;#34;https://bugs.centos.org/&amp;#34; CENTOS_MANTISBT_PROJECT=&amp;#34;CentOS-7&amp;#34; CENTOS_MANTISBT_PROJECT_VERSION=&amp;#34;7&amp;#34; REDHAT_SUPPORT_PRODUCT=&amp;#34;centos&amp;#34; REDHAT_SUPPORT_PRODUCT_VERSION=&amp;#34;7&amp;#34; OS 업데이트 $ sudo yum update -y PostgreSQL 설치 $ sudo yum install -y postgresql postgresql-server postgresql-devel postgresql-contrib postgresql-docs 서비스 초기화 및 시작 $ sudo service postgresql initdb ```zsh $ sudo systemctl start postgresql $ sudo systemctl enable postgresql PostgreSQL 접속 $ sudo -u postgres psql could not change directory to &amp;#34;/home/ryan&amp;#34; psql (9.</description>
     </item>
     

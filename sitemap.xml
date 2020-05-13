@@ -4,37 +4,42 @@
   
   <url>
     <loc>https://noweaver.github.io/categories/</loc>
-    <lastmod>2020-05-13T10:42:16+09:00</lastmod>
+    <lastmod>2020-05-13T10:39:31+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/Habiter/</loc>
-    <lastmod>2020-05-12T07:38:25+09:00</lastmod>
+    <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/LifeHack/</loc>
-    <lastmod>2020-05-12T07:38:25+09:00</lastmod>
+    <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/</loc>
-    <lastmod>2020-05-13T10:42:16+09:00</lastmod>
+    <lastmod>2020-05-13T10:39:31+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/posts/</loc>
-    <lastmod>2020-05-13T10:42:16+09:00</lastmod>
+    <lastmod>2020-05-13T10:39:31+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/</loc>
-    <lastmod>2020-05-13T10:42:16+09:00</lastmod>
+    <lastmod>2020-05-13T10:39:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/Journal/2020/05/13-Ubuntu-PostgreSQL-Installation/</loc>
+    <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/categories/%EA%B8%B0%EB%A1%9D/</loc>
-    <lastmod>2020-05-13T10:42:16+09:00</lastmod>
+    <lastmod>2020-05-13T10:39:31+09:00</lastmod>
   </url>
   
   <url>
@@ -48,18 +53,23 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/tags/%EB%8B%A8%EC%96%B4/</loc>
-    <lastmod>2020-05-13T10:42:16+09:00</lastmod>
+    <loc>https://noweaver.github.io/tags/Vocaking/</loc>
+    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Journal/2020/04/20-Journal/</loc>
-    <lastmod>2020-05-13T10:42:16+09:00</lastmod>
+    <loc>https://noweaver.github.io/tags/%EB%8B%A8%EC%96%B4/</loc>
+    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/posts/Journal/2020/04/20-Vocaking-start/</loc>
+    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://noweaver.github.io/tags/%EC%98%81%EC%96%B4/</loc>
-    <lastmod>2020-05-13T10:42:16+09:00</lastmod>
+    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -243,7 +253,7 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/Journal/2020/02/13-centos-postgresql-%EC%84%A4%EC%B9%98/</loc>
+    <loc>https://noweaver.github.io/posts/Journal/2020/02/13-Centos-Postgresql-Installation/</loc>
     <lastmod>2020-02-13T00:00:00+00:00</lastmod>
   </url>
   
