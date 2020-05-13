@@ -338,8 +338,8 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/categories/FIRE/</loc>
-    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
+    <loc>https://noweaver.github.io/tags/FIRE/</loc>
+    <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -348,13 +348,8 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/FIRE/2019-11-30-%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C%EA%B0%95%EC%9D%98/</loc>
+    <loc>https://noweaver.github.io/posts/Journal/2019/10/30-%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C%EA%B0%95%EC%9D%98/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://noweaver.github.io/tags/%EC%A3%BC%EC%8B%9D/</loc>
-    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
   </url>
   
   <url>
@@ -388,8 +383,13 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/FIRE/2019-10-04-Wealth/</loc>
-    <lastmod>2020-02-26T10:33:43+09:00</lastmod>
+    <loc>https://noweaver.github.io/posts/Journal/2019/10/04-Wealth/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/tags/%EC%A3%BC%EC%8B%9D/</loc>
+    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
   </url>
   
   <url>
@@ -413,7 +413,7 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/FIRE/2019-09-16-%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/</loc>
+    <loc>https://noweaver.github.io/posts/Journal/2019/09/16-%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C-CMA/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -428,7 +428,7 @@
   </url>
   
   <url>
-    <loc>https://noweaver.github.io/posts/FIRE/2019-09-05-%EC%A3%BC%EC%8B%9D-%EA%B4%80%EB%A0%A8-%EC%B1%85%EC%9D%84-%EC%9D%BD%EB%8A%94-%EB%8B%A4%EB%8A%94-%EA%B2%83/</loc>
+    <loc>https://noweaver.github.io/posts/Journal/2019/09/05-%EC%A3%BC%EC%8B%9D-%EA%B4%80%EB%A0%A8-%EC%B1%85%EC%9D%84-%EC%9D%BD%EB%8A%94-%EB%8B%A4%EB%8A%94-%EA%B2%83/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -490,6 +490,11 @@
   <url>
     <loc>https://noweaver.github.io/posts/Journal/2019/07/28-ISLR-Week-06/</loc>
     <lastmod>2020-02-26T10:05:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noweaver.github.io/categories/FIRE/</loc>
+    <lastmod>2020-02-17T09:22:21+09:00</lastmod>
   </url>
   
   <url>
