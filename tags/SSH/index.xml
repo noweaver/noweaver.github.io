@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSH on noweaver</title>
+    <link>https://noweaver.github.io/tags/SSH/</link>
+    <description>Recent content in SSH on noweaver</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://noweaver.github.io/tags/SSH/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSH에서 서버와의 연결 시간 늘리기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/14-SSH%EC%97%90%EC%84%9C-%EC%84%9C%EB%B2%84-%EC%8B%9C%EA%B0%84-%EB%8A%98%EB%A6%AC%EA%B8%B0/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/14-SSH%EC%97%90%EC%84%9C-%EC%84%9C%EB%B2%84-%EC%8B%9C%EA%B0%84-%EB%8A%98%EB%A6%AC%EA%B8%B0/</guid>
+      <description>SSH 클라이언트 $ vi ~/.ssh/config ServerAliveInterval 120 :wq! SSH 서버 $ sudo vi /etc/ssh/sshd_config ClientAliveInterval 120 ClientAliveCountMax 720 :wq! </description>
+    </item>
+    
+  </channel>
+</rss>

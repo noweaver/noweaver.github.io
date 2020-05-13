@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network on noweaver</title>
+    <link>https://noweaver.github.io/tags/Network/</link>
+    <description>Recent content in Network on noweaver</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://noweaver.github.io/tags/Network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>리눅스/맥에서 네트워크 포트 확인하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/17-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%8F%AC%ED%8A%B8-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/17-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%8F%AC%ED%8A%B8-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</guid>
+      <description>열린 네트워크 및 포트 확인 하기 현재 열려 있는 포트 확인 $ netstat -nap n: host 명으로 표시 안함 a:모든소켓 표시 p:프로세스ID와 프로그램명 표시
+LISTEN중인 포트를 표시하기 $ netstat -nap | grep LISTEN) 상대방 포트가 열려 있는지를 확인하는 방법 특정 호스트의 특정 포트가 열려 있는지를 확인하기  z: 포트 검색  // nc -z 호스트주소 포트 $ nc -z www.google.com 80 Connection to www.google.com 80 port [tcp/http] succeeded! 특정 머신의 포트 범위를 지정하여 열린 포트를 확인하기 //nc 호스트주소 -z 시작포트-끝포트 $ nc 10.</description>
+    </item>
+    
+  </channel>
+</rss>

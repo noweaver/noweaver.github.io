@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ICE  Internal Combustion Engine 내연기관 엔진-변속기-연료탱크 구성 일반 자동차  HEV  Hybrid Electric Vehicle 엔진과 모터가 주행 상황에 따라 작동하는 방식 보통 출발 -&gt; 저속 주행 -&gt; 가속 주행 -&gt; 고속 주행 -&gt; 감속 주행  주행 상황에 따라 모터와 내연 기관이 적절히 조합   출발, 저속 주행, 초반 가속 시 모터 사용 저속에서 점차 가속페달 밟으면 모터와 함께 내연기관 작동으로 높은 동력 전달 고속 주행 시, 내연 기관만 사용 감속 시, 회생제동 기능으로 배터리 충전까지 이루어짐 가솔린 차량에 비해 최대 40% 연비 개선 HEV는 모터 동력 개입 정도에 따라서 Mild HEV, HEV, Plug-in HEV로 나눔  Plug-in HEV  Full Hybrid 라고도 부름 배터리 용량이 더 큼 전기차 주행거리를 개선 외부로부터 충전 가능  BEV  Battery Electric Vehicle 100% 배터리에 의지해 모터를 작동 친환경, 효율, 경제성 배터리 충전이므로 오염물질 배출 없음 내연기관 엔진이 없으므로 넓은 공간 활용 과거 180~250km 한계 요즘(2020년), 300km 이상으로 400~600km 거리까지 주행 가능 도심 주행 BEV 대부분 장거리 주행은 BEV 대중화는 시간이 더 필요  FCEV  Fuel Cell Electirc Vehicle 친환경 최종 단계 수소와 산소의 화학반응으로 전력 생산하여 모터 작동시켜 주행 연료를 수소를 충전해 사용하기 때문에 수소연료전지차라고 부름 HEV-BEV는 기술이 비슷, HEV-FCEV는 기술이 다름 HEV-BEV와 다른 특징  소형 배터리  시동 용도 및 충전 가능한 소형 배터리만 있으면 됨 이 배터리는 BEV의 수 십분의 일 수준으로 매우 적은 용량   슈퍼차저(Suptercharger)  공기 흡입을 위한 슈퍼차저 모터 장착 수소&#43;산소 화학반응의 전력을 생산하는 양을 늘리기 위한 연료전리로 많은 산소가 필요 공기 여과 장치를 거치면서 99% 이상 미세먼지 등 유해물질 걸러냄 굴러다니는 공기청정기 역할   공조 장치와 열관리 장치 포함  연료전지의 효율적인 전력 생산과 수명 관리를 위해 필요 연료전지는 보통 60&amp; 효율을 기록하고 있지만 40% 도달하면 열이 발생 시작 연료전지의 적정 온도는 발열로 인한 온도보다 낮기 때문에 온도 조절이 핵심 따라서 FCEV 출력이 비교적 낮은 이유임 냉각 기술이 개선되면 높은 출력과 효율을 기대   고성능 워터 펌프 적용  MCU(Motor Control Unit), 모터, 인버터 등 전장의 열관리 위해 필요 HEV/BEV 적용되어 있지만 FCEV가 더 고도화 되어 있음 고도화 된 열관리는 비용이 증가로 이어짐       출처"><meta property="og:title" content="전기 자동차 엔진 종류" />
+<meta property="og:description" content="ICE  Internal Combustion Engine 내연기관 엔진-변속기-연료탱크 구성 일반 자동차  HEV  Hybrid Electric Vehicle 엔진과 모터가 주행 상황에 따라 작동하는 방식 보통 출발 -&gt; 저속 주행 -&gt; 가속 주행 -&gt; 고속 주행 -&gt; 감속 주행  주행 상황에 따라 모터와 내연 기관이 적절히 조합   출발, 저속 주행, 초반 가속 시 모터 사용 저속에서 점차 가속페달 밟으면 모터와 함께 내연기관 작동으로 높은 동력 전달 고속 주행 시, 내연 기관만 사용 감속 시, 회생제동 기능으로 배터리 충전까지 이루어짐 가솔린 차량에 비해 최대 40% 연비 개선 HEV는 모터 동력 개입 정도에 따라서 Mild HEV, HEV, Plug-in HEV로 나눔  Plug-in HEV  Full Hybrid 라고도 부름 배터리 용량이 더 큼 전기차 주행거리를 개선 외부로부터 충전 가능  BEV  Battery Electric Vehicle 100% 배터리에 의지해 모터를 작동 친환경, 효율, 경제성 배터리 충전이므로 오염물질 배출 없음 내연기관 엔진이 없으므로 넓은 공간 활용 과거 180~250km 한계 요즘(2020년), 300km 이상으로 400~600km 거리까지 주행 가능 도심 주행 BEV 대부분 장거리 주행은 BEV 대중화는 시간이 더 필요  FCEV  Fuel Cell Electirc Vehicle 친환경 최종 단계 수소와 산소의 화학반응으로 전력 생산하여 모터 작동시켜 주행 연료를 수소를 충전해 사용하기 때문에 수소연료전지차라고 부름 HEV-BEV는 기술이 비슷, HEV-FCEV는 기술이 다름 HEV-BEV와 다른 특징  소형 배터리  시동 용도 및 충전 가능한 소형 배터리만 있으면 됨 이 배터리는 BEV의 수 십분의 일 수준으로 매우 적은 용량   슈퍼차저(Suptercharger)  공기 흡입을 위한 슈퍼차저 모터 장착 수소&#43;산소 화학반응의 전력을 생산하는 양을 늘리기 위한 연료전리로 많은 산소가 필요 공기 여과 장치를 거치면서 99% 이상 미세먼지 등 유해물질 걸러냄 굴러다니는 공기청정기 역할   공조 장치와 열관리 장치 포함  연료전지의 효율적인 전력 생산과 수명 관리를 위해 필요 연료전지는 보통 60&amp; 효율을 기록하고 있지만 40% 도달하면 열이 발생 시작 연료전지의 적정 온도는 발열로 인한 온도보다 낮기 때문에 온도 조절이 핵심 따라서 FCEV 출력이 비교적 낮은 이유임 냉각 기술이 개선되면 높은 출력과 효율을 기대   고성능 워터 펌프 적용  MCU(Motor Control Unit), 모터, 인버터 등 전장의 열관리 위해 필요 HEV/BEV 적용되어 있지만 FCEV가 더 고도화 되어 있음 고도화 된 열관리는 비용이 증가로 이어짐       출처" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noweaver.github.io/posts/Journal/2020/02/14-%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%97%94%EC%A7%84-%EC%A2%85%EB%A5%98/" />
+<meta property="article:published_time" content="2020-02-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-14T00:00:00+00:00" />
+<title>전기 자동차 엔진 종류 | noweaver</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css" integrity="sha256-Y&#43;uI2qVFNlQF7NuyEDMoajJcYKNs&#43;m0i0h58O8koaUE=">
+
+
+<script defer src="/ko.search.min.79dd751811e998862eeb1181e91404361f81478048de82aa71c5f6d174f5df1f.js" integrity="sha256-ed11GBHpmIYu6xGB6RQENh&#43;BR4BI3oKqccX20XT13x8="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123156470-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>noweaver</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>전기 자동차 엔진 종류</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#ice">ICE</a></li>
+        <li><a href="#hev">HEV</a></li>
+        <li><a href="#plug-in-hev">Plug-in HEV</a></li>
+        <li><a href="#bev">BEV</a></li>
+        <li><a href="#fcev">FCEV</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Journal/2020/02/14-%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%97%94%EC%A7%84-%EC%A2%85%EB%A5%98/">전기 자동차 엔진 종류</a>
+  </h1>
+  
+
+  <h5>2020/02/14</h5>
+
+
+
+  
+  <div>
+    
+        <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
+  </div>
+  
+
+  
+  <div>
+    
+        <a href="/tags/%EC%9E%90%EB%8F%99%EC%B0%A8/">자동차</a>
+  </div>
+  
+
+
+  <p><h2 id="ice">ICE</h2>
+<ul>
+<li>Internal Combustion Engine</li>
+<li>내연기관</li>
+<li>엔진-변속기-연료탱크 구성</li>
+<li>일반 자동차</li>
+</ul>
+<h2 id="hev">HEV</h2>
+<p><img src="/2020/02/hev.png" alt="hev" /></p>
+<ul>
+<li>Hybrid Electric Vehicle</li>
+<li>엔진과 모터가 주행 상황에 따라 작동하는 방식</li>
+<li>보통 출발 -&gt; 저속 주행 -&gt; 가속 주행 -&gt; 고속 주행 -&gt; 감속 주행
+<ul>
+<li>주행 상황에 따라 모터와 내연 기관이 적절히 조합</li>
+</ul>
+</li>
+<li>출발, 저속 주행, 초반 가속 시 모터 사용</li>
+<li>저속에서 점차 가속페달 밟으면 모터와 함께 내연기관 작동으로 높은 동력 전달</li>
+<li>고속 주행 시, 내연 기관만 사용</li>
+<li>감속 시, 회생제동 기능으로 배터리 충전까지 이루어짐</li>
+<li>가솔린 차량에 비해 최대 40% 연비 개선</li>
+<li>HEV는 모터 동력 개입 정도에 따라서 Mild HEV, HEV, Plug-in HEV로 나눔</li>
+</ul>
+<h2 id="plug-in-hev">Plug-in HEV</h2>
+<p><img src="/2020/02/Plug-in-HEV.png" alt="Plug-in-HEV" /></p>
+<ul>
+<li>Full Hybrid 라고도 부름</li>
+<li>배터리 용량이 더 큼</li>
+<li>전기차 주행거리를 개선</li>
+<li>외부로부터 충전 가능</li>
+</ul>
+<h2 id="bev">BEV</h2>
+<p><img src="/2020/02/BEV.png" alt="BEV" /></p>
+<ul>
+<li>Battery Electric Vehicle</li>
+<li>100% 배터리에 의지해 모터를 작동</li>
+<li>친환경, 효율, 경제성</li>
+<li>배터리 충전이므로 오염물질 배출 없음</li>
+<li>내연기관 엔진이 없으므로 넓은 공간 활용</li>
+<li>과거 180~250km 한계</li>
+<li>요즘(2020년), 300km 이상으로 400~600km 거리까지 주행 가능</li>
+<li>도심 주행 BEV 대부분</li>
+<li>장거리 주행은 BEV 대중화는 시간이 더 필요</li>
+</ul>
+<h2 id="fcev">FCEV</h2>
+<p><img src="/2020/02/FCEV.png" alt="FCEV" /></p>
+<ul>
+<li>Fuel Cell Electirc Vehicle</li>
+<li>친환경 최종 단계</li>
+<li>수소와 산소의 화학반응으로 전력 생산하여 모터 작동시켜 주행</li>
+<li>연료를 수소를 충전해 사용하기 때문에 <code>수소연료전지차</code>라고 부름</li>
+<li>HEV-BEV는 기술이 비슷, HEV-FCEV는 기술이 다름</li>
+<li>HEV-BEV와 다른 특징
+<ol>
+<li>소형 배터리
+<ul>
+<li>시동 용도 및 충전 가능한 소형 배터리만 있으면 됨</li>
+<li>이 배터리는 BEV의 수 십분의 일 수준으로 매우 적은 용량</li>
+</ul>
+</li>
+<li>슈퍼차저(Suptercharger)
+<ul>
+<li>공기 흡입을 위한 슈퍼차저 모터 장착</li>
+<li>수소+산소 화학반응의 전력을 생산하는 양을 늘리기 위한 연료전리로 많은 산소가 필요</li>
+<li>공기 여과 장치를 거치면서 99% 이상 미세먼지 등 유해물질 걸러냄</li>
+<li>굴러다니는 공기청정기 역할</li>
+</ul>
+</li>
+<li>공조 장치와 열관리 장치 포함
+<ul>
+<li>연료전지의 효율적인 전력 생산과 수명 관리를 위해 필요</li>
+<li>연료전지는 보통 60&amp; 효율을 기록하고 있지만 40% 도달하면 열이 발생 시작</li>
+<li>연료전지의 적정 온도는 발열로 인한 온도보다 낮기 때문에 온도 조절이 핵심</li>
+<li>따라서 FCEV 출력이 비교적 낮은 이유임</li>
+<li>냉각 기술이 개선되면 높은 출력과 효율을 기대</li>
+</ul>
+</li>
+<li>고성능 워터 펌프 적용
+<ul>
+<li>MCU(Motor Control Unit), 모터, 인버터 등 전장의 열관리 위해 필요</li>
+<li>HEV/BEV 적용되어 있지만 FCEV가 더 고도화 되어 있음</li>
+<li>고도화 된 열관리는 비용이 증가로 이어짐</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<blockquote>
+<p>출처</p>
+<blockquote>
+<p><a href="https://post.naver.com/viewer/postView.nhn?volumeNo=14678354&amp;memberNo=23315462">네이버 블로그</a></p>
+</blockquote>
+</blockquote>
+</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/edit/master/content/posts/Journal/2020/02/14-%ec%a0%84%ea%b8%b0%ec%9e%90%eb%8f%99%ec%b0%a8-%ec%97%94%ec%a7%84-%ec%a2%85%eb%a5%98.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#ice">ICE</a></li>
+        <li><a href="#hev">HEV</a></li>
+        <li><a href="#plug-in-hev">Plug-in HEV</a></li>
+        <li><a href="#bev">BEV</a></li>
+        <li><a href="#fcev">FCEV</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

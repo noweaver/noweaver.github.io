@@ -206,6 +206,43 @@ $ source .zshrc pyenv 버전 확인 $ pyenv --version pyenv 1.</description>
     </item>
     
     <item>
+      <title>리눅스/맥에서 네트워크 포트 확인하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/17-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%8F%AC%ED%8A%B8-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/17-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%8F%AC%ED%8A%B8-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</guid>
+      <description>열린 네트워크 및 포트 확인 하기 현재 열려 있는 포트 확인 $ netstat -nap n: host 명으로 표시 안함 a:모든소켓 표시 p:프로세스ID와 프로그램명 표시
+LISTEN중인 포트를 표시하기 $ netstat -nap | grep LISTEN) 상대방 포트가 열려 있는지를 확인하는 방법 특정 호스트의 특정 포트가 열려 있는지를 확인하기  z: 포트 검색  // nc -z 호스트주소 포트 $ nc -z www.google.com 80 Connection to www.google.com 80 port [tcp/http] succeeded! 특정 머신의 포트 범위를 지정하여 열린 포트를 확인하기 //nc 호스트주소 -z 시작포트-끝포트 $ nc 10.</description>
+    </item>
+    
+    <item>
+      <title>SSH에서 서버와의 연결 시간 늘리기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/14-SSH%EC%97%90%EC%84%9C-%EC%84%9C%EB%B2%84-%EC%8B%9C%EA%B0%84-%EB%8A%98%EB%A6%AC%EA%B8%B0/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/14-SSH%EC%97%90%EC%84%9C-%EC%84%9C%EB%B2%84-%EC%8B%9C%EA%B0%84-%EB%8A%98%EB%A6%AC%EA%B8%B0/</guid>
+      <description>SSH 클라이언트 $ vi ~/.ssh/config ServerAliveInterval 120 :wq! SSH 서버 $ sudo vi /etc/ssh/sshd_config ClientAliveInterval 120 ClientAliveCountMax 720 :wq! </description>
+    </item>
+    
+    <item>
+      <title>전기 자동차 엔진 종류</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/14-%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%97%94%EC%A7%84-%EC%A2%85%EB%A5%98/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/14-%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%97%94%EC%A7%84-%EC%A2%85%EB%A5%98/</guid>
+      <description>ICE  Internal Combustion Engine 내연기관 엔진-변속기-연료탱크 구성 일반 자동차  HEV  Hybrid Electric Vehicle 엔진과 모터가 주행 상황에 따라 작동하는 방식 보통 출발 -&amp;gt; 저속 주행 -&amp;gt; 가속 주행 -&amp;gt; 고속 주행 -&amp;gt; 감속 주행  주행 상황에 따라 모터와 내연 기관이 적절히 조합   출발, 저속 주행, 초반 가속 시 모터 사용 저속에서 점차 가속페달 밟으면 모터와 함께 내연기관 작동으로 높은 동력 전달 고속 주행 시, 내연 기관만 사용 감속 시, 회생제동 기능으로 배터리 충전까지 이루어짐 가솔린 차량에 비해 최대 40% 연비 개선 HEV는 모터 동력 개입 정도에 따라서 Mild HEV, HEV, Plug-in HEV로 나눔  Plug-in HEV  Full Hybrid 라고도 부름 배터리 용량이 더 큼 전기차 주행거리를 개선 외부로부터 충전 가능  BEV  Battery Electric Vehicle 100% 배터리에 의지해 모터를 작동 친환경, 효율, 경제성 배터리 충전이므로 오염물질 배출 없음 내연기관 엔진이 없으므로 넓은 공간 활용 과거 180~250km 한계 요즘(2020년), 300km 이상으로 400~600km 거리까지 주행 가능 도심 주행 BEV 대부분 장거리 주행은 BEV 대중화는 시간이 더 필요  FCEV  Fuel Cell Electirc Vehicle 친환경 최종 단계 수소와 산소의 화학반응으로 전력 생산하여 모터 작동시켜 주행 연료를 수소를 충전해 사용하기 때문에 수소연료전지차라고 부름 HEV-BEV는 기술이 비슷, HEV-FCEV는 기술이 다름 HEV-BEV와 다른 특징  소형 배터리  시동 용도 및 충전 가능한 소형 배터리만 있으면 됨 이 배터리는 BEV의 수 십분의 일 수준으로 매우 적은 용량   슈퍼차저(Suptercharger)  공기 흡입을 위한 슈퍼차저 모터 장착 수소+산소 화학반응의 전력을 생산하는 양을 늘리기 위한 연료전리로 많은 산소가 필요 공기 여과 장치를 거치면서 99% 이상 미세먼지 등 유해물질 걸러냄 굴러다니는 공기청정기 역할   공조 장치와 열관리 장치 포함  연료전지의 효율적인 전력 생산과 수명 관리를 위해 필요 연료전지는 보통 60&amp;amp; 효율을 기록하고 있지만 40% 도달하면 열이 발생 시작 연료전지의 적정 온도는 발열로 인한 온도보다 낮기 때문에 온도 조절이 핵심 따라서 FCEV 출력이 비교적 낮은 이유임 냉각 기술이 개선되면 높은 출력과 효율을 기대   고성능 워터 펌프 적용  MCU(Motor Control Unit), 모터, 인버터 등 전장의 열관리 위해 필요 HEV/BEV 적용되어 있지만 FCEV가 더 고도화 되어 있음 고도화 된 열관리는 비용이 증가로 이어짐       출처</description>
+    </item>
+    
+    <item>
+      <title>CentOS 7에 PostgreSQL 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/13-centos-postgresql-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/13-centos-postgresql-%EC%84%A4%EC%B9%98/</guid>
+      <description>설치 전, 할 일 OS 확인 $ cat /etc/os-release NAME=&amp;#34;CentOS Linux&amp;#34; VERSION=&amp;#34;7 (Core)&amp;#34; ID=&amp;#34;centos&amp;#34; ID_LIKE=&amp;#34;rhel fedora&amp;#34; VERSION_ID=&amp;#34;7&amp;#34; PRETTY_NAME=&amp;#34;CentOS Linux 7 (Core)&amp;#34; ANSI_COLOR=&amp;#34;0;31&amp;#34; CPE_NAME=&amp;#34;cpe:/o:centos:centos:7&amp;#34; HOME_URL=&amp;#34;https://www.centos.org/&amp;#34; BUG_REPORT_URL=&amp;#34;https://bugs.centos.org/&amp;#34; CENTOS_MANTISBT_PROJECT=&amp;#34;CentOS-7&amp;#34; CENTOS_MANTISBT_PROJECT_VERSION=&amp;#34;7&amp;#34; REDHAT_SUPPORT_PRODUCT=&amp;#34;centos&amp;#34; REDHAT_SUPPORT_PRODUCT_VERSION=&amp;#34;7&amp;#34; OS 업데이트 $ sudo yum update -y PostgreSQL 설치 $ sudo yum install -y postgresql postgresql-server postgresql-devel postgresql-contrib postgresql-docs 서비스 초기화 및 시작 $ sudo service postgresql initdb ```zsh $ sudo systemctl start postgresql $ sudo systemctl enable postgresql PostgreSQL 접속 $ sudo -u postgres psql could not change directory to &amp;#34;/home/ryan&amp;#34; psql (9.</description>
+    </item>
+    
+    <item>
       <title>린분석(lean analytics)을 통해 스타트업 항해술 기르기 - 1주차</title>
       <link>https://noweaver.github.io/posts/Reading/Business/2020/02/11-%EB%A6%B0-%EB%B6%84%EC%84%9D-W1/</link>
       <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CentOS on noweaver</title>
+    <link>https://noweaver.github.io/tags/CentOS/</link>
+    <description>Recent content in CentOS on noweaver</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://noweaver.github.io/tags/CentOS/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CentOS 7에 PostgreSQL 설치하기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/02/13-centos-postgresql-%EC%84%A4%EC%B9%98/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/02/13-centos-postgresql-%EC%84%A4%EC%B9%98/</guid>
+      <description>설치 전, 할 일 OS 확인 $ cat /etc/os-release NAME=&amp;#34;CentOS Linux&amp;#34; VERSION=&amp;#34;7 (Core)&amp;#34; ID=&amp;#34;centos&amp;#34; ID_LIKE=&amp;#34;rhel fedora&amp;#34; VERSION_ID=&amp;#34;7&amp;#34; PRETTY_NAME=&amp;#34;CentOS Linux 7 (Core)&amp;#34; ANSI_COLOR=&amp;#34;0;31&amp;#34; CPE_NAME=&amp;#34;cpe:/o:centos:centos:7&amp;#34; HOME_URL=&amp;#34;https://www.centos.org/&amp;#34; BUG_REPORT_URL=&amp;#34;https://bugs.centos.org/&amp;#34; CENTOS_MANTISBT_PROJECT=&amp;#34;CentOS-7&amp;#34; CENTOS_MANTISBT_PROJECT_VERSION=&amp;#34;7&amp;#34; REDHAT_SUPPORT_PRODUCT=&amp;#34;centos&amp;#34; REDHAT_SUPPORT_PRODUCT_VERSION=&amp;#34;7&amp;#34; OS 업데이트 $ sudo yum update -y PostgreSQL 설치 $ sudo yum install -y postgresql postgresql-server postgresql-devel postgresql-contrib postgresql-docs 서비스 초기화 및 시작 $ sudo service postgresql initdb ```zsh $ sudo systemctl start postgresql $ sudo systemctl enable postgresql PostgreSQL 접속 $ sudo -u postgres psql could not change directory to &amp;#34;/home/ryan&amp;#34; psql (9.</description>
+    </item>
+    
+  </channel>
+</rss>
