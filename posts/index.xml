@@ -1264,14 +1264,5 @@ Mac 환경 sw_vers ProductName:	Mac OS X ProductVersion:	10.</description>
       <description>가르쳐 들려 하지 말자. 내 경험이 틀릴 수 있다. 낮게 보지 말자. 그저 울타리가 높고 좋다한들 벗어나면 똑같다. 직위의 문제가 아니라 역할의 문제다. 마찬가지로 벗겨내면 똑같다. 인생은 어딘들 실전이다. 연습은 없다.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://noweaver.github.io/posts/Journal/2020/05/20-PostgreSQL-field-password/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://noweaver.github.io/posts/Journal/2020/05/20-PostgreSQL-field-password/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
