@@ -4,19 +4,20 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=""><meta property="og:title" content="" />
-<meta property="og:description" content="" />
+<meta name="description" content="SuperUser 권한 주기 $ sudo su - postgres $ psql postgres=# alter user vkadmin with superuser; postgres=# create extension pgcrypto Create Table create table if not exists crypto_tb ( no serial primary key , id varchar not null , pw varchar not null ); Insert insert into crypto_tb (id, pw) values (&#39;TEST1&#39;, crypt(&#39;test1234&#39;, gen_salt(&#39;des&#39;))); insert into crypto_tb (id, pw) values (&#39;TEST2&#39;, crypt(&#39;test1234&#39;, gen_salt(&#39;des&#39;))); Select select * from crypto_tb; select * from crypto_tb where pw = crypt(&#39;test1234&#39;, pw); Update update crypto_tb set pw = crypt(&#39;qwer12345&#39;, gen_salt(&#39;des&#39;)) where no = 3; "><meta property="og:title" content="PostgreSQL, 필드 패스워드 형태로 만들기" />
+<meta property="og:description" content="SuperUser 권한 주기 $ sudo su - postgres $ psql postgres=# alter user vkadmin with superuser; postgres=# create extension pgcrypto Create Table create table if not exists crypto_tb ( no serial primary key , id varchar not null , pw varchar not null ); Insert insert into crypto_tb (id, pw) values (&#39;TEST1&#39;, crypt(&#39;test1234&#39;, gen_salt(&#39;des&#39;))); insert into crypto_tb (id, pw) values (&#39;TEST2&#39;, crypt(&#39;test1234&#39;, gen_salt(&#39;des&#39;))); Select select * from crypto_tb; select * from crypto_tb where pw = crypt(&#39;test1234&#39;, pw); Update update crypto_tb set pw = crypt(&#39;qwer12345&#39;, gen_salt(&#39;des&#39;)) where no = 3; " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://noweaver.github.io/posts/Journal/2020/05/20-PostgreSQL-field-password/" />
-
-<title>20 Postgre S Q L Field Password | noweaver</title>
+<meta property="article:published_time" content="2020-05-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-19T14:17:01+09:00" />
+<title>PostgreSQL, 필드 패스워드 형태로 만들기 | noweaver</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
 <link rel="stylesheet" href="/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css" integrity="sha256-Y&#43;uI2qVFNlQF7NuyEDMoajJcYKNs&#43;m0i0h58O8koaUE=">
 
 
-<script defer src="/ko.search.min.74b1c8c4da96c04a7819e3ad4dc00961ac9334fb127901b6f37b2d9d330e00b4.js" integrity="sha256-dLHIxNqWwEp4GeOtTcAJYayTNPsSeQG283stnTMOALQ="></script>
+<script defer src="/ko.search.min.ecdb90c443616104bef1873be022ee59de89a5df8aa59f3d47886a0d33545bbb.js" integrity="sha256-7NuQxENhYQS&#43;8Yc74CLuWd6Jpd&#43;KpZ89R4hqDTNUW7s="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -94,7 +95,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>20 Postgre S Q L Field Password</strong>
+  <strong>PostgreSQL, 필드 패스워드 형태로 만들기</strong>
 
   <label for="toc-control">
     <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
@@ -106,7 +107,15 @@ https://github.com/alex-shpak/hugo-book
     <input type="checkbox" class="hidden" id="toc-control" />
     <aside class="hidden clearfix">
       
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#superuser-권한-주기">SuperUser 권한 주기</a></li>
+    <li><a href="#create-table">Create Table</a></li>
+    <li><a href="#insert">Insert</a></li>
+    <li><a href="#select">Select</a></li>
+    <li><a href="#update">Update</a></li>
+  </ul>
+</nav>
 
 
     </aside>
@@ -118,18 +127,49 @@ https://github.com/alex-shpak/hugo-book
       
 <article class="markdown">
   <h1>
-    <a href="/posts/Journal/2020/05/20-PostgreSQL-field-password/"></a>
+    <a href="/posts/Journal/2020/05/20-PostgreSQL-field-password/">PostgreSQL, 필드 패스워드 형태로 만들기</a>
   </h1>
   
 
+  <h5>2020/05/20</h5>
+
 
 
   
+  <div>
+    
+        <a href="/categories/%EA%B8%B0%EB%A1%9D/">기록</a>
+  </div>
+  
 
+  
+  <div>
+    
+        <a href="/tags/PostgreSQL/">PostgreSQL</a>
+  </div>
   
 
 
-  <p></p>
+  <p><h1 id="superuser-권한-주기">SuperUser 권한 주기</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">$ sudo su - postgres
+$ psql
+postgres<span style="color:#f92672">=</span><span style="color:#75715e"># alter user vkadmin with superuser;</span>
+postgres<span style="color:#f92672">=</span><span style="color:#75715e"># create extension pgcrypto</span>
+</code></pre></div><h1 id="create-table">Create Table</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">create</span> <span style="color:#66d9ef">table</span> <span style="color:#66d9ef">if</span> <span style="color:#66d9ef">not</span> <span style="color:#66d9ef">exists</span> crypto_tb (
+      <span style="color:#66d9ef">no</span>        serial      <span style="color:#66d9ef">primary</span> <span style="color:#66d9ef">key</span>
+    , id        varchar     <span style="color:#66d9ef">not</span> <span style="color:#66d9ef">null</span>
+    , pw        varchar     <span style="color:#66d9ef">not</span> <span style="color:#66d9ef">null</span>
+);
+</code></pre></div><h1 id="insert">Insert</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">insert</span> <span style="color:#66d9ef">into</span> crypto_tb (id, pw) <span style="color:#66d9ef">values</span> (<span style="color:#e6db74">&#39;TEST1&#39;</span>, crypt(<span style="color:#e6db74">&#39;test1234&#39;</span>, gen_salt(<span style="color:#e6db74">&#39;des&#39;</span>)));
+<span style="color:#66d9ef">insert</span> <span style="color:#66d9ef">into</span> crypto_tb (id, pw) <span style="color:#66d9ef">values</span> (<span style="color:#e6db74">&#39;TEST2&#39;</span>, crypt(<span style="color:#e6db74">&#39;test1234&#39;</span>, gen_salt(<span style="color:#e6db74">&#39;des&#39;</span>)));
+</code></pre></div><h1 id="select">Select</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">select</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">from</span> crypto_tb;
+<span style="color:#66d9ef">select</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">from</span> crypto_tb <span style="color:#66d9ef">where</span> pw <span style="color:#f92672">=</span> crypt(<span style="color:#e6db74">&#39;test1234&#39;</span>, pw);
+</code></pre></div><h1 id="update">Update</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">update</span> crypto_tb <span style="color:#66d9ef">set</span> pw <span style="color:#f92672">=</span> crypt(<span style="color:#e6db74">&#39;qwer12345&#39;</span>, gen_salt(<span style="color:#e6db74">&#39;des&#39;</span>)) <span style="color:#66d9ef">where</span> <span style="color:#66d9ef">no</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
+</code></pre></div></p>
 </article>
  
       
@@ -139,6 +179,14 @@ https://github.com/alex-shpak/hugo-book
   <div class="flex justify-between">
 
 
+
+  <div>
+    
+    <a class="flex align-center" href="https://github.com/noweaver/noweaver/commit/aa14a4fd4aaf6cf3c550bafaef941b9b070d912b" title='Last modified by noweaver | 2020/05/19' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2020/05/19</span>
+    </a>
+  </div>
 
 
 
@@ -157,6 +205,32 @@ https://github.com/alex-shpak/hugo-book
 
       
   
+  <div class="book-comments">
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "noweaver" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+  
  
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
@@ -165,7 +239,15 @@ https://github.com/alex-shpak/hugo-book
     
     <aside class="book-toc">
       
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#superuser-권한-주기">SuperUser 권한 주기</a></li>
+    <li><a href="#create-table">Create Table</a></li>
+    <li><a href="#insert">Insert</a></li>
+    <li><a href="#select">Select</a></li>
+    <li><a href="#update">Update</a></li>
+  </ul>
+</nav>
 
  
     </aside>

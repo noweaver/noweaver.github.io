@@ -6,10 +6,19 @@
     <description>Recent content in PostgreSQL on noweaver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noweaver.github.io/tags/PostgreSQL/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PostgreSQL, 필드 패스워드 형태로 만들기</title>
+      <link>https://noweaver.github.io/posts/Journal/2020/05/20-PostgreSQL-field-password/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://noweaver.github.io/posts/Journal/2020/05/20-PostgreSQL-field-password/</guid>
+      <description>SuperUser 권한 주기 $ sudo su - postgres $ psql postgres=# alter user vkadmin with superuser; postgres=# create extension pgcrypto Create Table create table if not exists crypto_tb ( no serial primary key , id varchar not null , pw varchar not null ); Insert insert into crypto_tb (id, pw) values (&amp;#39;TEST1&amp;#39;, crypt(&amp;#39;test1234&amp;#39;, gen_salt(&amp;#39;des&amp;#39;))); insert into crypto_tb (id, pw) values (&amp;#39;TEST2&amp;#39;, crypt(&amp;#39;test1234&amp;#39;, gen_salt(&amp;#39;des&amp;#39;))); Select select * from crypto_tb; select * from crypto_tb where pw = crypt(&amp;#39;test1234&amp;#39;, pw); Update update crypto_tb set pw = crypt(&amp;#39;qwer12345&amp;#39;, gen_salt(&amp;#39;des&amp;#39;)) where no = 3; </description>
+    </item>
     
     <item>
       <title>Ubuntu, PostgreSQL 설치하기</title>
